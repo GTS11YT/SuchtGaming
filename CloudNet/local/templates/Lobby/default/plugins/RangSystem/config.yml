@@ -1,0 +1,6 @@
+playernotfound: '&cDieser Spieler wurde nicht gefunden!'
+nopermissions: '&cDu hast nicht die benötigte Berechtigung!'
+success: '&7Der Rang von &c%player% &7wurde auf &c%rank% &7geändert!'
+kickmessage: '&7Neuer Rang: &c%rank%'
+cracked:
+  enabled: false

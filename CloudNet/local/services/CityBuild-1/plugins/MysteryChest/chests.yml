@@ -1,0 +1,231 @@
+normal:
+  displayItem: CHEST
+  displayName: '&7Normale &aKisten'
+  slot: 11
+  items:
+    '1':
+      material: GOLD_INGOT
+      amount: 1
+      displayName: '&e&l500 Coins'
+      lore:
+      - ''
+      command: 'eco give %name% 500'
+      announce: false
+      chance: 50
+    '2':
+      material: BEACON
+      amount: 1
+      displayName: '&fBeacon x1'
+      lore:
+      - ''
+      command: 'give %name% beacon 1'
+      announce: false
+      chance: 10
+    '3':
+      material: CHEST
+      amount: 1
+      displayName: '&7Normale &aKiste &7x3'
+      lore:
+      - ''
+      command: 'chest addchest %name% normal 3'
+      announce: false
+      chance: 45
+    '4':
+      material: ENDER_CHEST
+      amount: 1
+      displayName: '&5Epische &aKiste &72x'
+      lore:
+      - ''
+      command: 'chest addchest %name% epic 2'
+      announce: false
+      chance: 40
+    '5':
+      material: EMERALD_BLOCK
+      amount: 1
+      displayName: '&fEmerald Blöcke x16'
+      lore:
+      - ''
+      command: 'give %name% emerald_block 16'
+      announce: false
+      chance: 70
+    '6':
+      material: DIAMOND_BLOCK
+      amount: 1
+      displayName: '&fDiamond Blöcke x10'
+      lore:
+      - ''
+      command: 'give %name% diamond_block 10'
+      announce: false
+      chance: 59
+    '7':
+      material: WOOL
+      amount: 1
+      displayName: '&fWeiße Wolle x48'
+      lore:
+      - ''
+      command: 'give %name% wool 48'
+      announce: false
+      chance: 62
+    '8':
+      material: COOKED_BEEF
+      amount: 1
+      displayName: '&fSteak x64'
+      lore:
+      - ''
+      command: 'give %name% cooked_beef 64'
+      announce: false
+      chance: 70
+    '9':
+      material: LOG
+      amount: 1
+      displayName: '&fEichenholz x64'
+      lore:
+      - ''
+      command: 'give %name% log 64'
+      announce: false
+      chance: 70
+    '10':
+      material: APPLE
+      amount: 1
+      displayName: '&b&lBooster x2'
+      lore:
+      - ''
+      command: 'booster give %name% 2'
+      announce: false
+      chance: 37
+epic:
+  displayItem: ENDER_CHEST
+  displayName: '&5Epische &aKisten'
+  slot: 13
+  items:
+    '1':
+      material: GOLD_INGOT
+      amount: 1
+      displayName: '&e&l1000 Coins'
+      lore:
+      - ''
+      command: 'eco give %name% 1000'
+      announce: false
+      chance: 50
+    '2':
+      material: GOLD_INGOT
+      amount: 1
+      displayName: '&e&l500 Coins'
+      lore:
+      - ''
+      command: 'eco give %name% 500'
+      announce: false
+      chance: 75
+    '2':
+      material: DRAGON_EGG
+      amount: 1
+      displayName: '&fDragon Egg x1'
+      lore:
+      - ''
+      command: 'give %name% dragon_egg 1'
+      announce: true
+      chance: 38
+    '3':
+      material: QUARTZ_BLOCK
+      amount: 1
+      displayName: '&fQuartz Blöcke x32'
+      lore:
+      - ''
+      command: 'give %name% quartz_block 32'
+      announce: false
+      chance: 67
+    '4':
+      material: EMERALD_BLOCK
+      amount: 1
+      displayName: '&fEmerald Blöcke x12'
+      lore:
+      - ''
+      command: 'give %name% emerald_block 12'
+      announce: false
+      chance: 65
+    '5':
+      material: DIAMOND_BLOCK
+      amount: 1
+      displayName: '&fDiamond Blöcke x16'
+      lore:
+      - ''
+      command: 'give %name% diamond_block 16'
+      announce: false
+      chance: 62
+    '6':
+      material: WOOL
+      amount: 1
+      displayName: '&fWeiße Wolle x40'
+      lore:
+      - ''
+      command: 'give %name% wool 40'
+      announce: false
+      chance: 63
+    '7':
+      material: BEACON
+      amount: 1
+      displayName: '&fBeacon x1'
+      lore:
+      - ''
+      command: 'give %name% beacon 1'
+      announce: true
+      chance: 25
+    '8':
+      material: CHEST
+      amount: 1
+      displayName: '&7Normale &aKiste &7x2'
+      lore:
+      - ''
+      command: 'chest addchest %name% normal 2'
+      announce: false
+      chance: 60
+    '9':
+      material: ENDER_CHEST
+      amount: 1
+      displayName: '&5Epische &aKiste &7x2'
+      lore:
+      - ''
+      command: 'chest addchest %name% epic 2'
+      announce: false
+      chance: 68
+    '10':
+      material: COOKED_BEEF
+      amount: 1
+      displayName: '&fSteak x64'
+      lore:
+      - ''
+      command: 'give %name% cooked_beef 64'
+      announce: false
+      chance: 64
+    '11':
+      material: LOG
+      amount: 1
+      displayName: '&fEichenholz x64'
+      lore:
+      - ''
+      command: 'give %name% log 64'
+      announce: false
+      chance: 64
+    '12':
+      material: APPLE
+      amount: 1
+      displayName: '&b&lBooster x2'
+      lore:
+      - ''
+      command: 'booster give %name% 2'
+      announce: false
+      chance: 37
+legendary:
+  displayItem: ENDER_PORTAL_FRAME
+  displayName: '&6Legendäre &aKisten &7(Kommt...&7)'
+  slot: 15
+  items:
+    '1':
+      material: BARRIER
+      amount: 1
+      displayName: '&f'
+      lore:
+      - ''
+      command: ''
+      announce: false
+      chance: 100

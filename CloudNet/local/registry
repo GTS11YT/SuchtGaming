@@ -1,0 +1,7 @@
+{
+  "registryVersion": 1,
+  "entries": {
+    "permission_service": "json_database",
+    "database_provider": "h2"
+  }
+}

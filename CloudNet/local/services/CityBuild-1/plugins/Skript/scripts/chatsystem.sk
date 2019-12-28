@@ -1,0 +1,21 @@
+options:
+    prefix: &e•&6● SuchtGaming &8|&7 
+	  
+command /chatsystem <text>:
+   usage: &7/&echatsystem &7<&aon&7/&coff
+   permission: suchtgaming.chatsystem.mute
+   permission message: &e•&6● SuchtGaming &8|&7 §cDazu hast du keine Rechte!
+   trigger:
+      if argument 1 is not set:
+         send "&7/&echatsystem &7<&aon&7/&coff"
+      if argument 1 is "off":
+         broadcast "&6•&e● ChatSystem &8|&7 Der &eChat &7ist nun &cdeaktiviert&7!"
+         set {chatsystem.status} to true
+      if argument 1 is "on":
+         broadcast "&6•&e● ChatSystem &8|&7 Der &eChat &7ist nun &aaktiviert&7!"
+         set {chatsystem.status} to false
+
+on chat:
+      if {chatsystem.status} is true:
+            message "&6•&e● ChatSystem &8|&7 Der &eChat &7ist zurzeit &cdeaktiviert&7!"
+            cancel event

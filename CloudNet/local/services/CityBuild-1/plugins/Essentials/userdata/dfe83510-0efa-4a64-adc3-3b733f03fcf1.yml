@@ -1,0 +1,38 @@
+lastAccountName: xXBenKreuzXx
+timestamps:
+  login: 1577361715873
+  logout: 1577361852912
+  lastteleport: 1577123142698
+ipAddress: 134.101.202.177
+money: '500.0'
+logoutlocation:
+  world: PlotWorld
+  x: 6.272492481699636
+  y: 72.0
+  z: 0.9086239781552332
+  yaw: -40.496582
+  pitch: 27.330637
+lastlocation:
+  world: PlotWorld
+  x: 50.63970516129189
+  y: 79.68524724009488
+  z: 51.53473475402549
+  yaw: -88.808205
+  pitch: 21.964014
+homes:
+  lava:
+    world: world
+    x: 15.60445459240602
+    y: 13.0
+    z: -981.245183398893
+    yaw: -63.47097
+    pitch: 14.023299
+  xxbenkreuzxx:
+    world: PlotWorld
+    x: -93.23750001192093
+    y: 50.0
+    z: -177.29032147010005
+    yaw: -258.15222
+    pitch: 32.56142
+afk: false
+godmode: false

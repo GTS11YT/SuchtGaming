@@ -1,0 +1,21 @@
+money: '1000.0'
+lastAccountName: Phantom0210
+timestamps:
+  login: 1574007613804
+  logout: 1574007625648
+  lastteleport: 1573944734340
+ipAddress: 88.130.154.202
+logoutlocation:
+  world: PlotWorld
+  x: -3.049212426881278
+  y: 72.0
+  z: 1.4602258482515298
+  yaw: 299.86377
+  pitch: 12.187116
+lastlocation:
+  world: PlotWorld
+  x: 1.1294735437424888
+  y: 72.0
+  z: 8.494417817705896
+  yaw: 186.46373
+  pitch: 15.14999

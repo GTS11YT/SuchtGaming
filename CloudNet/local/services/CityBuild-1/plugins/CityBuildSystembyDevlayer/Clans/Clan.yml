@@ -1,0 +1,55 @@
+Clans:
+  Nenunity:
+    Name: Nenunity
+    Kuerzel: NEN
+    Anzahl: 1
+    Kasse: 0
+    Owner: Nentonde_HD
+  CommunityFarm:
+    Name: CommunityFarm
+    Kuerzel: CMF
+    Anzahl: 2
+    Kasse: '0'
+    Owner: Devlayer
+  Gräberarmy TGA:
+    Name: Gräberarmy TGA
+    Kuerzel: TGA
+    Anzahl: '1'
+    Kasse: '0'
+    Owner: leonluca12
+  GTS11´s Shop:
+    Name: GTS11´s Shop
+    Kuerzel: GS
+    Anzahl: '1'
+    Kasse: '0'
+    Owner: GTS11_YT
+Spieler:
+  Nentonde_HD:
+    Clan: Nenunity
+  Devlayer:
+    Clan: CommunityFarm
+  leonluca12:
+    Clan: Gräberarmy TGA
+  gamerlp_xD:
+    Clan: CommunityFarm
+  GTS11_YT:
+    Clan: GTS11´s Shop
+Mitglieder von Clan Nenunity:
+- Nentonde_HD
+Kuerzel:
+- NEN
+- CMF
+- TGA
+- GS
+Clan:
+- Nenunity
+- CommunityFarm
+- Gräberarmy TGA
+- GTS11´s Shop
+Mitglieder von Clan CommunityFarm:
+- Devlayer
+- gamerlp_xD
+Mitglieder von Clan Gräberarmy TGA:
+- leonluca12
+Mitglieder von Clan GTS11´s Shop:
+- GTS11_YT

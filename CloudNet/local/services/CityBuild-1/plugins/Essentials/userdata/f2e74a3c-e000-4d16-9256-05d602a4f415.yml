@@ -1,0 +1,21 @@
+money: '1500.0'
+lastAccountName: FarbenBomber2701
+timestamps:
+  login: 1577188680505
+  logout: 1577189160142
+  lastteleport: 1577124074502
+ipAddress: 46.59.176.178
+logoutlocation:
+  world: PlotWorld
+  x: 64.10385784995641
+  y: 65.0
+  z: -133.0338823003666
+  yaw: 229.83636
+  pitch: 40.44157
+lastlocation:
+  world: PlotWorld
+  x: -2.3665712375281833
+  y: 65.5
+  z: -147.96882909037603
+  yaw: -180.21564
+  pitch: 2.686784

@@ -1,0 +1,3 @@
+command /ts:
+	trigger:
+		message "&e•&6● SuchtGaming &8|&7 §7ts.suchtGaming.de"

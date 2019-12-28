@@ -1,0 +1,28 @@
+money: '9962.5'
+lastAccountName: GTS11_YT
+timestamps:
+  login: 1577380190704
+  logout: 1577380837091
+  lastteleport: 1577371758012
+  kits:
+    spieler: 1570893605810
+    supreme: 1574094101117
+ipAddress: 80.135.219.16
+logoutlocation:
+  world: PlotWorld
+  x: -2.895437940579453
+  y: 72.8781999805212
+  z: 4.946712711025324
+  yaw: -214.63489
+  pitch: 21.357677
+godmode: false
+lastlocation:
+  world: PlotWorld
+  x: 65.76046789493107
+  y: 70.35109709132887
+  z: 3.144741112637144
+  yaw: -222.82465
+  pitch: 12.482713
+homes: {}
+afk: false
+teleportenabled: true

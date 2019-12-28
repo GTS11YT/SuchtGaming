@@ -1,0 +1,26 @@
+# AllesOderNichts by GTS11_YT
+options:
+	prefix: &e•&6● SuchtGaming &8|&7
+	command: allesodernichts
+	mineuro: 5
+	maxeuro: 175
+	minmuenzen: 5
+	maxmuenzen: 500000
+	perm: suchtgaming.allesodernichts
+	permmessage: &e•&6● SuchtGaming &8|&7 §cDazu hast du keine Rechte!
+
+command /{@command}:
+  permission: {@perm}
+  permission message: {@permmessage}
+  trigger:
+    wait 1 second
+    send "{@prefix} &cZahlen werden generiert."
+    wait 2 second
+    send "{@prefix} &cZahlen werden generiert.."
+    wait 2 second
+    send "{@prefix} &cZahlen werden generiert..."
+    wait 1 second
+    send "{@prefix} &eZahlen &aerfolgreich &egeneriert!"
+    wait 1 second
+    send "{@prefix} &a%random integer between {@mineuro} and {@maxeuro}% &eEuro"
+    send "{@prefix} &a%random integer between {@minmuenzen} and {@maxmuenzen}% &eMünzen"

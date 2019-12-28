@@ -1,0 +1,12 @@
+{
+  "ssl": true,
+  "address": {
+    "host": "127.0.0.1",
+    "port": 21
+  },
+  "storage": "ftp",
+  "username": "admin",
+  "password": "suchtgamingserver",
+  "bufferSize": 8192,
+  "baseDirectory": "/home/Cloud"
+}

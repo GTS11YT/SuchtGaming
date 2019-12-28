@@ -1,0 +1,60 @@
+{
+  "identity": {
+    "uniqueId": "Node-57bc5385",
+    "listeners": [
+      {
+        "host": "45.88.108.170",
+        "port": 1410
+      }
+    ],
+    "properties": {}
+  },
+  "ipWhitelist": [
+    "0:0:0:0:0:0:0:1%lo",
+    "2a0c:75c0:1:170:0:0:0:5ca%eth0",
+    "45.88.108.170",
+    "127.0.1.1",
+    "fe80:0:0:0:a8bb:ccff:fe51:b912%eth0",
+    "127.0.0.1"
+  ],
+  "cluster": {
+    "clusterId": "453495d0-0b87-4582-965e-c918dd74cc23",
+    "nodes": []
+  },
+  "maxCPUUsageToStartServices": 100.0,
+  "parallelServiceStartSequence": true,
+  "runBlockedServiceStartTryLaterAutomatic": true,
+  "maxMemory": 10000,
+  "maxServiceConsoleLogCacheSize": 64,
+  "printErrorStreamLinesFromServices": true,
+  "defaultJVMOptionParameters": true,
+  "jvmCommand": "java",
+  "hostAddress": "45.88.108.170",
+  "httpListeners": [
+    {
+      "host": "0.0.0.0",
+      "port": 2812
+    }
+  ],
+  "clientSslConfig": {
+    "enabled": false,
+    "clientAuth": false,
+    "trustCertificatePath": null,
+    "certificatePath": "local/certificate.pem",
+    "privateKeyPath": "local/privateKey.key"
+  },
+  "serverSslConfig": {
+    "enabled": false,
+    "clientAuth": false,
+    "trustCertificatePath": null,
+    "certificatePath": "local/certificate.pem",
+    "privateKeyPath": "local/privateKey.key"
+  },
+  "webSslConfig": {
+    "enabled": false,
+    "clientAuth": false,
+    "trustCertificatePath": null,
+    "certificatePath": "local/certificate.pem",
+    "privateKeyPath": "local/privateKey.key"
+  }
+}

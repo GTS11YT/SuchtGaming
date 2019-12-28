@@ -1,0 +1,103 @@
+{
+  "connectionKey": "DWOP5JV5U6FSGI944ZI0AADPBG9F1JXWX8BI4OT5I4JVNPHVRQKXITA7P0BQ0WRHP9L8QM65FWOFV2Y3LN9SM3B8E9S5X6FI9WPAMTPBXNESU9YEXS0LBPA7ZYDQO09VUVS89QCDHBEJ5BRYV7L1D2LT679ZOJXFAOOAFDTKLDJ7VS3CFMHBSR66D8SV9NZ87L9SB5ISVY2G5JJFTJBJFK3UJXZFP3BCBC1ZEN5HYCE7J935T87Y7ZTDCAP5UZC4",
+  "listener": {
+    "host": "45.88.108.170",
+    "port": 1410
+  },
+  "serviceConfiguration": {
+    "serviceId": {
+      "uniqueId": "f03a9ef9-a7eb-4e22-988b-d6aa5575529c",
+      "nodeUniqueId": "Node-57bc5385",
+      "taskName": "GunGame",
+      "taskServiceId": 1,
+      "environment": "MINECRAFT_SERVER"
+    },
+    "runtime": "jvm",
+    "autoDeleteOnStop": true,
+    "staticService": false,
+    "groups": [
+      "GunGame"
+    ],
+    "includes": [],
+    "templates": [
+      {
+        "prefix": "GunGame",
+        "name": "default",
+        "storage": "local"
+      }
+    ],
+    "deployments": [],
+    "processConfig": {
+      "environment": "MINECRAFT_SERVER",
+      "maxHeapMemorySize": 372,
+      "jvmOptions": []
+    },
+    "port": 44965,
+    "properties": {}
+  },
+  "serviceInfoSnapshot": {
+    "creationTime": 1574651193624,
+    "serviceId": {
+      "uniqueId": "f03a9ef9-a7eb-4e22-988b-d6aa5575529c",
+      "nodeUniqueId": "Node-57bc5385",
+      "taskName": "GunGame",
+      "taskServiceId": 1,
+      "environment": "MINECRAFT_SERVER"
+    },
+    "address": {
+      "host": "45.88.108.170",
+      "port": 44965
+    },
+    "connected": false,
+    "lifeCycle": "PREPARED",
+    "processSnapshot": {
+      "heapUsageMemory": -1,
+      "noHeapUsageMemory": -1,
+      "maxHeapMemory": -1,
+      "currentLoadedClassCount": -1,
+      "totalLoadedClassCount": -1,
+      "unloadedClassCount": -1,
+      "threads": [],
+      "cpuUsage": -1.0
+    },
+    "configuration": {
+      "serviceId": {
+        "uniqueId": "f03a9ef9-a7eb-4e22-988b-d6aa5575529c",
+        "nodeUniqueId": "Node-57bc5385",
+        "taskName": "GunGame",
+        "taskServiceId": 1,
+        "environment": "MINECRAFT_SERVER"
+      },
+      "runtime": "jvm",
+      "autoDeleteOnStop": true,
+      "staticService": false,
+      "groups": [
+        "GunGame"
+      ],
+      "includes": [],
+      "templates": [
+        {
+          "prefix": "GunGame",
+          "name": "default",
+          "storage": "local"
+        }
+      ],
+      "deployments": [],
+      "processConfig": {
+        "environment": "MINECRAFT_SERVER",
+        "maxHeapMemorySize": 372,
+        "jvmOptions": []
+      },
+      "port": 44965,
+      "properties": {}
+    },
+    "properties": {}
+  },
+  "sslConfig": {
+    "enabled": false,
+    "clientAuth": false,
+    "trustCertificatePath": null,
+    "certificatePath": "local/certificate.pem",
+    "privateKeyPath": "local/privateKey.key"
+  }
+}

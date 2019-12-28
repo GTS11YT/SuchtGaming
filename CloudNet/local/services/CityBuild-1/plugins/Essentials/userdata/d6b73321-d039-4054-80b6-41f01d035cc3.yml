@@ -1,0 +1,21 @@
+money: '1000.0'
+lastAccountName: AndrewDanbrook
+timestamps:
+  login: 1577364701560
+  logout: 1577369932707
+ipAddress: 93.205.252.64
+afk: false
+lastlocation:
+  world: PlotWorld
+  x: -91.79376354059187
+  y: 65.5
+  z: -191.70720882876748
+  yaw: -265.49533
+  pitch: 7.9049115
+logoutlocation:
+  world: PlotWorld
+  x: -16.655168532325753
+  y: 64.0
+  z: -142.69999998807907
+  yaw: -270.94592
+  pitch: 37.927887

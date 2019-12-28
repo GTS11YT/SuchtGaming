@@ -1,0 +1,13 @@
+money: '1000.0'
+lastAccountName: EntEXE
+timestamps:
+  login: 1577097581506
+  logout: 1577097638967
+ipAddress: 77.11.156.64
+logoutlocation:
+  world: PlotWorld
+  x: 0.010975153022555945
+  y: 70.0625
+  z: -10.357494648774459
+  yaw: 185.19885
+  pitch: 46.21566

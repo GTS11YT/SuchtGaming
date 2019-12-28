@@ -1,0 +1,21 @@
+money: '800.0'
+lastAccountName: CBRanch
+timestamps:
+  login: 1577274302739
+  lastteleport: 1574093611372
+  logout: 1577274443463
+ipAddress: 92.209.68.78
+lastlocation:
+  world: PlotWorld
+  x: 3.0512024429905016
+  y: 72.0
+  z: -2.143450998423906
+  yaw: 345.1634
+  pitch: 4.687143
+logoutlocation:
+  world: PlotWorld
+  x: 97.5
+  y: 65.0
+  z: 122.47902768893358
+  yaw: 0.0
+  pitch: 0.0

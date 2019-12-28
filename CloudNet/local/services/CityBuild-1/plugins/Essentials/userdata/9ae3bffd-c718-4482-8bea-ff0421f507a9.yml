@@ -1,0 +1,22 @@
+money: '60000.0'
+lastAccountName: HerobrineProMC
+timestamps:
+  login: 1577174757100
+  logout: 1577174794730
+  lastteleport: 1574609222263
+ipAddress: 178.19.80.71
+logoutlocation:
+  world: PlotWorld
+  x: 63.66515873525039
+  y: 65.0
+  z: 39.66962963351277
+  yaw: 81.05338
+  pitch: 9.059139
+lastlocation:
+  world: PlotWorld
+  x: 67.4026890389367
+  y: 65.0
+  z: 52.93894982033537
+  yaw: -167.93684
+  pitch: 20.540821
+afk: false

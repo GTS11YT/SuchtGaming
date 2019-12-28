@@ -1,0 +1,8 @@
+License: OZjI7ASo1c51q62sDn0p41EDjr-1711
+Language: de-DE
+LanguageDir: ./plugins/ActionNews/languages
+Actionbar: 'true'
+Broadcast:
+  enable: 'true'
+  sound: none
+  announce: '60'

@@ -1,0 +1,22 @@
+money: '319.0'
+lastAccountName: Pfobos06
+timestamps:
+  login: 1572595960052
+  logout: 1572597686543
+  lastteleport: 1572596033483
+ipAddress: 87.78.5.110
+logoutlocation:
+  world: PlotWorld
+  x: 120.76053849548056
+  y: 65.5
+  z: -108.9594912462334
+  yaw: -154.11035
+  pitch: 37.339573
+lastlocation:
+  world: PlotWorld
+  x: 136.4710624924957
+  y: 65.0
+  z: -112.5562877676013
+  yaw: 27.150057
+  pitch: 18.02876
+godmode: false

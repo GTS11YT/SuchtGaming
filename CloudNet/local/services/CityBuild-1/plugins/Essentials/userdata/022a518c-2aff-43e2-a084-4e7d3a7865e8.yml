@@ -1,0 +1,21 @@
+money: '850.0'
+lastAccountName: DasOfenkartoffel
+timestamps:
+  login: 1569146408593
+  logout: 1569146495386
+  lastteleport: 1569142416873
+ipAddress: 46.167.46.182
+lastlocation:
+  world: PlotWorld
+  x: 71.42500001192093
+  y: 56.0
+  z: 59.35604708397295
+  yaw: -285.40228
+  pitch: -43.879185
+logoutlocation:
+  world: PlotWorld
+  x: 46.392857026629216
+  y: 65.0
+  z: 61.28610704917615
+  yaw: -57.295303
+  pitch: 43.04292

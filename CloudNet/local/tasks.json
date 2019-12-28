@@ -1,0 +1,369 @@
+{
+  "groups": [
+    {
+      "name": "TTT",
+      "includes": [],
+      "templates": [],
+      "deployments": [],
+      "properties": {}
+    },
+    {
+      "name": "KnockbackFFA",
+      "includes": [],
+      "templates": [],
+      "deployments": [],
+      "properties": {}
+    },
+    {
+      "name": "Craftattack",
+      "includes": [],
+      "templates": [],
+      "deployments": [],
+      "properties": {}
+    },
+    {
+      "name": "2x1",
+      "includes": [],
+      "templates": [],
+      "deployments": [],
+      "properties": {}
+    },
+    {
+      "name": "Bedwars-2x1",
+      "includes": [],
+      "templates": [],
+      "deployments": [],
+      "properties": {}
+    },
+    {
+      "name": "Bedwars-2x2",
+      "includes": [],
+      "templates": [],
+      "deployments": [],
+      "properties": {}
+    },
+    {
+      "name": "YTber-Bedwars-2x1",
+      "includes": [],
+      "templates": [],
+      "deployments": [],
+      "properties": {}
+    },
+    {
+      "name": "GunGame",
+      "includes": [],
+      "templates": [],
+      "deployments": [],
+      "properties": {}
+    },
+    {
+      "name": "PremiumLobby",
+      "includes": [],
+      "templates": [],
+      "deployments": [],
+      "properties": {}
+    }
+  ],
+  "tasks": [
+    {
+      "name": "Proxy",
+      "runtime": "jvm",
+      "maintenance": false,
+      "autoDeleteOnStop": true,
+      "staticServices": false,
+      "associatedNodes": [
+        "Node-57bc5385"
+      ],
+      "groups": [
+        "Proxy"
+      ],
+      "processConfiguration": {
+        "environment": "BUNGEECORD",
+        "maxHeapMemorySize": 500,
+        "jvmOptions": []
+      },
+      "startPort": 25565,
+      "minServiceCount": 1,
+      "includes": [],
+      "templates": [
+        {
+          "prefix": "Proxy",
+          "name": "default",
+          "storage": "local"
+        }
+      ],
+      "deployments": [],
+      "properties": {}
+    },
+    {
+      "name": "Lobby",
+      "runtime": "jvm",
+      "maintenance": false,
+      "autoDeleteOnStop": true,
+      "staticServices": false,
+      "associatedNodes": [
+        "Node-57bc5385"
+      ],
+      "groups": [
+        "Lobby"
+      ],
+      "processConfiguration": {
+        "environment": "MINECRAFT_SERVER",
+        "maxHeapMemorySize": 310,
+        "jvmOptions": []
+      },
+      "startPort": 44955,
+      "minServiceCount": 1,
+      "includes": [],
+      "templates": [
+        {
+          "prefix": "Lobby",
+          "name": "default",
+          "storage": "local"
+        }
+      ],
+      "deployments": [],
+      "properties": {}
+    },
+    {
+      "name": "Community",
+      "runtime": "jvm",
+      "maintenance": false,
+      "autoDeleteOnStop": true,
+      "staticServices": false,
+      "associatedNodes": [
+        "Node-57bc5385"
+      ],
+      "groups": [
+        "Community"
+      ],
+      "processConfiguration": {
+        "environment": "MINECRAFT_SERVER",
+        "maxHeapMemorySize": 400,
+        "jvmOptions": []
+      },
+      "startPort": 44955,
+      "minServiceCount": 0,
+      "includes": [],
+      "templates": [
+        {
+          "prefix": "Community",
+          "name": "default",
+          "storage": "local"
+        }
+      ],
+      "deployments": [],
+      "properties": {}
+    },
+    {
+      "name": "CityBuild",
+      "runtime": "jvm",
+      "maintenance": false,
+      "autoDeleteOnStop": false,
+      "staticServices": true,
+      "associatedNodes": [
+        "Node-57bc5385"
+      ],
+      "groups": [
+        "CityBuild"
+      ],
+      "processConfiguration": {
+        "environment": "MINECRAFT_SERVER",
+        "maxHeapMemorySize": 500,
+        "jvmOptions": []
+      },
+      "startPort": 44955,
+      "minServiceCount": 1,
+      "includes": [],
+      "templates": [
+        {
+          "prefix": "CityBuild",
+          "name": "default",
+          "storage": "local"
+        }
+      ],
+      "deployments": [],
+      "properties": {}
+    },
+    {
+      "name": "TTT",
+      "runtime": "jvm",
+      "maintenance": false,
+      "autoDeleteOnStop": true,
+      "staticServices": false,
+      "associatedNodes": [
+        "Node-57bc5385"
+      ],
+      "groups": [
+        "TTT"
+      ],
+      "processConfiguration": {
+        "environment": "MINECRAFT_SERVER",
+        "maxHeapMemorySize": 368,
+        "jvmOptions": []
+      },
+      "startPort": 44955,
+      "minServiceCount": 0,
+      "includes": [],
+      "templates": [
+        {
+          "prefix": "TTT",
+          "name": "default",
+          "storage": "local"
+        }
+      ],
+      "deployments": [],
+      "properties": {}
+    },
+    {
+      "name": "KnockbackFFA",
+      "runtime": "jvm",
+      "maintenance": false,
+      "autoDeleteOnStop": true,
+      "staticServices": false,
+      "associatedNodes": [
+        "Node-57bc5385"
+      ],
+      "groups": [
+        "KnockbackFFA"
+      ],
+      "processConfiguration": {
+        "environment": "MINECRAFT_SERVER",
+        "maxHeapMemorySize": 380,
+        "jvmOptions": []
+      },
+      "startPort": 44955,
+      "minServiceCount": 1,
+      "includes": [],
+      "templates": [
+        {
+          "prefix": "KnockbackFFA",
+          "name": "default",
+          "storage": "local"
+        }
+      ],
+      "deployments": [],
+      "properties": {}
+    },
+    {
+      "name": "Bedwars-2x1",
+      "runtime": "jvm",
+      "maintenance": false,
+      "autoDeleteOnStop": true,
+      "staticServices": false,
+      "associatedNodes": [
+        "Node-57bc5385"
+      ],
+      "groups": [
+        "Bedwars-2x1"
+      ],
+      "processConfiguration": {
+        "environment": "MINECRAFT_SERVER",
+        "maxHeapMemorySize": 340,
+        "jvmOptions": []
+      },
+      "startPort": 44955,
+      "minServiceCount": 3,
+      "includes": [],
+      "templates": [
+        {
+          "prefix": "Bedwars-2x1",
+          "name": "default",
+          "storage": "local"
+        }
+      ],
+      "deployments": [],
+      "properties": {}
+    },
+    {
+      "name": "Bedwars-2x2",
+      "runtime": "jvm",
+      "maintenance": false,
+      "autoDeleteOnStop": true,
+      "staticServices": false,
+      "associatedNodes": [
+        "Node-57bc5385"
+      ],
+      "groups": [
+        "Bedwars-2x2"
+      ],
+      "processConfiguration": {
+        "environment": "MINECRAFT_SERVER",
+        "maxHeapMemorySize": 360,
+        "jvmOptions": []
+      },
+      "startPort": 44955,
+      "minServiceCount": 3,
+      "includes": [],
+      "templates": [
+        {
+          "prefix": "Bedwars-2x2",
+          "name": "default",
+          "storage": "local"
+        }
+      ],
+      "deployments": [],
+      "properties": {}
+    },
+    {
+      "name": "YTber-Bedwars-2x1",
+      "runtime": "jvm",
+      "maintenance": false,
+      "autoDeleteOnStop": true,
+      "staticServices": false,
+      "associatedNodes": [
+        "Node-57bc5385"
+      ],
+      "groups": [
+        "YTber-Bedwars-2x1"
+      ],
+      "processConfiguration": {
+        "environment": "MINECRAFT_SERVER",
+        "maxHeapMemorySize": 340,
+        "jvmOptions": []
+      },
+      "startPort": 44955,
+      "minServiceCount": 1,
+      "includes": [],
+      "templates": [
+        {
+          "prefix": "YTber-Bedwars-2x1",
+          "name": "default",
+          "storage": "local"
+        }
+      ],
+      "deployments": [],
+      "properties": {}
+    },
+    {
+      "name": "GunGame",
+      "runtime": "jvm",
+      "maintenance": false,
+      "autoDeleteOnStop": true,
+      "staticServices": false,
+      "associatedNodes": [
+        "Node-57bc5385"
+      ],
+      "groups": [
+        "GunGame"
+      ],
+      "processConfiguration": {
+        "environment": "MINECRAFT_SERVER",
+        "maxHeapMemorySize": 500,
+        "jvmOptions": []
+      },
+      "startPort": 44955,
+      "minServiceCount": 2,
+      "includes": [],
+      "templates": [
+        {
+          "prefix": "GunGame",
+          "name": "default",
+          "storage": "local"
+        }
+      ],
+      "deployments": [],
+      "properties": {}
+    }
+  ]
+}

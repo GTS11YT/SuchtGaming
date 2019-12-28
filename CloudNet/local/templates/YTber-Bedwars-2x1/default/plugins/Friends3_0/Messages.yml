@@ -1,0 +1,137 @@
+# Here you can change all the messages to your wishes
+Messages:
+  Commands:
+    NoPlayer: '%PREFIX% &cOnly players can perform this command!'
+    NoPermission: '%PREFIX% &cYou do not have permission to perform this command!'
+    UnknownCommand: '%PREFIX% &cUnknown command! --> /friends help'
+    WrongUsage: '%PREFIX% &cWrong usage! --> %USAGE%'
+    Help:
+      PageError: '%PREFIX% &cThis page does not exists!'
+      Page1:
+        '0': '%PREFIX% &c[&6Page1&c]------------------------------------'
+        '1': '%PREFIX% &3/f add <Player> &f| Adds a friend'
+        '2': '%PREFIX% &3/f remove <Player> &f| Removes a friend'
+        '3': '%PREFIX% &3/f block <Player> &f| Blocks a player'
+        '4': '%PREFIX% &3/f accept <Player> &f|Accepts a request'
+        '5': '%PREFIX% &3/f deny <Player> &f| Deny a request'
+        '6': '%PREFIX% &3/f acceptall &f| Accepts all requests'
+        '7': '%PREFIX% &c-------------------------------------------'
+        '8': '%PREFIX% &3More Commands --> /f help 2'
+        '9': '%PREFIX% &c-------------------------------------------'
+      Page2:
+        '0': '%PREFIX% &c[&6Page2&c]------------------------------------'
+        '1': '%PREFIX% &3/f unblock <Player> &f| Unblocks a player'
+        '2': '%PREFIX% &3/f toggle requests &f| Toggle requests'
+        '3': '%PREFIX% &3/f toggle <chat|msg> &f| Toggles chat or msg'
+        '4': '%PREFIX% &3/f toggle jumping &f| Toggle jumping'
+        '5': '%PREFIX% &3/f toggle spychat &f| Toggle spychat'
+        '6': '%PREFIX% &3/f list &f| See your friends'
+        '7': '%PREFIX% &c-------------------------------------------'
+        '8': '%PREFIX% &3More Commands --> /f help 3'
+        '9': '%PREFIX% &c-------------------------------------------'
+      Page3:
+        '0': '%PREFIX% &c[&6Page3&c]------------------------------------'
+        '1': '%PREFIX% &3/f jump <Player> &f| Jump to a friend'
+        '2': '%PREFIX% &3/f info &f| See some informations'
+        '3': '%PREFIX% &3/msg <Player> <Message> &f| Send a message'
+        '4': '%PREFIX% &c-------------------------------------------'
+    Reload: '%PREFIX% &aThe plugin was successfully reloaded!'
+    PlayerUnknown: '%PREFIX% &cThis player does not exists!'
+    MSG:
+      NoFriend: '%PREFIX% &c%NAME% has to be your friend to send him a private message!'
+      PlayerOffline: '%PREFIX% &c%NAME% seems to be offline!'
+      NoMSG: '%PREFIX% &c%NAME% does not allow friends to send him messages!'
+      Send: '&f[%PREFIX%&f] &6You &f-> &6%NAME%: &f%MESSAGE%'
+      Format: '&f[%PREFIX%&f] &6%NAME% &f-> &6You: &f%MESSAGE%'
+    Chat:
+      Enter: '%PREFIX% &aYou entered the friend-chat!'
+      Leave: '%PREFIX% &cYou left the friend-chat!'
+    Add:
+      SendSelf: '%PREFIX% &cYou cannot send yourself a request!'
+      PlayerUnknown: '%PREFIX% &cThis player does not exists!'
+      AlreadyFriends: '%PREFIX% &c%NAME% is already your friend!'
+      AlreadyRequested: '%PREFIX% &cYou have already sent a request to %NAME%!'
+      Blocked:
+        Self: '%PREFIX% &cYou have blocked %NAME%!'
+        Other: '%PREFIX% &cYou cannot send a request to %NAME%!'
+      LimitReached:
+        Self: '%PREFIX% &cYou have already reached the maximum amount of friends!'
+        Other: '%PREFIX% &c%NAME% has already reached the maximum amount of friends!'
+      DisabledRequests: '%PREFIX% &c%NAME% does not want you to send him requests!'
+      Add:
+        Requester: '%PREFIX% &aYou send a friendrequest to &3%NAME%&a!'
+        ToAdd:
+          '0': '%PREFIX% &c---------------------------------------------'
+          '1': '%PREFIX% &aYou received a friendrequest from &3%NAME%&a!'
+          '2': '%PREFIX% &2%ACCEPT_BUTTON% &c%DENY_BUTTON%'
+          '3': '%PREFIX% &c---------------------------------------------'
+        AcceptButton: '&2[Accept ✔]'
+        AcceptHover: '&2Click here to accept the request!'
+        DenyButton: '&c[Deny ✖]'
+        DenyHover: '&cClick here to deny the requst!'
+    Deny:
+      NoRequest: '%PREFIX% &cYou do not have a request from %NAME%!'
+      Deny:
+        Denier: '%PREFIX% &7You denied the request from %NAME%!'
+        Requester: '%PREFIX% &c%NAME% denied your request!'
+    Accept:
+      NoRequest: '%PREFIX% &cYou do not have a request from %NAME%!'
+      NoRequests: '%PREFIX% &cYou do not have any request!'
+      LimitReached:
+        Self: '%PREFIX% &cYou have already reached the maximum amount of friends!'
+        Other: '%PREFIX% &c%NAME% has already reached the maximum amount of friends!'
+      Accept: '%PREFIX% &a%NAME% is now your friend!'
+    Remove:
+      NoFriends: '%PREFIX% &c%NAME% is not your friend!'
+      Remove: '%PREFIX% &c%NAME% is no longer your friend!'
+    Block:
+      AlreadyBlocked: '%PREFIX% &c%NAME% is already blocked!'
+      UnknownPlayer: '%PREFIX% &c%NAME% does not exist!'
+      BlockSelf: '%PREFIX% &cYou cannot block yourself!'
+      Block:
+        Self: '%PREFIX% &7You successfully blocked %NAME%!'
+    Unblock:
+      NotBlocked: '%PREFIX% &c%NAME% is not blocked!'
+      Unblock: '%PREFIX% &7You removed %NAME% from the blocked players!'
+    Toggle:
+      NoOption: '%PREFIX% &cUnknown Option! -> <requests|chat|jumping>'
+      ToggleRequests: '%PREFIX% &aYou toggled the requests!'
+      ToggleChat: '%PREFIX% &aYou toggled the friendchat!'
+      ToggleJumping: '%PREFIX% &aYou toggled jumping!'
+      ToggleMsg: '%PREFIX% &aYou toggled private messaging!'
+      ToggleSpyChat:
+        Toggle: '%PREFIX% &aThe spychat is now enabled!'
+        Disabled: '%PREFIX% &cThe spychat is now disabled!'
+    Jump:
+      Denied: '%PREFIX% &cJumping is disabled on this server!'
+      PlayerOffline: '%PREFIX% &c%NAME% seems to be offline!'
+      NoFriends: '%PREFIX% &c%NAME% has to be your friend to jump to his location!'
+      Disabled: '%PREFIX% &c%NAME% does not want friends to jump to his location!'
+      Jump:
+        Jumper: '%PREFIX% &aYou jumped to %NAME%!'
+        ToJump: '%PREFIX% &a%NAME% jumped to your location!'
+    List:
+      '0': '%PREFIX% &3Online &7(&c%ONLINE_COUNT%&7): &a%ONLINE%'
+      '1': '%PREFIX% &3Offline &7(&c%OFFLINE_COUNT%&7): &7%OFFLINE%'
+  Favorites:
+    Add: '%PREFIX% &aYou successfully added %NAME% to your favorites!'
+    Remove: '%PREFIX% &7You removed %NAME% from your favorites!'
+  GUI:
+    NoMorePages: '%PREFIX% &cThere are no more pages!'
+    FirstPage: '%PREFIX% &cYou are already on the first page!'
+  Status:
+    TooFast: '%PREFIX% &cYou can only change your status every 10 minutes!'
+    ChangeStatus: '%PREFIX% &aYou successfully changed your status!'
+    Clear:
+      UnknownPlayer: '%PREFIX% &cThis player has''''nt choosed a status yet!'
+      Clear: '%PREFIX% &3%PLAYER%&a''''s status was cleared!'
+  Nickname:
+    Remove: '%PREFIX% &7You successfully removed the Nickname from &3%NAME%&7!'
+    NoNick: '%PREFIX% &cYou do not have set a Nick for &3%NAME% &cyet!'
+    SetNick: '%PREFIX% &aYou have set &3%NAME%&a''s Nickname to &3%NICK%&a!'
+  FriendQuit: '%PREFIX% &3%PLAYER% &cis now offline!'
+  FriendJoin: '%PREFIX% &3%PLAYER% &ais now online!'
+  FriendChatFormat: '%PREFIX% &3%PLAYER% &c>> &f%MESSAGE%'
+  FriendChatDisabled: '%PREFIX% &cYou disabled the friendchat!'
+  RequestNotification: '%PREFIX% &aYou have &7(&3%REQUESTS%&7) &aopen friend-requests!'
+  SendPartyInvite: '%PREFIX% &aYou have sent a invite to &3%NAME%&a!'

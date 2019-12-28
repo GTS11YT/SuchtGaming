@@ -1,0 +1,21 @@
+money: '5810.0'
+lastAccountName: X_Supreme_
+timestamps:
+  login: 1577268712177
+  logout: 1577268786748
+  lastteleport: 1575221570648
+ipAddress: 89.245.111.55
+logoutlocation:
+  world: PlotWorld
+  x: 0.1259147441172475
+  y: 68.224641421027
+  z: 17.836936528056203
+  yaw: 2.1133788
+  pitch: 14.536251
+lastlocation:
+  world: PlotWorld
+  x: 62.91200648805323
+  y: 69.77884696334485
+  z: 50.493872851698825
+  yaw: -241.53967
+  pitch: 31.722128

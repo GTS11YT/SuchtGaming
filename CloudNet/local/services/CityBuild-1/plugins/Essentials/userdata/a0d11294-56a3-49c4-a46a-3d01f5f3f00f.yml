@@ -1,0 +1,77 @@
+lastAccountName: Colin_1704
+timestamps:
+  login: 1577358900548
+  lastteleport: 1577298966819
+  logout: 1577358936566
+  kits:
+    supreme: 1572195922873
+ipAddress: 79.196.246.243
+money: '38009.54000'
+lastlocation:
+  world: PlotWorld
+  x: -171.78248904629817
+  y: 65.0
+  z: -149.44810407130367
+  yaw: 1.6423749
+  pitch: 9.700582
+godmode: false
+logoutlocation:
+  world: PlotWorld
+  x: 34.53004029814264
+  y: 85.18060232737173
+  z: 0.6488354454741987
+  yaw: -87.90752
+  pitch: 14.634645
+nickname: Colin_1704
+homes:
+  tresor:
+    world: PlotWorld
+    x: 21.2513789450611
+    y: 52.0
+    z: -130.79364266205815
+    yaw: 300.5794
+    pitch: 17.245188
+  fichtenwald:
+    world: world
+    x: 3357.905381116941
+    y: 73.0
+    z: 1432.110388715463
+    yaw: 16.439308
+    pitch: 26.720182
+  lager:
+    world: PlotWorld
+    x: 19.372620528394055
+    y: 75.0
+    z: -135.26277126650038
+    yaw: -176.95654
+    pitch: 18.026308
+  2g:
+    world: PlotWorld
+    x: 19.55929475540079
+    y: 75.0
+    z: -142.07499998807904
+    yaw: -185.22314
+    pitch: -1.0716697
+  1g:
+    world: PlotWorld
+    x: 19.223663685140107
+    y: 71.0
+    z: -141.88886322062527
+    yaw: -181.94775
+    pitch: 6.339481
+  eg:
+    world: PlotWorld
+    x: 19.34865024214141
+    y: 67.0625
+    z: -138.54392114051254
+    yaw: -183.81299
+    pitch: 13.32308
+  snow:
+    world: world
+    x: 3836.2978047028255
+    y: 123.0
+    z: 2401.640919933123
+    yaw: -5.9773865
+    pitch: 55.6815
+teleportenabled: true
+afk: false

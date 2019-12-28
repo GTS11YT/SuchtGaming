@@ -1,0 +1,30 @@
+money: '4420.2900'
+lastAccountName: Jan_12
+timestamps:
+  login: 1577373744805
+  logout: 1577373929439
+  lastteleport: 1577175037477
+ipAddress: 88.130.154.189
+logoutlocation:
+  world: PlotWorld
+  x: -20.713052692855136
+  y: 65.0
+  z: 514.1197805509861
+  yaw: 80.478424
+  pitch: 15.1795845
+lastlocation:
+  world: PlotWorld
+  x: 0.6989710846028174
+  y: 65.0625
+  z: 27.769134793572306
+  yaw: -2.0862577
+  pitch: 7.0871153
+homes:
+  home:
+    world: world
+    x: -534.1684571455187
+    y: 67.0
+    z: -1462.9251622527718
+    yaw: 111.89899
+    pitch: 22.499998
+afk: false

@@ -1,0 +1,22 @@
+{
+  "config": {
+    "entries": [
+      {
+        "enabled": false,
+        "hostAddress": "45.88.108.170",
+        "email": "user@example.com",
+        "apiToken": "api_token_string",
+        "zoneId": "zoneId",
+        "domainName": "example.com",
+        "groups": [
+          {
+            "name": "Proxy",
+            "sub": "@",
+            "priority": 1,
+            "weight": 1
+          }
+        ]
+      }
+    ]
+  }
+}

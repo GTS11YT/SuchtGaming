@@ -1,0 +1,21 @@
+money: '1000.0'
+lastAccountName: Lefra
+timestamps:
+  login: 1577220409383
+  logout: 1577220420838
+  lastteleport: 1569062401320
+ipAddress: 84.155.219.230
+logoutlocation:
+  world: PlotWorld
+  x: 0.5
+  y: 72.0
+  z: 0.5
+  yaw: 0.3137429
+  pitch: -1.6128837
+lastlocation:
+  world: PlotWorld
+  x: 0.15918990039976982
+  y: 69.0625
+  z: 14.908962338346537
+  yaw: 1.3637407
+  pitch: 13.987115

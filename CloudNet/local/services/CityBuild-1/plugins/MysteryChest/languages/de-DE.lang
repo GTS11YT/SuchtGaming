@@ -1,0 +1,31 @@
+prefix: &7[&5MysteryChest&7]
+not-enough-chests: {0} &cDu hast nicht genug Kisten
+player-was-never-online: {0} &cDieser Spieler war noch nie auf dem Netzwerk
+
+####
+# Command
+####
+command-chest-help: &6Chest Hilfe
+command-chest-help-setmysterychest: &a/chest setmysterychest
+command-chest-help-addchest: &a/chest addchest <name> <chestname> <anzahl>
+command-chest-help-removechest: &a/chest removechest <name> <chestname> <anzahl>
+command-chest-help-setchest: &a/chest setchest <name> <chestname> <anzahl>
+
+command-chest-set-success: {0} &aDu hast eine &5MysteryChest &agesetzt
+command-chest-addchest-success: {0} &aDu hast {1} &e{2} &6{3} &agegeben
+command-chest-removechest-success: {0} &aDu hast {1} &e{2} &6{3} &aabgezogen
+command-chest-setchest-success: {0} &aDu hast {1} &e{3} &aauf &6{2} &agesetzt
+command-chest-doesntexists: {0} &cDie Kiste &e{1} &cexistiert nicht.
+
+####
+# OverviewChest
+####
+overviewchest-title: &5&lCaseOpening
+overviewchest-item-lore: &7Du hast &a{0} &7Kisten
+
+####
+# Chestopening
+####
+chestopening-title: &e&lCaseOpening
+chestopening-hopper-name: &c&lDein Gewinn:
+chestopening-won-item: {0} {1} &ahat {2} &agewonnen

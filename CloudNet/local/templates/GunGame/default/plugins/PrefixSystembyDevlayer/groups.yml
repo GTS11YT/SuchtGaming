@@ -1,0 +1,81 @@
+Groups:
+  Owner:
+    Permission: suchtgaming.rang.owner
+    Prefix: '&4Owner &8| &4'
+    Suffix: ''
+    SortPriority: 1
+  Admin:
+    Permission: suchtgaming.rang.admin
+    Prefix: '&4Admin &8| &4'
+    Suffix: ''
+    SortPriority: 2
+  Developer:
+    Permission: suchtgaming.rang.developer
+    Prefix: '&bDev &8| &b'
+    Suffix: ''
+    SortPriority: 3
+  Content:
+    Permission: suchtgaming.rang.content
+    Prefix: '&bContent &8| &b'
+    Suffix: ''
+    SortPriority: 4
+  Moderator:
+    Permission: suchtgaming.rang.moderator
+    Prefix: '&6Mod &8| &6'
+    Suffix: ''
+    SortPriority: 5
+  Supporter:
+    Permission: suchtgaming.rang.supporter
+    Prefix: '&eSup &8| &e'
+    Suffix: ''
+    SortPriority: 6
+  Builder:
+    Permission: suchtgaming.rang.builder
+    Prefix: '&2Builder &8| &2'
+    Suffix: ''
+    SortPriority: 7
+  T-Supporter:
+    Permission: suchtgaming.rang.t-sup
+    Prefix: '&eT-Sup &8| &e'
+    Suffix: ''
+    SortPriority: 8
+  Youtuber:
+    Permission: suchtgaming.rang.youtuber
+    Prefix: '&5YT &8| &5'
+    Suffix: ''
+    SortPriority: 9
+  Deluxe:
+    Permission: suchtgaming.rang.deluxe
+    Prefix: '&eDeluxe &8| &e'
+    Suffix: ''
+    SortPriority: 10
+  Supreme:
+    Permission: suchtgaming.rang.supreme
+    Prefix: '&dSupreme &8| &d'
+    Suffix: ''
+    SortPriority: 11
+  Diamond:
+    Permission: suchtgaming.rang.diamond
+    Prefix: '&3Diamond &8| &3'
+    Suffix: ''
+    SortPriority: 12
+  Gold:
+    Permission: suchtgaming.rang.gold
+    Prefix: '&6Gold &8| &6'
+    Suffix: ''
+    SortPriority: 13
+  Emerald:
+    Permission: suchtgaming.rang.emerald
+    Prefix: '&2Emerald &8| &2'
+    Suffix: ''
+    SortPriority: 14
+  Premium:
+    Permission: suchtgaming.rang.premium
+    Prefix: '&6Premium &8| &6'
+    Suffix: ''
+    SortPriority: 15
+  Spieler:
+    Permission: suchtgaming.rang.spieler
+    Prefix: '&7Spieler &8| &7'
+    Suffix: ''
+    SortPriority: 16

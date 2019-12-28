@@ -1,0 +1,677 @@
+19-10-30 05:47:12 [INFO] Logger started.
+19-10-30 05:47:12 [INFO] Logging system initialized.
+19-10-30 05:47:12 [INFO] Detected Minecraft version: 1.8.8
+19-10-30 05:47:15 [INFO] McAccess set to: 1.8.4-1.8.8 / Spigot-CB-1.8_R3
+19-10-30 05:47:15 [INFO] Added block-info for Minecraft 1.5 blocks.
+19-10-30 05:47:15 [INFO] Added block-info for Minecraft 1.6.1 blocks.
+19-10-30 05:47:15 [INFO] Added block-info for Minecraft 1.7.2 blocks.
+19-10-30 05:47:15 [INFO] Added block-info for Minecraft 1.8 blocks.
+19-10-30 05:47:15 [INFO] Update block-info: WATER_LILY block shape patch for multi client protocol support around 1.7.x - 1.11.x.
+19-10-30 05:47:15 [INFO] Inventory checks: FastConsume is available, disabled InstantEat.
+19-10-30 05:47:15 [INFO] Packet level access: ProtocolLib is not available.
+19-10-30 05:47:15 [INFO] Version 3.16.0-RC-sMD5NET-b1134 is enabled.
+19-10-30 05:47:18 [INFO] Post-enable running...
+19-10-30 05:47:18 [INFO] Post-enable finished.
+19-10-30 05:47:19 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.stats.Counters
+19-10-30 05:47:19 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.workaround.WRPT
+19-10-30 05:47:19 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.location.tracking.LocationTrace$TraceEntryPool
+19-10-30 05:47:19 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.utilities.entity.PassengerUtil
+19-10-30 05:47:19 [INFO] [GenericInstanceRegistry] Registered for itself: java.util.Random
+19-10-30 05:47:19 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.IBridgeCrossPlugin: fr.neatmonster.nocheatplus.compat.meta.BridgeCrossPlugin
+19-10-30 05:47:19 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.MCAccess: fr.neatmonster.nocheatplus.compat.spigotcb1_8_R3.MCAccessSpigotCB1_8_R3
+19-10-30 05:47:19 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.utilities.map.BlockCache: fr.neatmonster.nocheatplus.compat.spigotcb1_8_R3.BlockCacheSpigotCB1_8_R3
+19-10-30 05:47:19 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.modifier.IAttributeAccess: fr.neatmonster.nocheatplus.compat.spigotcb1_8_R3.AttributeAccess
+19-10-30 05:47:19 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.entity.IEntityAccessLastPositionAndLook: fr.neatmonster.nocheatplus.compat.cbreflect.reflect.ReflectEntityLastPositionAndLook
+19-10-30 05:47:19 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.entity.IEntityAccessVehicle: fr.neatmonster.nocheatplus.compat.bukkit.EntityAccessVehicleLegacy
+19-10-30 05:47:19 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.util.AuxMoving
+19-10-30 05:47:19 [INFO] Added hook: AllViolations(NCP) [1.0].
+19-10-30 05:47:19 [INFO] ---- Version information ----
+#### Server ####
+git-Spigot-db6de12-18fbb24 ~MC: 1.8.8~
+  detected: 1.8.8
+#### NoCheatPlus ####
+Plugin: 3.16.0-RC-sMD5NET-b1134
+MCAccess: 1.8.4-1.8.8 / Spigot-CB-1.8_R3
+Features:
+  blocks: BlocksMC1_4 | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8
+  checks: FastConsume | Gutenberg
+  defaults: pvpKnockBackVelocity
+Hooks: AllViolations~NCP~ 1.0
+#### Related Plugins ####
+ViaVersion v2.1.3
+19-10-31 05:24:55 [INFO] Logger started.
+19-10-31 05:24:55 [INFO] Logging system initialized.
+19-10-31 05:24:55 [INFO] Detected Minecraft version: 1.8.8
+19-10-31 05:25:08 [INFO] McAccess set to: 1.8.4-1.8.8 / Spigot-CB-1.8_R3
+19-10-31 05:25:08 [INFO] Added block-info for Minecraft 1.5 blocks.
+19-10-31 05:25:08 [INFO] Added block-info for Minecraft 1.6.1 blocks.
+19-10-31 05:25:08 [INFO] Added block-info for Minecraft 1.7.2 blocks.
+19-10-31 05:25:08 [INFO] Added block-info for Minecraft 1.8 blocks.
+19-10-31 05:25:09 [INFO] Inventory checks: FastConsume is available, disabled InstantEat.
+19-10-31 05:25:09 [INFO] Adding packet level hooks for ProtocolLib (MC 1.8.8)...
+19-10-31 05:25:09 [INFO] Available (and activated) packet level hooks: UseEntityAdapter | MovingFlying | OutgoingPosition | KeepAliveAdapter | SoundDistance
+19-10-31 05:25:09 [WARNING] Your configuration seems to be created by a newer plugin version.
+Some settings could have changed, you should regenerate it!
+19-10-31 05:25:09 [INFO] Version 3.13.7-RC-sMD5NET-b925 is enabled.
+19-10-31 05:25:12 [INFO] Post-enable running...
+19-10-31 05:25:12 [INFO] Post-enable finished.
+19-10-31 05:25:12 [INFO] Added hook: AllViolations(NCP) [1.0].
+19-10-31 05:25:12 [INFO] ---- Version information ----
+#### Server ####
+git-Spigot-db6de12-18fbb24 ~MC: 1.8.8~
+  detected: 1.8.8
+#### NoCheatPlus ####
+Plugin: 3.13.7-RC-sMD5NET-b925
+MCAccess: 1.8.4-1.8.8 / Spigot-CB-1.8_R3
+Features:
+  blocks: BlocksMC1_4 | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8
+  checks: FastConsume | Gutenberg | AttackFrequency | FlyingFrequency | KeepAliveFrequency
+  defaults: pvpKnockBackVelocity
+  packet-listeners: UseEntityAdapter | MovingFlying | OutgoingPosition | KeepAliveAdapter | SoundDistance
+Hooks: AllViolations~NCP~ 1.0
+#### Related Plugins ####
+ProtocolLib v4.2.0
+19-10-31 05:28:35 [INFO] Removed hook: AllViolations(NCP) [1.0].
+19-10-31 05:28:35 [FINE] | canceldead 0 | illegalitem 0 | boatsanywhere 0 | throwenderpearl 0 | fakeinvulnerable 0 | eggonentity 0 | event.player.move.handled 238 (238/0) | event.player.move.handled.pos 76 (76/0) | event.player.move.handled.look 2 (2/0) | event.player.move.handled.pos_look 160 (160/0) | packet.flying.nullplayer 0 | packet.flying.handled 677 (0/677) | packet.flying.asynchronous 677 (0/677) | packet.outgoing_position.untracked 0 | packet.sound.cancel 0 |
+19-10-31 05:28:50 [INFO] Logger started.
+19-10-31 05:28:50 [INFO] Logging system initialized.
+19-10-31 05:28:50 [INFO] Detected Minecraft version: 1.8.8
+19-10-31 05:29:06 [INFO] McAccess set to: 1.8.4-1.8.8 / Spigot-CB-1.8_R3
+19-10-31 05:29:06 [INFO] Added block-info for Minecraft 1.5 blocks.
+19-10-31 05:29:06 [INFO] Added block-info for Minecraft 1.6.1 blocks.
+19-10-31 05:29:06 [INFO] Added block-info for Minecraft 1.7.2 blocks.
+19-10-31 05:29:06 [INFO] Added block-info for Minecraft 1.8 blocks.
+19-10-31 05:29:06 [INFO] Inventory checks: FastConsume is available, disabled InstantEat.
+19-10-31 05:29:06 [INFO] Adding packet level hooks for ProtocolLib (MC 1.8.8)...
+19-10-31 05:29:06 [INFO] Available (and activated) packet level hooks: UseEntityAdapter | MovingFlying | OutgoingPosition | KeepAliveAdapter | SoundDistance
+19-10-31 05:29:07 [INFO] Version 3.13.7-RC-sMD5NET-b925 is enabled.
+19-10-31 05:29:11 [INFO] Post-enable running...
+19-10-31 05:29:11 [INFO] Post-enable finished.
+19-10-31 05:29:12 [INFO] Added hook: AllViolations(NCP) [1.0].
+19-10-31 05:29:12 [INFO] ---- Version information ----
+#### Server ####
+git-Spigot-db6de12-18fbb24 ~MC: 1.8.8~
+  detected: 1.8.8
+#### NoCheatPlus ####
+Plugin: 3.13.7-RC-sMD5NET-b925
+MCAccess: 1.8.4-1.8.8 / Spigot-CB-1.8_R3
+Features:
+  blocks: BlocksMC1_4 | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8
+  checks: FastConsume | Gutenberg | AttackFrequency | FlyingFrequency | KeepAliveFrequency
+  defaults: pvpKnockBackVelocity
+  packet-listeners: UseEntityAdapter | MovingFlying | OutgoingPosition | KeepAliveAdapter | SoundDistance
+Hooks: AllViolations~NCP~ 1.0
+#### Related Plugins ####
+ProtocolLib v4.2.0
+19-10-31 05:32:37 [INFO] Removed hook: AllViolations(NCP) [1.0].
+19-10-31 05:32:37 [FINE] | canceldead 0 | illegalitem 0 | boatsanywhere 0 | throwenderpearl 0 | fakeinvulnerable 0 | eggonentity 0 | event.player.move.handled 856 (856/0) | event.player.move.handled.pos 323 (323/0) | event.player.move.handled.look 6 (6/0) | event.player.move.handled.pos_look 527 (527/0) | packet.flying.nullplayer 0 | packet.flying.handled 2592 (0/2592) | packet.flying.asynchronous 2592 (0/2592) | packet.outgoing_position.untracked 0 | packet.sound.cancel 0 |
+19-10-31 14:35:02 [INFO] Logger started.
+19-10-31 14:35:02 [INFO] Logging system initialized.
+19-10-31 14:35:02 [INFO] Detected Minecraft version: 1.8.8
+19-10-31 14:35:17 [INFO] McAccess set to: 1.8.4-1.8.8 / Spigot-CB-1.8_R3
+19-10-31 14:35:17 [INFO] Added block-info for Minecraft 1.5 blocks.
+19-10-31 14:35:17 [INFO] Added block-info for Minecraft 1.6.1 blocks.
+19-10-31 14:35:17 [INFO] Added block-info for Minecraft 1.7.2 blocks.
+19-10-31 14:35:17 [INFO] Added block-info for Minecraft 1.8 blocks.
+19-10-31 14:35:17 [INFO] Inventory checks: FastConsume is available, disabled InstantEat.
+19-10-31 14:35:17 [INFO] Adding packet level hooks for ProtocolLib (MC 1.8.8)...
+19-10-31 14:35:17 [INFO] Available (and activated) packet level hooks: UseEntityAdapter | MovingFlying | OutgoingPosition | KeepAliveAdapter | SoundDistance
+19-10-31 14:35:17 [INFO] Version 3.13.7-RC-sMD5NET-b925 is enabled.
+19-10-31 14:35:24 [INFO] Post-enable running...
+19-10-31 14:35:24 [INFO] Post-enable finished.
+19-10-31 14:35:24 [INFO] Added hook: AllViolations(NCP) [1.0].
+19-10-31 14:35:24 [INFO] ---- Version information ----
+#### Server ####
+git-Spigot-db6de12-18fbb24 ~MC: 1.8.8~
+  detected: 1.8.8
+#### NoCheatPlus ####
+Plugin: 3.13.7-RC-sMD5NET-b925
+MCAccess: 1.8.4-1.8.8 / Spigot-CB-1.8_R3
+Features:
+  blocks: BlocksMC1_4 | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8
+  checks: FastConsume | Gutenberg | AttackFrequency | FlyingFrequency | KeepAliveFrequency
+  defaults: pvpKnockBackVelocity
+  packet-listeners: UseEntityAdapter | MovingFlying | OutgoingPosition | KeepAliveAdapter | SoundDistance
+Hooks: AllViolations~NCP~ 1.0
+#### Related Plugins ####
+ProtocolLib v4.2.0
+19-10-31 15:31:40 [INFO] Logger started.
+19-10-31 15:31:40 [INFO] Logging system initialized.
+19-10-31 15:31:40 [INFO] Detected Minecraft version: 1.8.8
+19-10-31 15:31:50 [INFO] McAccess set to: 1.8.4-1.8.8 / Spigot-CB-1.8_R3
+19-10-31 15:31:50 [INFO] Added block-info for Minecraft 1.5 blocks.
+19-10-31 15:31:50 [INFO] Added block-info for Minecraft 1.6.1 blocks.
+19-10-31 15:31:50 [INFO] Added block-info for Minecraft 1.7.2 blocks.
+19-10-31 15:31:50 [INFO] Added block-info for Minecraft 1.8 blocks.
+19-10-31 15:31:50 [INFO] Inventory checks: FastConsume is available, disabled InstantEat.
+19-10-31 15:31:51 [INFO] Adding packet level hooks for ProtocolLib (MC 1.8.8)...
+19-10-31 15:31:51 [INFO] Available (and activated) packet level hooks: UseEntityAdapter | MovingFlying | OutgoingPosition | KeepAliveAdapter | SoundDistance
+19-10-31 15:31:51 [INFO] Version 3.13.7-RC-sMD5NET-b925 is enabled.
+19-10-31 15:31:53 [INFO] Post-enable running...
+19-10-31 15:31:53 [INFO] Post-enable finished.
+19-10-31 15:31:53 [INFO] Added hook: AllViolations(NCP) [1.0].
+19-10-31 15:31:53 [INFO] ---- Version information ----
+#### Server ####
+git-Spigot-db6de12-18fbb24 ~MC: 1.8.8~
+  detected: 1.8.8
+#### NoCheatPlus ####
+Plugin: 3.13.7-RC-sMD5NET-b925
+MCAccess: 1.8.4-1.8.8 / Spigot-CB-1.8_R3
+Features:
+  blocks: BlocksMC1_4 | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8
+  checks: FastConsume | Gutenberg | AttackFrequency | FlyingFrequency | KeepAliveFrequency
+  defaults: pvpKnockBackVelocity
+  packet-listeners: UseEntityAdapter | MovingFlying | OutgoingPosition | KeepAliveAdapter | SoundDistance
+Hooks: AllViolations~NCP~ 1.0
+#### Related Plugins ####
+ProtocolLib v4.2.0
+19-10-31 17:16:15 [INFO] Logger started.
+19-10-31 17:16:15 [INFO] Logging system initialized.
+19-10-31 17:16:15 [INFO] Detected Minecraft version: 1.8.8
+19-10-31 17:16:30 [INFO] McAccess set to: 1.8.4-1.8.8 / Spigot-CB-1.8_R3
+19-10-31 17:16:30 [INFO] Added block-info for Minecraft 1.5 blocks.
+19-10-31 17:16:30 [INFO] Added block-info for Minecraft 1.6.1 blocks.
+19-10-31 17:16:30 [INFO] Added block-info for Minecraft 1.7.2 blocks.
+19-10-31 17:16:30 [INFO] Added block-info for Minecraft 1.8 blocks.
+19-10-31 17:16:31 [INFO] Inventory checks: FastConsume is available, disabled InstantEat.
+19-10-31 17:16:31 [INFO] Adding packet level hooks for ProtocolLib (MC 1.8.8)...
+19-10-31 17:16:31 [INFO] Available (and activated) packet level hooks: UseEntityAdapter | MovingFlying | OutgoingPosition | KeepAliveAdapter | SoundDistance
+19-10-31 17:16:31 [INFO] Version 3.13.7-RC-sMD5NET-b925 is enabled.
+19-10-31 17:16:34 [INFO] Post-enable running...
+19-10-31 17:16:34 [INFO] Post-enable finished.
+19-10-31 17:16:34 [INFO] Added hook: AllViolations(NCP) [1.0].
+19-10-31 17:16:34 [INFO] ---- Version information ----
+#### Server ####
+git-Spigot-db6de12-18fbb24 ~MC: 1.8.8~
+  detected: 1.8.8
+#### NoCheatPlus ####
+Plugin: 3.13.7-RC-sMD5NET-b925
+MCAccess: 1.8.4-1.8.8 / Spigot-CB-1.8_R3
+Features:
+  blocks: BlocksMC1_4 | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8
+  checks: FastConsume | Gutenberg | AttackFrequency | FlyingFrequency | KeepAliveFrequency
+  defaults: pvpKnockBackVelocity
+  packet-listeners: UseEntityAdapter | MovingFlying | OutgoingPosition | KeepAliveAdapter | SoundDistance
+Hooks: AllViolations~NCP~ 1.0
+#### Related Plugins ####
+ProtocolLib v4.2.0
+19-10-31 17:37:31 [INFO] Cores_Kinga failed SurvivalFly: tried to move: -0.74, 65.00, 39.28 -> -0.63, 65.00, 38.16, d=1.12 (permchecks+hbufuse+hspeed). VL 5.
+19-10-31 17:37:39 [INFO] Pfobos06 failed SurvivalFly: tried to move: 72.71, 75.17, -462.05 -> 72.50, 74.00, -462.50, d=1.27 (bunnyenv+permchecks+bunnyenv+hbufuse+vdistrel). VL 127.
+19-10-31 17:37:40 [INFO] Pfobos06 failed SurvivalFly: tried to move: 72.70, 74.00, -462.05 -> 72.50, 74.00, -462.50, d=0.50 (bunnyenv+permchecks+bunnyenv+hspeed). VL 412.
+19-10-31 18:07:24 [INFO] Pfobos06 failed SurvivalFly: tried to move: -335.32, 24.34, -483.48 -> -335.32, 24.19, -483.48, d=0.16 (data_missing+vdistrel). VL 70.
+19-10-31 18:07:25 [INFO] Pfobos06 failed SurvivalFly: tried to move: -335.21, 23.88, -483.47 -> -335.18, 23.65, -483.47, d=0.23 (data_missing+vdistrel). VL 116.
+19-11-01 08:19:30 [INFO] Pfobos06 failed Passable: moved into a block ([blocktype]) from 237.30, 9.95, -567.30 to 237.35, 10.14, -567.31 distance 0.20 . VL 10.
+19-11-01 08:19:40 [INFO] Pfobos06 failed Passable: moved into a block ([blocktype]) from 237.30, 9.95, -567.30 to 237.30, 10.14, -567.30 distance 0.19 . VL 47.
+19-11-01 08:19:40 [INFO] Pfobos06 failed Passable: moved into a block ([blocktype]) from 237.30, 9.95, -567.30 to 237.30, 10.45, -567.30 distance 0.49 . VL 50.
+19-11-01 08:27:28 [INFO] Pfobos06 failed SurvivalFly: tried to move: 1261.01, 93.00, -1223.32 -> 1261.11, 93.00, -1223.59, d=0.30 (bunnyenv+permchecks+bunnyenv+hbufuse+hspeed). VL 4.
+19-11-01 08:27:38 [INFO] Pfobos06 failed SurvivalFly: tried to move: 1252.59, 95.00, -1252.77 -> 1252.21, 94.92, -1252.86, d=0.40 (lostground_pyramid+ediblebunny+bunnyenv+permchecks+ediblebunny+bunnyenv+hbufuse+hspeed). VL 12.
+19-11-01 08:27:59 [INFO] Pfobos06 failed SurvivalFly: tried to move: 1257.19, 93.00, -1214.77 -> 1257.14, 93.00, -1215.03, d=0.26 (permchecks+hbufuse+hspeed). VL 1.
+19-11-01 11:28:35 [INFO] gammlerlps failed Passable: moved into a block ([blocktype]) from 19.30, 72.00, -130.27 to 19.30, 72.00, -129.97 distance 0.30 . VL 10.
+19-11-01 11:54:17 [INFO] gammlerlps failed Passable: moved into a block ([blocktype]) from -6.66, 65.00, -108.88 to -6.66, 64.94, -108.88 distance 0.06 . VL 10.
+19-11-01 12:01:47 [INFO] gammlerlps failed SurvivalFly: tried to move: 10.45, 65.00, -101.06 -> 10.19, 65.00, -101.16, d=0.28 (permchecks+hbufuse+hspeed). VL 5.
+19-11-01 12:40:25 [INFO] Logger started.
+19-11-01 12:40:25 [INFO] Logging system initialized.
+19-11-01 12:40:25 [INFO] Detected Minecraft version: 1.8.8
+19-11-01 12:42:51 [INFO] McAccess set to: 1.8.4-1.8.8 / Spigot-CB-1.8_R3
+19-11-01 12:42:51 [INFO] Added block-info for Minecraft 1.5 blocks.
+19-11-01 12:42:51 [INFO] Added block-info for Minecraft 1.6.1 blocks.
+19-11-01 12:42:51 [INFO] Added block-info for Minecraft 1.7.2 blocks.
+19-11-01 12:42:51 [INFO] Added block-info for Minecraft 1.8 blocks.
+19-11-01 12:42:51 [INFO] Inventory checks: FastConsume is available, disabled InstantEat.
+19-11-01 12:42:51 [INFO] Adding packet level hooks for ProtocolLib (MC 1.8.8)...
+19-11-01 12:42:51 [INFO] Available (and activated) packet level hooks: UseEntityAdapter | MovingFlying | OutgoingPosition | KeepAliveAdapter | SoundDistance
+19-11-01 12:42:51 [INFO] Version 3.13.7-RC-sMD5NET-b925 is enabled.
+19-11-01 12:43:04 [INFO] Post-enable running...
+19-11-01 12:43:04 [INFO] Post-enable finished.
+19-11-01 12:43:04 [INFO] Added hook: AllViolations(NCP) [1.0].
+19-11-01 12:43:04 [INFO] ---- Version information ----
+#### Server ####
+git-Spigot-db6de12-18fbb24 ~MC: 1.8.8~
+  detected: 1.8.8
+#### NoCheatPlus ####
+Plugin: 3.13.7-RC-sMD5NET-b925
+MCAccess: 1.8.4-1.8.8 / Spigot-CB-1.8_R3
+Features:
+  blocks: BlocksMC1_4 | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8
+  checks: FastConsume | Gutenberg | AttackFrequency | FlyingFrequency | KeepAliveFrequency
+  defaults: pvpKnockBackVelocity
+  packet-listeners: UseEntityAdapter | MovingFlying | OutgoingPosition | KeepAliveAdapter | SoundDistance
+Hooks: AllViolations~NCP~ 1.0
+#### Related Plugins ####
+ProtocolLib v4.2.0
+19-11-08 19:29:32 [INFO] Logger started.
+19-11-08 19:29:32 [INFO] Logging system initialized.
+19-11-08 19:29:32 [INFO] Detected Minecraft version: 1.8.8
+19-11-08 19:29:50 [INFO] McAccess set to: 1.8.4-1.8.8 / Spigot-CB-1.8_R3
+19-11-08 19:29:50 [INFO] Added block-info for Minecraft 1.5 blocks.
+19-11-08 19:29:50 [INFO] Added block-info for Minecraft 1.6.1 blocks.
+19-11-08 19:29:50 [INFO] Added block-info for Minecraft 1.7.2 blocks.
+19-11-08 19:29:50 [INFO] Added block-info for Minecraft 1.8 blocks.
+19-11-08 19:29:50 [INFO] Inventory checks: FastConsume is available, disabled InstantEat.
+19-11-08 19:29:50 [INFO] Adding packet level hooks for ProtocolLib (MC 1.8.8)...
+19-11-08 19:29:50 [INFO] Available (and activated) packet level hooks: UseEntityAdapter | MovingFlying | OutgoingPosition | KeepAliveAdapter | SoundDistance
+19-11-08 19:29:50 [INFO] Version 3.13.7-RC-sMD5NET-b925 is enabled.
+19-11-08 19:29:54 [INFO] Added hook: AllViolations(NCP) [1.0].
+19-11-08 19:29:54 [INFO] Post-enable running...
+19-11-08 19:29:54 [INFO] Post-enable finished.
+19-11-08 19:29:55 [INFO] ---- Version information ----
+#### Server ####
+git-Spigot-db6de12-18fbb24 ~MC: 1.8.8~
+  detected: 1.8.8
+#### NoCheatPlus ####
+Plugin: 3.13.7-RC-sMD5NET-b925
+MCAccess: 1.8.4-1.8.8 / Spigot-CB-1.8_R3
+Features:
+  blocks: BlocksMC1_4 | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8
+  checks: FastConsume | Gutenberg | AttackFrequency | FlyingFrequency | KeepAliveFrequency
+  defaults: pvpKnockBackVelocity
+  packet-listeners: UseEntityAdapter | MovingFlying | OutgoingPosition | KeepAliveAdapter | SoundDistance
+Hooks: AllViolations~NCP~ 1.0
+#### Related Plugins ####
+ProtocolLib v4.2.0
+19-11-08 19:47:51 [INFO] Caosflo2 failed SurvivalFly: tried to move: 89.16, 66.88, -60.47 -> 88.84, 66.88, -60.32, d=0.36 (ediblebunny+bunnyenv+permchecks+ediblebunny+bunnyenv+hbufuse+hspeed). VL 6.
+19-11-08 19:52:03 [INFO] ratolp failed SurvivalFly: tried to move: 65.29, 62.67, -440.13 -> 65.33, 62.96, -439.93, d=0.35 (bunnyenv+permchecks+bunnyenv+hspeed+swimup). VL 37.
+19-11-08 20:07:01 [INFO] ratolp failed SurvivalFly: tried to move: -47.83, 72.02, 86.55 -> -47.83, 72.42, 86.55, d=0.40 (vdistrel+lowjump+ychincfly). VL 123.
+19-11-08 20:25:07 [INFO] Jan_12 failed SurvivalFly: tried to move: -27.44, 65.00, 512.19 -> -27.21, 65.00, 512.05, d=0.27 (permchecks+hbufuse+hspeed). VL 5.
+19-11-08 20:25:21 [INFO] Jan_12 failed SurvivalFly: tried to move: -14.95, 65.48, 515.32 -> -15.23, 65.10, 515.37, d=0.47 (permchecks+hbufuse+hspeed+lowjump). VL 2.
+19-11-08 20:25:32 [INFO] Jan_12 failed SurvivalFly: tried to move: -18.46, 65.48, 514.21 -> -18.75, 65.10, 514.21, d=0.47 (permchecks+hbufuse+hspeed). VL 3.
+19-11-08 20:50:43 [INFO] leonluca12 failed Passable: moved into a block ([blocktype]) from -145.00, 71.11, -50.52 to -145.31, 70.77, -50.49 distance 0.46 . VL 10.
+19-11-08 20:50:54 [INFO] leonluca12 failed Passable: moved into a block ([blocktype]) from -144.75, 70.00, -50.65 to -145.05, 70.00, -50.78 distance 0.33 . VL 15.
+19-11-08 20:52:12 [INFO] leonluca12 failed SurvivalFly: tried to move: -123.78, 67.02, -49.83 -> -123.78, 67.42, -49.83, d=0.40 (vdistrel+ychincfly). VL 104.
+19-11-08 20:54:03 [INFO] leonluca12 failed Passable: moved into a block ([blocktype]) from 50.50, 65.00, -163.50 to 50.50, 64.80, -163.50 distance 0.20 . VL 10.
+19-11-09 12:57:29 [INFO] Logger started.
+19-11-09 12:57:29 [INFO] Logging system initialized.
+19-11-09 12:57:29 [INFO] Detected Minecraft version: 1.8.8
+19-11-09 12:57:44 [INFO] McAccess set to: 1.8.4-1.8.8 / Spigot-CB-1.8_R3
+19-11-09 12:57:44 [INFO] Added block-info for Minecraft 1.5 blocks.
+19-11-09 12:57:44 [INFO] Added block-info for Minecraft 1.6.1 blocks.
+19-11-09 12:57:44 [INFO] Added block-info for Minecraft 1.7.2 blocks.
+19-11-09 12:57:44 [INFO] Added block-info for Minecraft 1.8 blocks.
+19-11-09 12:57:45 [INFO] Inventory checks: FastConsume is available, disabled InstantEat.
+19-11-09 12:57:45 [INFO] Adding packet level hooks for ProtocolLib (MC 1.8.8)...
+19-11-09 12:57:45 [INFO] Available (and activated) packet level hooks: UseEntityAdapter | MovingFlying | OutgoingPosition | KeepAliveAdapter | SoundDistance
+19-11-09 12:57:45 [INFO] Version 3.13.7-RC-sMD5NET-b925 is enabled.
+19-11-09 12:57:48 [INFO] Post-enable running...
+19-11-09 12:57:48 [INFO] Post-enable finished.
+19-11-09 12:57:48 [INFO] Added hook: AllViolations(NCP) [1.0].
+19-11-09 12:57:48 [INFO] ---- Version information ----
+#### Server ####
+git-Spigot-db6de12-18fbb24 ~MC: 1.8.8~
+  detected: 1.8.8
+#### NoCheatPlus ####
+Plugin: 3.13.7-RC-sMD5NET-b925
+MCAccess: 1.8.4-1.8.8 / Spigot-CB-1.8_R3
+Features:
+  blocks: BlocksMC1_4 | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8
+  checks: FastConsume | Gutenberg | AttackFrequency | FlyingFrequency | KeepAliveFrequency
+  defaults: pvpKnockBackVelocity
+  packet-listeners: UseEntityAdapter | MovingFlying | OutgoingPosition | KeepAliveAdapter | SoundDistance
+Hooks: AllViolations~NCP~ 1.0
+#### Related Plugins ####
+ProtocolLib v4.2.0
+19-11-09 13:26:28 [INFO] gammlerlps failed SurvivalFly: tried to move: 22.43, 65.00, -98.17 -> 22.60, 65.00, -97.96, d=0.28 (permchecks+hbufuse+hspeed). VL 30.
+19-11-09 13:51:18 [INFO] gammlerlps failed SurvivalFly: tried to move: 18.01, 65.00, -89.09 -> 17.77, 65.00, -89.22, d=0.28 (permchecks+hbufuse+hspeed). VL 8.
+19-11-09 13:52:06 [INFO] gammlerlps failed SurvivalFly: tried to move: 14.78, 65.50, -93.21 -> 14.65, 65.12, -93.46, d=0.47 (permchecks+hbufuse+hspeed). VL 5.
+19-11-09 14:05:29 [INFO] gammlerlps failed FastBreak: tried to break blocks (SKULL) faster than possible. VL 5.
+19-11-09 14:05:34 [INFO] gammlerlps failed FastBreak: tried to break blocks (SKULL) faster than possible. VL 12.
+19-11-09 14:06:05 [INFO] gammlerlps failed FastBreak: tried to break blocks (SKULL) faster than possible. VL 19.
+19-11-09 14:06:13 [INFO] gammlerlps failed FastBreak: tried to break blocks (SKULL) faster than possible. VL 22.
+19-11-09 15:37:00 [INFO] leonluca12 failed Passable: moved into a block ([blocktype]) from -817.75, 67.00, -897.29 to -817.75, 66.94, -897.29 distance 0.06 . VL 10.
+19-11-09 15:37:05 [INFO] leonluca12 failed Passable: moved into a block ([blocktype]) from -817.66, 67.00, -897.38 to -817.66, 66.94, -897.38 distance 0.06 . VL 22.
+19-11-09 17:14:25 [INFO] gammlerlps failed MorePackets: sent too many moves (10 epsacc). VL 10.
+19-11-09 17:17:22 [INFO] gammlerlps failed SurvivalFly: tried to move: 3852.60, 117.47, 2410.08 -> 3852.60, 117.39, 2410.08, d=0.08 (dirty+ychdec+vaccdirty). VL 123.
+19-11-09 18:16:29 [INFO] gammlerlps failed SurvivalFly: tried to move: 28.34, 4.02, -108.30 -> 28.34, 4.42, -108.30, d=0.40 (vdistrel+lowjump+ychincfly). VL 121.
+19-11-09 18:17:20 [INFO] gammlerlps failed SurvivalFly: tried to move: 28.30, 43.02, -109.30 -> 28.30, 43.42, -109.30, d=0.40 (vdistrel+lowjump+ychincfly). VL 135.
+19-11-09 18:17:41 [INFO] gammlerlps failed SurvivalFly: tried to move: 28.40, 19.37, -110.41 -> 28.40, 19.22, -110.41, d=0.15 (sprintgrace+dirty+vaccdirty). VL 343.
+19-11-09 18:17:51 [INFO] gammlerlps failed SurvivalFly: tried to move: 28.43, 5.02, -110.30 -> 28.43, 5.42, -110.30, d=0.40 (vdistrel+lowjump+ychincfly). VL 305.
+19-11-09 18:18:06 [INFO] gammlerlps failed SurvivalFly: tried to move: 28.43, 36.02, -110.30 -> 28.43, 36.42, -110.30, d=0.40 (vdistrel+lowjump+ychincfly). VL 170.
+19-11-09 19:54:21 [INFO] Removed hook: AllViolations(NCP) [1.0].
+19-11-09 19:54:21 [FINE] | canceldead 0 | illegalitem 0 | boatsanywhere 0 | throwenderpearl 0 | fakeinvulnerable 0 | eggonentity 0 | event.player.move.handled 187999 (187999/0) | event.player.move.handled.pos 59250 (59250/0) | event.player.move.handled.look 21237 (21237/0) | event.player.move.handled.pos_look 106995 (106995/0) | packet.flying.nullplayer 0 | packet.flying.handled 369498 (0/369498) | packet.flying.asynchronous 369498 (0/369498) | packet.outgoing_position.untracked 24 (24/0) | packet.sound.cancel 0 |
+19-11-09 19:55:02 [INFO] Logger started.
+19-11-09 19:55:02 [INFO] Logging system initialized.
+19-11-09 19:55:02 [INFO] Detected Minecraft version: 1.8.8
+19-11-09 19:55:12 [INFO] McAccess set to: 1.8.4-1.8.8 / Spigot-CB-1.8_R3
+19-11-09 19:55:12 [INFO] Added block-info for Minecraft 1.5 blocks.
+19-11-09 19:55:12 [INFO] Added block-info for Minecraft 1.6.1 blocks.
+19-11-09 19:55:12 [INFO] Added block-info for Minecraft 1.7.2 blocks.
+19-11-09 19:55:12 [INFO] Added block-info for Minecraft 1.8 blocks.
+19-11-09 19:55:12 [INFO] Inventory checks: FastConsume is available, disabled InstantEat.
+19-11-09 19:55:12 [INFO] Adding packet level hooks for ProtocolLib (MC 1.8.8)...
+19-11-09 19:55:12 [INFO] Available (and activated) packet level hooks: UseEntityAdapter | MovingFlying | OutgoingPosition | KeepAliveAdapter | SoundDistance
+19-11-09 19:55:13 [INFO] Version 3.13.7-RC-sMD5NET-b925 is enabled.
+19-11-09 19:55:15 [INFO] Post-enable running...
+19-11-09 19:55:16 [INFO] Post-enable finished.
+19-11-09 19:55:16 [INFO] Added hook: AllViolations(NCP) [1.0].
+19-11-09 19:55:16 [INFO] ---- Version information ----
+#### Server ####
+git-Spigot-db6de12-18fbb24 ~MC: 1.8.8~
+  detected: 1.8.8
+#### NoCheatPlus ####
+Plugin: 3.13.7-RC-sMD5NET-b925
+MCAccess: 1.8.4-1.8.8 / Spigot-CB-1.8_R3
+Features:
+  blocks: BlocksMC1_4 | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8
+  checks: FastConsume | Gutenberg | AttackFrequency | FlyingFrequency | KeepAliveFrequency
+  defaults: pvpKnockBackVelocity
+  packet-listeners: UseEntityAdapter | MovingFlying | OutgoingPosition | KeepAliveAdapter | SoundDistance
+Hooks: AllViolations~NCP~ 1.0
+#### Related Plugins ####
+ProtocolLib v4.2.0
+19-11-10 09:10:19 [INFO] gammlerlps failed SurvivalFly: tried to move: 16.62, 65.00, -89.77 -> 16.43, 65.00, -89.97, d=0.28 (permchecks+hbufuse+hspeed). VL 14.
+19-11-10 09:10:31 [INFO] gammlerlps failed SurvivalFly: tried to move: 11.45, 65.00, -97.00 -> 11.30, 65.00, -96.75, d=0.29 (permchecks+hbufuse+hspeed). VL 4.
+19-11-10 09:20:10 [INFO] gammlerlps failed MorePackets: sent too many moves (10 epsacc). VL 10.
+19-11-10 09:20:12 [INFO] gammlerlps failed MorePackets: sent too many moves (22 epsacc). VL 22.
+19-11-10 09:20:15 [INFO] gammlerlps failed MorePackets: sent too many moves (13 epsacc). VL 13.
+19-11-10 14:17:08 [INFO] leonluca12 failed FastBreak: tried to break blocks (COBBLESTONE) faster than possible. VL 1.
+19-11-10 14:17:13 [INFO] leonluca12 failed FastBreak: tried to break blocks (COBBLESTONE) faster than possible. VL 1.
+19-11-10 15:16:23 [INFO] gammlerlps failed SurvivalFly: tried to move: 3.33, 65.75, -101.75 -> 3.05, 66.00, -101.80, d=0.38 (permchecks+hbufuse+hspeed). VL 15.
+19-11-10 15:17:01 [INFO] gammlerlps failed SurvivalFly: tried to move: 8.97, 65.00, -100.98 -> 9.25, 65.00, -100.97, d=0.28 (permchecks+hbufuse+hspeed). VL 1.
+19-11-10 15:24:36 [INFO] gammlerlps failed SurvivalFly: tried to move: 28.30, 42.02, -110.30 -> 28.30, 42.42, -110.30, d=0.40 (dirty+vdistrel+ychincfly). VL 101.
+19-11-10 15:25:10 [INFO] gammlerlps failed SurvivalFly: tried to move: 28.33, 46.02, -111.30 -> 28.33, 46.42, -111.30, d=0.40 (vdistrel+lowjump+ychincfly). VL 102.
+19-11-10 15:26:51 [INFO] gammlerlps failed SurvivalFly: tried to move: 34.30, 43.02, -105.30 -> 34.30, 43.42, -105.30, d=0.40 (vdistrel+lowjump+ychincfly). VL 122.
+19-11-10 15:28:19 [INFO] gammlerlps failed SurvivalFly: tried to move: 35.70, 14.02, -105.49 -> 35.70, 14.42, -105.49, d=0.40 (vdistrel+lowjump+ychincfly). VL 126.
+19-11-10 15:44:22 [INFO] Jan_12 failed SurvivalFly: tried to move: -14.63, 65.00, 511.84 -> -11.92, 65.00, 511.30, d=2.76 (permchecks+hspeed). VL 261.
+19-11-10 15:44:22 [INFO] Jan_12 failed SurvivalFly: tried to move: -14.63, 65.00, 511.84 -> -11.92, 65.00, 511.30, d=2.76 (permchecks+hspeed). VL 621.
+19-11-10 17:18:03 [INFO] Jan_12 failed SurvivalFly: tried to move: -0.21, 72.88, 3.35 -> -0.50, 72.88, 4.73, d=1.41 (permchecks+hspeed). VL 132.
+19-11-10 17:18:03 [INFO] Jan_12 failed SurvivalFly: tried to move: -0.21, 72.88, 3.35 -> -0.49, 72.88, 4.73, d=1.41 (permchecks+hspeed). VL 498.
+19-11-11 16:32:11 [INFO] gammlerlps failed SurvivalFly: tried to move: 11.96, 65.00, -98.34 -> 11.95, 65.00, -98.61, d=0.27 (permchecks+hbufuse+hspeed). VL 12.
+19-11-11 17:05:57 [INFO] gammlerlps failed SurvivalFly: tried to move: 25.73, 65.00, -96.96 -> 26.00, 65.00, -96.85, d=0.28 (permchecks+hbufuse+hspeed). VL 5.
+19-11-11 17:08:13 [INFO] gammlerlps failed SurvivalFly: tried to move: 25.32, 65.00, -99.03 -> 25.08, 65.00, -99.17, d=0.28 (permchecks+hbufuse+hspeed). VL 13.
+19-11-11 17:08:26 [INFO] gammlerlps failed SurvivalFly: tried to move: 24.13, 65.00, -97.46 -> 24.41, 65.00, -97.40, d=0.28 (permchecks+hbufuse+hspeed). VL 3.
+19-11-11 18:08:56 [INFO] gammlerlps failed Passable: moved into a block ([blocktype]) from -65.30, 65.08, -128.36 to -65.23, 64.99, -128.35 distance 0.12 . VL 10.
+19-11-11 19:15:34 [INFO] Jan_12 failed SurvivalFly: tried to move: -380.30, 35.33, 238.48 -> -380.30, 35.33, 238.48, d=0.00 (ychdec+maxphase). VL 51.
+19-11-12 14:20:20 [INFO] gammlerlps failed SurvivalFly: tried to move: 6.38, 103.77, -165.24 -> 6.16, 103.50, -164.78, d=0.58 (dirty+bunnyenv+permchecks+hvel+vaccdirty). VL 268.
+19-11-12 14:29:01 [INFO] Jan_12 failed Direction: tried to interact with a block out of their line of sight. VL 10.
+19-11-12 14:29:05 [INFO] Jan_12 failed Direction: tried to interact with a block out of their line of sight. VL 17.
+19-11-12 14:31:48 [INFO] Jan_12 failed Direction: tried to interact with a block out of their line of sight. VL 12.
+19-11-12 14:31:51 [INFO] Jan_12 failed Direction: tried to interact with a block out of their line of sight. VL 41.
+19-11-12 14:31:54 [INFO] Jan_12 failed Direction: tried to interact with a block out of their line of sight. VL 40.
+19-11-12 14:31:58 [INFO] Jan_12 failed Direction: tried to interact with a block out of their line of sight. VL 19.
+19-11-12 14:32:08 [INFO] Jan_12 failed Direction: tried to interact with a block out of their line of sight. VL 12.
+19-11-12 14:33:04 [INFO] Jan_12 failed FastClick: tried to move items in their inventory too quickly. VL 63.
+19-11-12 14:34:05 [INFO] Jan_12 failed Reach: exceeds block-interact distance (1). VL 5.
+19-11-12 14:34:07 [INFO] Jan_12 failed Reach: exceeds block-interact distance (0). VL 6.
+19-11-12 14:34:08 [INFO] Jan_12 failed Direction: tried to interact with a block out of their line of sight. VL 12.
+19-11-12 14:34:11 [INFO] Jan_12 failed Direction: tried to interact with a block out of their line of sight. VL 23.
+19-11-12 14:34:14 [INFO] Jan_12 failed Direction: tried to interact with a block out of their line of sight. VL 11.
+19-11-12 14:34:18 [INFO] Jan_12 failed Direction: tried to interact with a block out of their line of sight. VL 11.
+19-11-12 14:34:21 [INFO] Jan_12 failed Direction: tried to interact with a block out of their line of sight. VL 62.
+19-11-12 14:34:24 [INFO] Jan_12 failed Direction: tried to interact with a block out of their line of sight. VL 120.
+19-11-12 14:34:27 [INFO] Jan_12 failed Direction: tried to interact with a block out of their line of sight. VL 186.
+19-11-12 14:34:28 [INFO] Jan_12 failed Reach: exceeds block-interact distance (1). VL 5.
+19-11-12 14:34:30 [INFO] Jan_12 failed Reach: exceeds block-interact distance (1). VL 18.
+19-11-12 14:34:32 [INFO] Jan_12 failed Reach: exceeds block-interact distance (1). VL 39.
+19-11-12 14:34:34 [INFO] Jan_12 failed Reach: exceeds block-interact distance (1). VL 57.
+19-11-12 14:34:34 [INFO] Jan_12 failed Direction: tried to interact with a block out of their line of sight. VL 126.
+19-11-12 14:34:36 [INFO] Jan_12 failed Reach: exceeds block-interact distance (1). VL 42.
+19-11-12 14:34:38 [INFO] Jan_12 failed Reach: exceeds block-interact distance (1). VL 73.
+19-11-12 14:34:40 [INFO] Jan_12 failed Reach: exceeds block-interact distance (0). VL 97.
+19-11-12 14:34:40 [INFO] Jan_12 failed Direction: tried to interact with a block out of their line of sight. VL 72.
+19-11-12 14:34:42 [INFO] Jan_12 failed Reach: exceeds block-interact distance (1). VL 42.
+19-11-12 14:34:43 [INFO] Jan_12 failed Direction: tried to interact with a block out of their line of sight. VL 49.
+19-11-12 14:34:44 [INFO] Jan_12 failed Reach: exceeds block-interact distance (1). VL 54.
+19-11-12 14:34:46 [INFO] Jan_12 failed Direction: tried to interact with a block out of their line of sight. VL 25.
+19-11-12 14:34:46 [INFO] Jan_12 failed Reach: exceeds block-interact distance (0). VL 10.
+19-11-12 14:34:48 [INFO] Jan_12 failed Reach: exceeds block-interact distance (1). VL 9.
+19-11-12 14:34:50 [INFO] Jan_12 failed Reach: exceeds block-interact distance (1). VL 9.
+19-11-12 14:34:50 [INFO] Jan_12 failed Direction: tried to interact with a block out of their line of sight. VL 18.
+19-11-12 14:34:52 [INFO] Jan_12 failed Reach: exceeds block-interact distance (1). VL 10.
+19-11-12 14:34:53 [INFO] Jan_12 failed Direction: tried to interact with a block out of their line of sight. VL 104.
+19-11-12 14:34:54 [INFO] Jan_12 failed Reach: exceeds block-interact distance (1). VL 10.
+19-11-12 14:34:56 [INFO] Jan_12 failed Direction: tried to interact with a block out of their line of sight. VL 190.
+19-11-12 14:34:56 [INFO] Jan_12 failed Reach: exceeds block-interact distance (1). VL 15.
+19-11-12 14:35:00 [INFO] Jan_12 failed Direction: tried to interact with a block out of their line of sight. VL 13.
+19-11-12 14:35:02 [INFO] Jan_12 failed Reach: exceeds block-interact distance (0). VL 5.
+19-11-12 14:35:04 [INFO] Jan_12 failed Direction: tried to interact with a block out of their line of sight. VL 11.
+19-11-12 14:35:08 [INFO] Jan_12 failed Direction: tried to interact with a block out of their line of sight. VL 14.
+19-11-12 14:35:11 [INFO] Jan_12 failed Direction: tried to interact with a block out of their line of sight. VL 19.
+19-11-12 14:35:13 [INFO] Jan_12 failed Reach: exceeds block-interact distance (0). VL 5.
+19-11-12 14:35:15 [INFO] Jan_12 failed Reach: exceeds block-interact distance (0). VL 11.
+19-11-12 14:35:17 [INFO] Jan_12 failed Reach: exceeds block-interact distance (0). VL 18.
+19-11-12 14:35:17 [INFO] Jan_12 failed Direction: tried to interact with a block out of their line of sight. VL 31.
+19-11-12 14:35:20 [INFO] Jan_12 failed Direction: tried to interact with a block out of their line of sight. VL 24.
+19-11-12 14:35:23 [INFO] Jan_12 failed Reach: exceeds block-interact distance (1). VL 6.
+19-11-12 14:35:25 [INFO] Jan_12 failed Reach: exceeds block-interact distance (1). VL 12.
+19-11-12 14:35:25 [INFO] Jan_12 failed Direction: tried to interact with a block out of their line of sight. VL 12.
+19-11-12 14:35:28 [INFO] Jan_12 failed Direction: tried to interact with a block out of their line of sight. VL 41.
+19-11-12 14:35:31 [INFO] Jan_12 failed Direction: tried to interact with a block out of their line of sight. VL 13.
+19-11-12 14:35:37 [INFO] Jan_12 failed Passable: moved into a block ([blocktype]) from -142.83, 55.02, -22.67 to -142.83, 54.94, -22.63 distance 0.09 . VL 11.
+19-11-12 14:35:50 [INFO] Jan_12 failed SurvivalFly: tried to move: -137.57, 58.00, -52.50 -> -137.33, 58.00, -52.61, d=0.27 (permchecks+hbufuse+hspeed). VL 8.
+19-11-12 14:37:16 [INFO] gammlerlps failed Passable: moved into a block ([blocktype]) from -16.36, 65.00, -107.34 to -16.36, 64.92, -107.34 distance 0.08 . VL 10.
+19-11-12 14:39:40 [INFO] gammlerlps failed Passable: moved into a block ([blocktype]) from -16.51, 65.00, -104.98 to -16.53, 65.00, -105.03 distance 0.05 . VL 10.
+19-11-12 14:44:52 [INFO] Jan_12 failed Passable: moved into a block ([blocktype]) from -97.00, 65.00, 42.00 to -97.05, 65.00, 42.12 distance 0.13 . VL 10.
+19-11-12 14:44:58 [INFO] Jan_12 failed Passable: moved into a block ([blocktype]) from -99.00, 65.00, 42.00 to -99.04, 65.00, 42.09 distance 0.10 . VL 17.
+19-11-12 14:45:05 [INFO] Jan_12 failed Passable: moved into a block ([blocktype]) from -101.00, 65.00, 42.00 to -101.01, 65.00, 42.02 distance 0.02 . VL 19.
+19-11-12 14:45:10 [INFO] Jan_12 failed Passable: moved into a block ([blocktype]) from -102.00, 65.00, 42.00 to -102.09, 65.00, 41.97 distance 0.10 . VL 27.
+19-11-12 14:45:29 [INFO] Jan_12 failed Passable: moved into a block ([blocktype]) from -102.00, 65.00, 42.00 to -102.01, 65.00, 42.10 distance 0.10 . VL 32.
+19-11-12 14:45:44 [INFO] Jan_12 failed Passable: moved into a block ([blocktype]) from -102.00, 65.00, 42.10 to -102.00, 65.00, 42.17 distance 0.07 . VL 38.
+19-11-12 14:45:49 [INFO] Jan_12 failed Passable: moved into a block ([blocktype]) from -103.00, 65.00, 42.00 to -103.00, 65.00, 42.10 distance 0.10 . VL 44.
+19-11-12 14:45:50 [INFO] Jan_12 failed Passable: moved into a block ([blocktype]) from -103.00, 65.00, 42.00 to -103.00, 65.00, 42.06 distance 0.06 . VL 51.
+19-11-12 14:46:17 [INFO] Jan_12 failed Passable: moved into a block ([blocktype]) from -101.00, 65.00, 42.00 to -101.08, 65.00, 42.06 distance 0.10 . VL 47.
+19-11-12 14:46:17 [INFO] Jan_12 failed Passable: moved into a block ([blocktype]) from -101.00, 65.00, 42.00 to -101.05, 65.00, 42.02 distance 0.06 . VL 50.
+19-11-12 14:46:26 [INFO] Jan_12 failed Passable: moved into a block ([blocktype]) from -103.00, 65.00, 42.00 to -103.02, 65.00, 42.09 distance 0.10 . VL 50.
+19-11-12 14:49:53 [INFO] Jan_12 failed Direction: tried to hit an entity out of line of sight. VL 5.
+19-11-12 15:02:14 [INFO] Jan_12 failed Color: sent colored chat message. VL 1.
+19-11-12 15:09:01 [INFO] Jan_12 failed SurvivalFly: tried to move: 242.01, 69.00, 211.26 -> 241.94, 69.00, 211.27, d=0.07 (permchecks+hbufuse+hspeed). VL 22.
+19-11-12 15:09:05 [INFO] Jan_12 failed SurvivalFly: tried to move: 242.01, 69.00, 211.26 -> 242.01, 69.00, 211.29, d=0.04 (permchecks+hspeed). VL 102.
+19-11-12 15:09:14 [INFO] Jan_12 failed SurvivalFly: tried to move: 243.42, 69.00, 212.64 -> 243.43, 69.42, 212.65, d=0.42 (permchecks+hspeed). VL 63.
+19-11-12 15:09:35 [INFO] Jan_12 failed SurvivalFly: tried to move: 233.17, 70.02, 207.74 -> 233.08, 69.79, 207.82, d=0.26 (permchecks+hbufuse+hspeed). VL 5.
+19-11-12 15:09:40 [INFO] Jan_12 failed SurvivalFly: tried to move: 233.41, 69.00, 207.53 -> 233.39, 68.77, 207.47, d=0.24 (permchecks+hspeed+data_reset+vdistrel). VL 126.
+19-11-12 15:15:33 [INFO] Jan_12 failed SurvivalFly: tried to move: 272.79, 79.02, 147.17 -> 272.79, 80.00, 147.17, d=0.98 (vdistrel). VL 112.
+19-11-12 18:19:37 [INFO] gammlerlps failed Passable: moved into a block ([blocktype]) from 6.00, 65.00, -95.27 to 6.03, 65.00, -95.17 distance 0.10 . VL 10.
+19-11-12 19:30:18 [INFO] gammlerlps failed SurvivalFly: tried to move: 19.59, 65.50, -83.73 -> 19.69, 65.50, -83.47, d=0.28 (permchecks+hbufuse+hspeed). VL 4.
+19-11-12 19:32:05 [INFO] gammlerlps failed SurvivalFly: tried to move: 24.17, 65.00, -89.44 -> 24.44, 65.00, -89.47, d=0.28 (permchecks+hbufuse+hspeed). VL 12.
+19-11-12 19:32:19 [INFO] gammlerlps failed SurvivalFly: tried to move: 21.71, 62.13, -95.55 -> 21.43, 62.13, -95.55, d=0.28 (ediblebunny+permchecks+ediblebunny+hbufuse+hspeed). VL 6.
+19-11-12 19:33:49 [INFO] gammlerlps failed SurvivalFly: tried to move: 24.79, 65.00, -88.27 -> 25.03, 65.00, -88.38, d=0.26 (permchecks+hbufuse+hspeed). VL 13.
+19-11-12 20:05:13 [INFO] Jan_12 failed SurvivalFly: tried to move: -141.80, 70.00, -135.19 -> -141.80, 71.00, -135.11, d=1.00 (vdistrel). VL 115.
+19-11-12 20:05:14 [INFO] Jan_12 failed SurvivalFly: tried to move: -141.80, 70.00, -135.19 -> -141.80, 71.00, -135.19, d=1.00 (vdistrel). VL 402.
+19-11-12 20:05:41 [INFO] Jan_12 failed SurvivalFly: tried to move: -141.83, 70.00, -134.55 -> -141.83, 71.00, -134.55, d=1.00 (vdistrel). VL 253.
+19-11-12 20:05:41 [INFO] Jan_12 failed SurvivalFly: tried to move: -141.83, 70.00, -134.55 -> -141.83, 71.00, -134.55, d=1.00 (vdistrel). VL 426.
+19-11-12 20:05:46 [INFO] Jan_12 failed SurvivalFly: tried to move: -142.19, 70.00, -134.03 -> -142.19, 71.00, -134.03, d=1.00 (vdistrel). VL 943.
+19-11-13 13:13:19 [INFO] Jan_12 failed SurvivalFly: tried to move: -18.50, 67.00, 510.50 -> -18.50, 66.51, 510.50, d=0.49 (data_reset+vdistrel). VL 105.
+19-11-13 13:30:57 [INFO] Jan_12 failed SurvivalFly: tried to move: -29.70, 52.10, 539.30 -> -29.70, 52.54, 539.17, d=0.46 (vdistrel+ychincfly+vacc+maxphase). VL 227.
+19-11-13 13:58:50 [INFO] Jan_12 failed SurvivalFly: tried to move: -18.50, 67.00, 510.50 -> -18.50, 66.51, 510.50, d=0.49 (data_reset+vdistrel). VL 78.
+19-11-13 13:58:51 [INFO] Jan_12 failed SurvivalFly: tried to move: -18.50, 67.00, 510.50 -> -18.50, 66.51, 510.50, d=0.49 (data_reset+vdistrel). VL 131.
+19-11-13 13:59:13 [INFO] Jan_12 failed SurvivalFly: tried to move: 0.50, 65.71, -113.24 -> 0.51, 65.61, -113.16, d=0.12 (vacc). VL 4.
+19-11-13 13:59:16 [INFO] Jan_12 failed SurvivalFly: tried to move: 0.87, 65.00, -111.39 -> 0.50, 65.00, -113.10, d=1.76 (permchecks+hbufuse+hspeed). VL 131.
+19-11-13 14:01:37 [INFO] Jan_12 failed SurvivalFly: tried to move: -19.79, 65.00, 524.48 -> -19.79, 66.00, 524.48, d=1.00 (vdistrel). VL 115.
+19-11-13 14:02:12 [INFO] Jan_12 failed Passable: moved into a block ([blocktype]) from -19.29, 64.00, 527.03 to -19.07, 64.00, 526.59 distance 0.49 . VL 11.
+19-11-13 14:27:34 [INFO] gammlerlps failed SurvivalFly: tried to move: 9.60, 55.00, -87.27 -> 9.45, 55.00, -87.03, d=0.28 (permchecks+hbufuse+hspeed). VL 3.
+19-11-13 14:28:20 [INFO] gammlerlps failed SurvivalFly: tried to move: 9.62, 55.00, -92.50 -> 9.53, 55.00, -92.76, d=0.27 (permchecks+hbufuse+hspeed). VL 5.
+19-11-13 14:31:01 [INFO] gammlerlps failed SurvivalFly: tried to move: 26.00, 66.25, -102.63 -> 26.00, 66.25, -102.63, d=0.00 (vdistrel+ychdec). VL 6.
+19-11-13 16:34:39 [INFO] gammlerlps failed SurvivalFly: tried to move: 29.36, 71.87, 1.95 -> 29.36, 71.87, 1.95, d=0.00 (dirty+vdistrel+ychdec). VL 109.
+19-11-13 16:36:09 [INFO] JasperForbes failed Direction: tried to interact with a block out of their line of sight. VL 11.
+19-11-13 16:36:09 [INFO] JasperForbes failed Speed: interacts too fast. VL 200.
+19-11-13 16:36:38 [INFO] gammlerlps failed SurvivalFly: tried to move: 19.91, 65.00, -84.33 -> 19.90, 65.50, -84.27, d=0.50 (vdistrel). VL 21.
+19-11-13 17:51:31 [INFO] JasperForbes failed SurvivalFly: tried to move: 18.12, 65.00, 52.84 -> 19.50, 67.00, 42.50, d=10.62 (permchecks+hbufuse+hspeed+vdistrel+vdistsb). VL 1072.
+19-11-13 17:54:13 [INFO] JasperForbes failed Direction: tried to interact with a block out of their line of sight. VL 10.
+19-11-13 17:54:13 [INFO] JasperForbes failed Speed: interacts too fast. VL 201.
+19-11-13 17:54:13 [INFO] JasperForbes failed Speed: interacts too fast. VL 1001.
+19-11-13 17:54:13 [INFO] (CONSOLE) Kicked JasperForbes : You interacted too fast!
+19-11-13 18:34:22 [INFO] Jan_12 failed SurvivalFly: tried to move: -133.00, 66.00, 36.00 -> -133.00, 66.00, 36.00, d=0.00 (maxphase). VL 88.
+19-11-13 18:34:22 [INFO] Jan_12 failed SurvivalFly: tried to move: -133.00, 66.00, 36.00 -> -133.00, 66.00, 36.00, d=0.00 (maxphase). VL 103.
+19-11-13 18:34:54 [INFO] Jan_12 failed SurvivalFly: tried to move: -23.41, 64.02, 514.30 -> -23.41, 64.42, 514.30, d=0.40 (vdistrel+lowjump+ychincfly). VL 61.
+19-11-13 18:46:16 [INFO] Jan_12 failed Angle: tried to hit multiple entities at the same time. VL 268.
+19-11-13 18:46:23 [INFO] Jan_12 failed Angle: tried to hit multiple entities at the same time. VL 896.
+19-11-13 18:46:30 [INFO] Jan_12 failed Angle: tried to hit multiple entities at the same time. VL 835.
+19-11-13 18:46:36 [INFO] Jan_12 failed Angle: tried to hit multiple entities at the same time. VL 769.
+19-11-13 18:47:30 [INFO] Jan_12 failed Angle: tried to hit multiple entities at the same time. VL 628.
+19-11-13 18:47:37 [INFO] Jan_12 failed Angle: tried to hit multiple entities at the same time. VL 574.
+19-11-13 18:47:47 [INFO] Jan_12 failed Angle: tried to hit multiple entities at the same time. VL 537.
+19-11-13 18:48:16 [INFO] Jan_12 failed Angle: tried to hit multiple entities at the same time. VL 327.
+19-11-13 18:48:21 [INFO] Jan_12 failed Angle: tried to hit multiple entities at the same time. VL 366.
+19-11-13 18:48:27 [INFO] Jan_12 failed Angle: tried to hit multiple entities at the same time. VL 575.
+19-11-13 18:48:37 [INFO] Jan_12 failed Angle: tried to hit multiple entities at the same time. VL 537.
+19-11-13 18:48:43 [INFO] Jan_12 failed Angle: tried to hit multiple entities at the same time. VL 481.
+19-11-13 18:49:00 [INFO] Jan_12 failed Angle: tried to hit multiple entities at the same time. VL 453.
+19-11-13 18:49:32 [INFO] Jan_12 failed Passable: moved into a block ([blocktype]) from -351.51, 65.00, -1405.77 to -351.54, 64.94, -1405.76 distance 0.07 . VL 10.
+19-11-13 18:49:37 [INFO] Jan_12 failed Passable: moved into a block ([blocktype]) from -351.43, 65.00, -1405.87 to -351.43, 64.94, -1405.87 distance 0.06 . VL 29.
+19-11-13 18:49:43 [INFO] Jan_12 failed Angle: tried to hit multiple entities at the same time. VL 390.
+19-11-13 18:52:52 [INFO] Jan_12 failed MorePackets: sent too many moves (10 epsacc). VL 10.
+19-11-14 13:35:41 [INFO] gammlerlps failed SurvivalFly: tried to move: 28.59, 55.02, -112.70 -> 28.59, 55.42, -112.70, d=0.40 (vdistrel+ychincfly+vacc). VL 145.
+19-11-14 15:21:36 [INFO] Tim200806 failed SurvivalFly: tried to move: 1.65, 65.00, 41.12 -> 1.60, 65.00, 41.59, d=0.47 (bunnyenv+permchecks+bunnyenv+hbufuse+hspeed). VL 39.
+19-11-14 15:22:46 [INFO] Tim200806 failed AutoSign: failed autosign with edit_time. VL 11.
+19-11-14 15:23:34 [INFO] Tim200806 failed SurvivalFly: tried to move: 51.05, 65.15, -98.07 -> 50.87, 65.39, -98.03, d=0.30 (vdistrel). VL 56.
+19-11-14 15:23:36 [INFO] Tim200806 failed SurvivalFly: tried to move: 52.50, 65.15, -98.30 -> 52.41, 65.39, -98.28, d=0.26 (vdistrel). VL 106.
+19-11-14 15:25:05 [INFO] Tim200806 failed SurvivalFly: tried to move: 24.45, 66.25, -78.08 -> 24.18, 66.25, -78.03, d=0.27 (permchecks+hbufuse+hspeed+ychdec). VL 5.
+19-11-14 15:26:24 [INFO] Tim200806 failed SurvivalFly: tried to move: 64.58, 65.15, -92.06 -> 64.42, 65.39, -92.24, d=0.35 (vdistrel). VL 47.
+19-11-14 15:27:38 [INFO] Tim200806 failed SurvivalFly: tried to move: 44.21, 65.50, -102.65 -> 44.65, 65.50, -102.48, d=0.47 (bunnyenv+permchecks+bunnyenv+hbufuse+hspeed). VL 42.
+19-11-14 15:31:18 [INFO] Tim200806 failed SurvivalFly: tried to move: 67.32, 65.15, -99.74 -> 67.14, 65.39, -99.68, d=0.30 (vdistrel). VL 60.
+19-11-14 15:35:00 [INFO] Tim200806 failed Passable: moved into a block ([blocktype]) from 60.69, 65.00, -92.05 to 60.69, 64.92, -92.05 distance 0.08 . VL 10.
+19-11-14 15:36:17 [INFO] Tim200806 failed SurvivalFly: tried to move: 74.17, 75.00, -456.81 -> 74.40, 75.00, -456.60, d=0.31 (permchecks+hbufuse+maxphase). VL 46.
+19-11-14 15:36:19 [INFO] Tim200806 failed Passable: moved into a block ([blocktype]) from 76.52, 72.00, -454.56 to 76.72, 71.92, -454.37 distance 0.29 . VL 12.
+19-11-14 15:36:25 [INFO] Tim200806 failed Passable: moved into a block ([blocktype]) from 71.66, 65.00, -444.64 to 71.63, 64.92, -444.36 distance 0.29 . VL 31.
+19-11-14 15:36:26 [INFO] Tim200806 failed Passable: moved into a block ([blocktype]) from 71.66, 65.00, -444.64 to 71.66, 64.77, -444.62 distance 0.23 . VL 50.
+19-11-14 15:36:27 [INFO] Tim200806 failed SurvivalFly: tried to move: 71.64, 65.33, -444.19 -> 71.64, 65.35, -443.99, d=0.20 (vdistrel). VL 12.
+19-11-14 15:36:59 [INFO] Tim200806 failed SurvivalFly: tried to move: 41.39, 70.17, -311.27 -> 41.25, 70.40, -310.92, d=0.44 (permchecks+hbufuse+vdistrel+vdistsb). VL 13.
+19-11-14 16:39:27 [INFO] gammlerlps failed SurvivalFly: tried to move: 31.42, 58.02, -104.70 -> 31.42, 58.42, -104.70, d=0.40 (vdistrel+lowjump+ychincfly). VL 121.
+19-11-14 18:31:50 [INFO] Logger started.
+19-11-14 18:31:50 [INFO] Logging system initialized.
+19-11-14 18:31:50 [INFO] Detected Minecraft version: 1.8.8
+19-11-14 18:31:59 [INFO] McAccess set to: 1.8.4-1.8.8 / Spigot-CB-1.8_R3
+19-11-14 18:31:59 [INFO] Added block-info for Minecraft 1.5 blocks.
+19-11-14 18:31:59 [INFO] Added block-info for Minecraft 1.6.1 blocks.
+19-11-14 18:31:59 [INFO] Added block-info for Minecraft 1.7.2 blocks.
+19-11-14 18:31:59 [INFO] Added block-info for Minecraft 1.8 blocks.
+19-11-14 18:31:59 [INFO] Inventory checks: FastConsume is available, disabled InstantEat.
+19-11-14 18:31:59 [INFO] Adding packet level hooks for ProtocolLib (MC 1.8.8)...
+19-11-14 18:31:59 [INFO] Available (and activated) packet level hooks: UseEntityAdapter | MovingFlying | OutgoingPosition | KeepAliveAdapter | SoundDistance
+19-11-14 18:31:59 [INFO] Version 3.13.7-RC-sMD5NET-b925 is enabled.
+19-11-14 18:32:06 [INFO] Post-enable running...
+19-11-14 18:32:06 [INFO] Post-enable finished.
+19-11-14 18:32:06 [INFO] Added hook: AllViolations(NCP) [1.0].
+19-11-14 18:32:06 [INFO] ---- Version information ----
+#### Server ####
+git-Spigot-db6de12-18fbb24 ~MC: 1.8.8~
+  detected: 1.8.8
+#### NoCheatPlus ####
+Plugin: 3.13.7-RC-sMD5NET-b925
+MCAccess: 1.8.4-1.8.8 / Spigot-CB-1.8_R3
+Features:
+  blocks: BlocksMC1_4 | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8
+  checks: FastConsume | Gutenberg | AttackFrequency | FlyingFrequency | KeepAliveFrequency
+  defaults: pvpKnockBackVelocity
+  packet-listeners: UseEntityAdapter | MovingFlying | OutgoingPosition | KeepAliveAdapter | SoundDistance
+Hooks: AllViolations~NCP~ 1.0
+#### Related Plugins ####
+ProtocolLib v4.2.0
+19-11-15 13:46:27 [INFO] gammlerlps failed SurvivalFly: tried to move: 30.71, 3.20, -129.05 -> 30.73, 3.12, -129.18, d=0.15 (dirty+ychdec+vaccdirty). VL 147.
+19-11-15 15:32:34 [INFO] gammlerlps failed SurvivalFly: tried to move: 19.88, 65.00, -82.63 -> 19.89, 65.50, -82.76, d=0.52 (vdistrel). VL 30.
+19-11-15 16:44:42 [INFO] gammlerlps failed SurvivalFly: tried to move: 35.33, 12.21, -103.49 -> 35.32, 12.24, -103.49, d=0.03 (dirty+vdistrel+vaccdirty). VL 367.
+19-11-15 16:53:43 [INFO] gammlerlps failed Passable: moved into a block ([blocktype]) from -6.22, 65.00, -108.22 to -6.24, 64.94, -108.28 distance 0.10 . VL 10.
+19-11-15 16:53:48 [INFO] gammlerlps failed Passable: moved into a block ([blocktype]) from -6.56, 65.00, -108.49 to -6.56, 64.94, -108.49 distance 0.06 . VL 32.
+19-11-16 11:22:20 [INFO] luca21092007 failed FastBreak: tried to break blocks (COBBLESTONE) faster than possible. VL 32.
+19-11-16 11:22:27 [INFO] luca21092007 failed FastBreak: tried to break blocks (WOODEN_DOOR) faster than possible. VL 36.
+19-11-16 11:22:34 [INFO] luca21092007 failed FastBreak: tried to break blocks (WOODEN_DOOR) faster than possible. VL 39.
+19-11-16 11:22:43 [INFO] luca21092007 failed FastBreak: tried to break blocks (COBBLESTONE) faster than possible. VL 55.
+19-11-16 11:45:34 [INFO] gammlerlps failed Passable: moved into a block ([blocktype]) from -16.46, 65.00, -107.32 to -16.46, 64.92, -107.30 distance 0.08 . VL 10.
+19-11-16 11:45:45 [INFO] gammlerlps failed Passable: moved into a block ([blocktype]) from -16.60, 65.00, -107.34 to -16.54, 64.92, -107.53 distance 0.22 . VL 11.
+19-11-16 11:59:44 [INFO] gammlerlps failed SurvivalFly: tried to move: 4046.21, 69.10, 2560.80 -> 4046.55, 68.83, 2560.85, d=0.43 (dirty+permchecks+hvel+vaccdirty). VL 201.
+19-11-16 22:51:13 [INFO] Phantom0210 failed SurvivalFly: tried to move: 0.50, 72.00, 0.50 -> 10.00, 72.00, 0.50, d=9.50 (permchecks+hspeed). VL 921.
+19-11-16 22:51:28 [INFO] Phantom0210 failed Passable: moved into a block ([blocktype]) from 0.50, 72.00, 0.50 to 0.50, 71.71, 0.50 distance 0.29 . VL 10.
+19-11-16 22:53:07 [INFO] Phantom0210 failed Passable: moved into a block ([blocktype]) from 76.64, 74.00, -469.42 to 76.64, 73.92, -469.46 distance 0.09 . VL 12.
+19-11-16 22:53:10 [INFO] Phantom0210 failed FastBreak: tried to break blocks (SAND) faster than possible. VL 2.
+19-11-16 22:53:12 [INFO] Phantom0210 failed Passable: moved into a block ([blocktype]) from 76.64, 72.00, -469.42 to 76.64, 71.92, -469.42 distance 0.08 . VL 28.
+19-11-16 22:53:24 [INFO] Phantom0210 failed Passable: moved into a block ([blocktype]) from 76.64, 70.00, -469.42 to 76.64, 69.92, -469.42 distance 0.08 . VL 40.
+19-11-16 22:53:24 [INFO] Phantom0210 failed FastBreak: tried to break blocks (SANDSTONE) faster than possible. VL 5.
+19-11-16 22:53:27 [INFO] Phantom0210 failed Passable: moved into a block ([blocktype]) from 76.64, 69.00, -469.42 to 76.64, 68.92, -469.42 distance 0.08 . VL 50.
+19-11-17 07:39:31 [INFO] Phantom0210 failed SurvivalFly: tried to move: -0.96, 66.25, 35.28 -> -0.98, 66.17, 35.85, d=0.58 (bunnyenv+permchecks+bunnyenv+hspeed+data_reset). VL 115.
+19-11-17 07:39:31 [INFO] Phantom0210 failed MorePackets: sent too many moves (10 epsacc). VL 10.
+19-11-17 10:56:45 [INFO] gammlerlps failed SurvivalFly: tried to move: 221.75, 107.20, -77.16 -> 221.64, 107.12, -77.24, d=0.15 (dirty+ychdec+vaccdirty). VL 104.
+19-11-17 10:59:14 [INFO] gammlerlps failed SurvivalFly: tried to move: 189.59, 105.20, -133.35 -> 189.62, 105.12, -133.34, d=0.08 (dirty+ychdec+vaccdirty). VL 123.
+19-11-17 11:30:22 [INFO] gammlerlps failed SurvivalFly: tried to move: 107.98, 68.66, -5.30 -> 108.36, 68.67, -5.00, d=0.49 (dirty+bunnyenv+permchecks+hvel+vaccdirty). VL 107.
+19-11-18 05:09:14 [INFO] Logger started.
+19-11-18 05:09:14 [INFO] Logging system initialized.
+19-11-18 05:09:14 [INFO] Detected Minecraft version: 1.8.8
+19-11-18 05:09:29 [INFO] McAccess set to: 1.8.4-1.8.8 / Spigot-CB-1.8_R3
+19-11-18 05:09:29 [INFO] Added block-info for Minecraft 1.5 blocks.
+19-11-18 05:09:29 [INFO] Added block-info for Minecraft 1.6.1 blocks.
+19-11-18 05:09:29 [INFO] Added block-info for Minecraft 1.7.2 blocks.
+19-11-18 05:09:29 [INFO] Added block-info for Minecraft 1.8 blocks.
+19-11-18 05:09:29 [INFO] Inventory checks: FastConsume is available, disabled InstantEat.
+19-11-18 05:09:29 [INFO] Adding packet level hooks for ProtocolLib (MC 1.8.8)...
+19-11-18 05:09:29 [INFO] Available (and activated) packet level hooks: UseEntityAdapter | MovingFlying | OutgoingPosition | KeepAliveAdapter | SoundDistance
+19-11-18 05:09:29 [INFO] Version 3.13.7-RC-sMD5NET-b925 is enabled.
+19-11-18 05:09:32 [INFO] Post-enable running...
+19-11-18 05:09:33 [INFO] Post-enable finished.
+19-11-18 05:09:33 [INFO] Added hook: AllViolations(NCP) [1.0].
+19-11-18 05:09:33 [INFO] ---- Version information ----
+#### Server ####
+git-Spigot-db6de12-18fbb24 ~MC: 1.8.8~
+  detected: 1.8.8
+#### NoCheatPlus ####
+Plugin: 3.13.7-RC-sMD5NET-b925
+MCAccess: 1.8.4-1.8.8 / Spigot-CB-1.8_R3
+Features:
+  blocks: BlocksMC1_4 | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8
+  checks: FastConsume | Gutenberg | AttackFrequency | FlyingFrequency | KeepAliveFrequency
+  defaults: pvpKnockBackVelocity
+  packet-listeners: UseEntityAdapter | MovingFlying | OutgoingPosition | KeepAliveAdapter | SoundDistance
+Hooks: AllViolations~NCP~ 1.0
+#### Related Plugins ####
+ProtocolLib v4.2.0
+19-11-18 16:28:03 [INFO] gammlerlps failed SurvivalFly: tried to move: 224.30, 106.20, -0.31 -> 224.30, 106.12, -0.30, d=0.08 (dirty+ychdec+vaccdirty). VL 150.
+19-11-18 16:31:40 [INFO] gammlerlps failed SurvivalFly: tried to move: 22.45, 108.20, -19.44 -> 22.67, 107.97, -19.37, d=0.33 (data_reset+vdistrel). VL 113.
+19-11-18 17:17:02 [INFO] gammlerlps failed SurvivalFly: tried to move: 92.20, 71.05, -4.38 -> 92.20, 71.00, -4.38, d=0.05 (dirty+vdistrel). VL 109.
+19-11-18 17:17:18 [INFO] gammlerlps failed SurvivalFly: tried to move: 94.10, 72.20, 3.59 -> 94.00, 72.12, 3.44, d=0.20 (dirty+ychdec+vaccdirty). VL 167.
+19-11-19 14:16:18 [INFO] gammlerlps failed MorePackets: sent too many moves (10 epsacc). VL 10.
+19-11-19 14:34:48 [INFO] Logger started.
+19-11-19 14:34:48 [INFO] Logging system initialized.
+19-11-19 14:34:48 [INFO] Detected Minecraft version: 1.8.8
+19-11-19 14:35:03 [INFO] McAccess set to: 1.8.4-1.8.8 / Spigot-CB-1.8_R3
+19-11-19 14:35:03 [INFO] Added block-info for Minecraft 1.5 blocks.
+19-11-19 14:35:03 [INFO] Added block-info for Minecraft 1.6.1 blocks.
+19-11-19 14:35:03 [INFO] Added block-info for Minecraft 1.7.2 blocks.
+19-11-19 14:35:03 [INFO] Added block-info for Minecraft 1.8 blocks.
+19-11-19 14:35:03 [INFO] Inventory checks: FastConsume is available, disabled InstantEat.
+19-11-19 14:35:03 [INFO] Adding packet level hooks for ProtocolLib (MC 1.8.8)...
+19-11-19 14:35:03 [INFO] Available (and activated) packet level hooks: UseEntityAdapter | MovingFlying | OutgoingPosition | KeepAliveAdapter | SoundDistance
+19-11-19 14:35:03 [INFO] Version 3.13.7-RC-sMD5NET-b925 is enabled.
+19-11-19 14:35:10 [INFO] Added hook: AllViolations(NCP) [1.0].
+19-11-19 14:35:10 [INFO] Post-enable running...
+19-11-19 14:35:11 [INFO] Post-enable finished.
+19-11-19 14:35:12 [INFO] ---- Version information ----
+#### Server ####
+git-Spigot-db6de12-18fbb24 ~MC: 1.8.8~
+  detected: 1.8.8
+#### NoCheatPlus ####
+Plugin: 3.13.7-RC-sMD5NET-b925
+MCAccess: 1.8.4-1.8.8 / Spigot-CB-1.8_R3
+Features:
+  blocks: BlocksMC1_4 | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8
+  checks: FastConsume | Gutenberg | AttackFrequency | FlyingFrequency | KeepAliveFrequency
+  defaults: pvpKnockBackVelocity
+  packet-listeners: UseEntityAdapter | MovingFlying | OutgoingPosition | KeepAliveAdapter | SoundDistance
+Hooks: AllViolations~NCP~ 1.0
+#### Related Plugins ####
+ProtocolLib v4.2.0
+19-11-19 15:12:19 [INFO] Logger started.
+19-11-19 15:12:19 [INFO] Logging system initialized.
+19-11-19 15:12:19 [INFO] Detected Minecraft version: 1.8.8
+19-11-19 15:12:22 [INFO] McAccess set to: 1.8.4-1.8.8 / Spigot-CB-1.8_R3
+19-11-19 15:12:22 [INFO] Added block-info for Minecraft 1.5 blocks.
+19-11-19 15:12:22 [INFO] Added block-info for Minecraft 1.6.1 blocks.
+19-11-19 15:12:22 [INFO] Added block-info for Minecraft 1.7.2 blocks.
+19-11-19 15:12:22 [INFO] Added block-info for Minecraft 1.8 blocks.
+19-11-19 15:12:22 [INFO] Inventory checks: FastConsume is available, disabled InstantEat.
+19-11-19 15:12:22 [INFO] Adding packet level hooks for ProtocolLib (MC 1.8.8)...
+19-11-19 15:12:22 [INFO] Available (and activated) packet level hooks: UseEntityAdapter | MovingFlying | OutgoingPosition | KeepAliveAdapter | SoundDistance
+19-11-19 15:12:22 [INFO] Version 3.13.7-RC-sMD5NET-b925 is enabled.
+19-11-19 15:12:23 [INFO] Post-enable running...
+19-11-19 15:12:23 [INFO] Post-enable finished.
+19-11-19 15:12:23 [INFO] Added hook: AllViolations(NCP) [1.0].
+19-11-19 15:12:23 [INFO] ---- Version information ----
+#### Server ####
+git-Spigot-db6de12-18fbb24 ~MC: 1.8.8~
+  detected: 1.8.8
+#### NoCheatPlus ####
+Plugin: 3.13.7-RC-sMD5NET-b925
+MCAccess: 1.8.4-1.8.8 / Spigot-CB-1.8_R3
+Features:
+  blocks: BlocksMC1_4 | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8
+  checks: FastConsume | Gutenberg | AttackFrequency | FlyingFrequency | KeepAliveFrequency
+  defaults: pvpKnockBackVelocity
+  packet-listeners: UseEntityAdapter | MovingFlying | OutgoingPosition | KeepAliveAdapter | SoundDistance
+Hooks: AllViolations~NCP~ 1.0
+#### Related Plugins ####
+ProtocolLib v4.2.0

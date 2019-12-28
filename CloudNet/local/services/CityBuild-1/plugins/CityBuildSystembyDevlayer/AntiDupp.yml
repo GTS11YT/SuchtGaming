@@ -1,0 +1,38 @@
+Info: Die Zahl vor dem / steht für die Item oder Block Id und die Zahl nach dem / für die Data.
+DuppCheck: false
+JoinDuppCheckInv/Ec: false
+AntiDupp:
+  medium:
+  - 42/0
+  - 41/0
+  - 57/0
+  - 133/0
+  high:
+  - 397/0
+  - 397/1
+  - 397/2
+  - 397/3
+  - 397/4
+  - 138/0
+  - 399/0
+  extreme:
+  - 122/0
+  - 166/0
+  - 383/50
+  - 383/51
+  - 383/55
+  - 383/57
+  - 383/58
+  - 383/62
+  - 383/66
+  - 383/68
+  - 383/94
+  infinitely:
+  - 383/120
+  - 52/0
+  banned:
+  - 137/0
+BlockLocs: []
+DuppLocs:
+  loc: {}
+Whitelist: []

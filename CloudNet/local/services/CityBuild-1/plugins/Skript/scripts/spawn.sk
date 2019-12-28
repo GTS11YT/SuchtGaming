@@ -1,0 +1,14 @@
+options:
+	prefix: &e•&6● SuchtGaming &8|&7
+command /setspawn:
+	permission:	joinsystem.setspawn
+	permission message: {@prefix} &cDu hast keine Rechte dafür!
+	trigger:
+		set {suchtgaming.cb1spawn} to player's location
+		send "&e•&6● SuchtGaming &8|&7 §eDu hast den Spawn gesetzt!" to player
+command /spawn:
+	trigger:
+		teleport player to {suchtgaming.cb1spawn}
+		send "&e•&6● SuchtGaming &8|&7 §eDu wurdest zum Spawn teleportiert!" to player
+on join:
+	teleport player to {suchtgaming.cb1spawn}

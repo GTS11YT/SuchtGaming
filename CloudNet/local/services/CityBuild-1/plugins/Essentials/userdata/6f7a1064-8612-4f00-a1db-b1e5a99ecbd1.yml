@@ -1,0 +1,30 @@
+money: '0.0'
+lastAccountName: luca21092007
+timestamps:
+  login: 1577375620132
+  logout: 1577380985154
+  lastteleport: 1577367494317
+ipAddress: 37.4.254.201
+logoutlocation:
+  world: PlotWorld
+  x: -137.78473546429925
+  y: 65.0
+  z: -69.06080604371009
+  yaw: 189.44945
+  pitch: 7.949994
+lastlocation:
+  world: PlotWorld
+  x: 1.3799450727538036
+  y: 72.0
+  z: 1.1557039030291671
+  yaw: 59.86374
+  pitch: 20.137115
+homes:
+  home:
+    world: world_nether
+    x: 430.4057232278007
+    y: 48.0
+    z: -823.03275417167
+    yaw: -352.7185
+    pitch: 28.500008
+godmode: false

@@ -1,0 +1,59 @@
+#GunGame+ v 1.1 by gimife
+#
+# Config file
+#debug Level, default: 3. 
+#Use value from 0 to 9, 9 being the highest debug Level.
+#Recommended for normal use: 0-4
+config_version: "2.2.1"
+messages:
+# Set this to false if you want to disable the plugin
+  plugin_enabled: true
+  plugin_prefix: '&e•&6● GunGame &8|&7 '
+  set_motd: true
+  motd: '&aJOIN'
+  motd_full: '&cFULL'
+  join_message: '%prefix%Willkommen auf &eGunGame&7!'
+  enter_spawn_during_combat: '%prefix%&cDu darfst dich hier nicht schlagen!'
+  kill_message: '%prefix%Du hast &e%player%&7 getötet&8!'
+  death_by_player: '%prefix%Du wurdest getötet von &e%player%!'
+  death_message: '%prefix%Gestorben!'
+  safezone: '%prefix%&cDu darfst dich hier nicht schlagen!'
+  combat_log: '%prefix%&e%player% &7während des Kampfes haben sie ihre verbindung getrennt und verloren &e25 Punkte &7!'
+  restart_msg: '%prefix%Der Server startet in &e%time% &7sekunde(n) neu!'
+  combat_log_enable: '%prefix%Du bist nun im Kampf&7.'
+  combat_log_disable: '%prefix%Du bist nun nicht mehr im Kampf!'
+  combat_log_finished: '&aDu bist nun nicht mehr im Kampf!'
+#MySQL login.
+mysql:
+# Set this to true if you have configured your mysql login.
+  enabled: true
+  host: 127.0.0.1
+  port: 3306
+  database: GunGame
+  username: SuchtGaming
+  password: ''
+#Rating options
+Rating:
+  points:
+    #Points will be added
+    points_on_kill: 10
+    #Points will be removed
+    points_on_death: 5
+scoreboard:
+  #First Line: Scoreboard Title
+  - '&f&lGunGame'
+  - ' '
+  - 'Level:'
+  - '&6%level%'
+  - '  '
+  - 'Ranking:'
+  - '&a%ranking%'
+  - '   '
+  - 'Kills:'
+  - '&e%kills%'
+  - '    '
+  - 'Map:'
+  - '&d404'
+  - '     '
+  - 'Level Record:'
+  - '&c%maxlevel%'

@@ -1,0 +1,27 @@
+{
+  "config": {
+    "prefix": "&e•&6● Sucht&aCloud &8┃ &7",
+    "excludedOnlyProxyWalkableGroups": [],
+    "excludedGroups": [],
+    "bungeeFallbackConfigurations": [
+      {
+        "targetGroup": "Proxy",
+        "defaultFallbackTask": "Lobby",
+        "fallbacks": [
+          {
+            "priority": 1,
+            "task": "Lobby",
+            "permission": null
+          }
+        ]
+      }
+    ],
+    "messages": {
+      "command-hub-success-connect": "&e•&6● SuchtGaming &8┃ &7Sie haben &aerfolgreich &7eine Verbindung zu &6%server% &7hergestellt.",
+      "command-hub-already-in-hub": "&e•&6● SuchtGaming &8┃ &7Du bist &cbereits &7zur &6Lobby &7verbunden!",
+      "command-hub-no-server-found": "&e•&6● SuchtGaming &8┃ &7Es konnte &ckeine &7verbindung zur &6Lobby &7hergestellt werden!",
+      "server-join-cancel-because-only-proxy": "&e•&6● SuchtGaming &8┃ &cSie müssen eine Verbindung von einem ursprünglichen Proxyserver herstellen!"
+    },
+    "properties": {}
+  }
+}

@@ -1,0 +1,5 @@
+on join:
+	set join message to "&e•&6● SuchtGaming &8|&7 &e%player% &7hat &6CityBuild 1 &abetreten&7!"
+
+on quit:
+	set leave message to "&e•&6● SuchtGaming &8|&7 &e%player% &7hat &6CityBuild 1 &cverlassen&7!"

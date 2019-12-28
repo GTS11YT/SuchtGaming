@@ -1,0 +1,29 @@
+money: '1000.0'
+lastAccountName: ColinM999
+timestamps:
+  login: 1575042540595
+  lastteleport: 1575047009846
+  logout: 1575047175925
+ipAddress: 77.64.145.186
+lastlocation:
+  world: world
+  x: 71.12433673352426
+  y: 63.0
+  z: -853.9154912892633
+  yaw: 302.0935
+  pitch: 22.970278
+homes:
+  home:
+    world: world
+    x: 12.403520436043049
+    y: 16.0
+    z: -961.3000000119209
+    yaw: -291.2683
+    pitch: 24.864626
+logoutlocation:
+  world: world
+  x: 67.92841104664706
+  y: 63.0
+  z: -854.2252754427734
+  yaw: 65.79416
+  pitch: 23.215145

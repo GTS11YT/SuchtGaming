@@ -1,0 +1,13 @@
+money: '2000.0'
+lastAccountName: TrapClient
+timestamps:
+  login: 1573624645994
+  logout: 1573624745038
+ipAddress: 88.130.154.61
+logoutlocation:
+  world: PlotWorld
+  x: -21.731154451981343
+  y: 65.0
+  z: 513.3488042678632
+  yaw: 21.300032
+  pitch: 43.650024

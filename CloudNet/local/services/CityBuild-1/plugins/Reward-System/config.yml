@@ -1,0 +1,5 @@
+prefix: '&7[&5MysteryChest&7]'
+broadcast: true
+rewardCommands:
+- chest addchest %player% normal 1
+- tellraw %player% ["",{"text":"§7[§5MysteryChest§7] §7Du hast eine §7Normale §aKiste §7erhalten!"}]

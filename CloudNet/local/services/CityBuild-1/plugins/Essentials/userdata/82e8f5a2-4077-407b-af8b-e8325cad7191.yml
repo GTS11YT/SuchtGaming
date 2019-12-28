@@ -1,0 +1,21 @@
+money: '1000.0'
+lastAccountName: Lystx
+timestamps:
+  login: 1571948610154
+  lastteleport: 1571948658145
+  logout: 1571948666678
+ipAddress: 89.0.191.148
+lastlocation:
+  world: PlotWorld
+  x: 3.961278499988741
+  y: 72.0
+  z: -2.2697468960522613
+  yaw: 211.81586
+  pitch: 17.509163
+logoutlocation:
+  world: world
+  x: 78.63609488765593
+  y: 75.0
+  z: -461.342891758075
+  yaw: 356.6996
+  pitch: 0.31497574

@@ -1,0 +1,7 @@
+#========================#
+#	 Command Aliases     #
+#========================#
+
+#The following makes it so when you type /exampleAlias, you run /alias instead!
+#You can create these ingame with /alias or right here in the config!
+exampleAlias: alias

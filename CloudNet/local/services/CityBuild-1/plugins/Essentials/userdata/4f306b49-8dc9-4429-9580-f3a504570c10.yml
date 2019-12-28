@@ -1,0 +1,30 @@
+money: '59480.00665'
+lastAccountName: shadow_fighter04
+timestamps:
+  login: 1577187227688
+  lastteleport: 1573571701181
+  logout: 1577187501267
+ipAddress: 84.172.154.117
+lastlocation:
+  world: world
+  x: 67.27255138239836
+  y: 75.0
+  z: -456.40569764546814
+  yaw: 27.149567
+  pitch: 13.522542
+logoutlocation:
+  world: PlotWorld
+  x: -0.2968432634723574
+  y: 72.125
+  z: 7.172949723987632
+  yaw: 229.21378
+  pitch: 41.287125
+afk: false
+homes:
+  home:
+    world: world
+    x: -367.64520349232805
+    y: 8.0
+    z: 310.31882721028524
+    yaw: 88.95712
+    pitch: 29.099993

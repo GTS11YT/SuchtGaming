@@ -1,0 +1,5 @@
+Messages:
+  Prefix: "&d•&5● Friends &8|&7"
+  FriendQuit: "%PREFIX% &3%PLAYER% &7ist nun &coffline!"
+  FriendJoin: "%PREFIX% &3%PLAYER% &7ist nun &aonline!"
+  FriendChatFormat: "%PREFIX% &3%PLAYER% &c>> &f%MESSAGE%"

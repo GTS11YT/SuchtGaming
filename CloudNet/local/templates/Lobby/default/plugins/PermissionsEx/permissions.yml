@@ -1,0 +1,379 @@
+groups:
+  default:
+    options:
+      default: true
+      prefix: '&7Spieler &8|&7 '
+    permissions:
+    - suchtgaming.rang.spieler
+    - plots.plot.2
+    - plots.visit.shared
+    - plots.visit.other
+    - essentials.sethome
+    - essentials.warps.*
+    - essentials.home
+    - plots.info
+    - essentials.msg
+    - essentials.tpa
+    - ChestShop.shop.* 
+    - essentials.tpaccept
+    - clan.use
+    - ChestShop.shop.create.*
+    - ChestShop.shop.sell
+    - ChestShop.shop.buy
+    - essentials.balance.others
+    - essentials.balance
+    - essentials.pay
+    - chestcommands.open.*
+    - plots.merge.*
+    - ChestShop.shop.*
+    - essentials.delhome
+    - essentials.warp.*
+    - essentials.warp
+    - essentials.enderchest
+    - essentials.motd
+    - crazyauctions.access
+    - crazyauctions.view
+    - crazyauctions.sell.16
+    - crazyauctions.bid.100
+    - crazyauctions.sell
+    - crazyauctions.bid
+    - dkbans.onlinetime
+    - dkbans.onlinetime.other
+    - essentials.balance
+    - essentials.signs.use.*
+    - System.Viewarmor
+    - Friends.Use
+    - BungeeSigns.use
+    - essentials.realname
+    - essentials.ignore
+    - plotme.admin.home.other
+    - dkcoins.coins.pay
+    - plots.claim
+    - System.Meldung
+    - plots.auto
+    - plots.set.flag.pvp.deny
+    - plots.set.flag.pvp.allow
+    - plots.delete
+    - plots.visit
+    - System.Rand.Bruchsteinstufe
+    - System.Rand.Netherziegelstufe
+    - System.Rand.Fackel
+    - plots.home
+    - plots.kick
+    - plots.middle
+    - plots.trust
+    - plots.add
+    - plots.trust.everyone
+    - plots.deny
+    - plots.deny.everyone
+    - plots.remove
+    - plots.flag.list
+    - plots.set.flag
+    - plots.flag
+    - plots.flag.info
+    - plots.set.flag.pvp.*
+    - plots.set.alias
+    - plots.set.home
+    - plots.clear
+    - plots.use
+    - plots.chat
+    - plots.toggle.chat
+    - plots.set.biome
+    - plots.untrust
+    - plots.undeny
+    - plots.list
+    - plots.list.mine
+    - plots.list.shared
+    - plots.list.all
+    - plots.merge
+    - dkbans.report
+    - dkbans.report.reason.hacking
+    - dkbans.report.reason.werbung
+    - dkbans.report.reason.beleidigung
+    - dkbans.report.reason.bugusing
+    - dkbans.report.reason.teaming
+    - -essentials.mail
+  Freund:
+    options:
+      prefix: '&aFreund &8|&a '
+    permissions:
+    - System.Sign
+    - System.Schild.Bunt
+    - System.Status
+    - bedwars.premium
+    - -rang.default
+    - plots.plot.3
+    - suchtgaming.rang.freund
+    inheritance:
+    - default
+  Premium:
+    options:
+      prefix: '&6Premium &8|&6 '
+    permissions:
+    - essentials.joinfullserver
+    - essentials.msg.color
+    - essentials.chat.color
+    - essentials.nick
+    - System.GrieferBoost
+    - -suchtgaming.rang.default
+    - System.Premium.Bypass
+    - plots.plot.3
+    - System.FreeKiste.Premium
+    - suchtgaming.rang.premium
+    - bedwars.premium
+    inheritance:
+    - default
+  Emerald:
+    options:
+      prefix: '&2Emerald &8|&2 '
+    permissions:
+    - suchtgaming.rang.emerald
+    - System.Sign
+    - plots.plot.4
+    - System.Schild.Bunt
+    - System.Status
+    inheritance:
+    - Premium
+  Gold:
+    options:
+      prefix: '&6Gold &8|&6 '
+    permissions:
+    - suchtgaming.rang.gold
+    - System.PlayerHolo.Create
+    - System.Amboss.Bunt
+    - System.Skin
+    - essentials.workbench
+    - plots.plot.5
+    inheritance:
+    - Emerald
+  Diamond:
+    options:
+      prefix: '&3Diamond &8|&3 '
+    permissions:
+    - suchtgaming.rang.diamond
+    - System.Kopf
+    - dkbans.joinme
+    - plots.plot.6
+    - System.FreeKiste.Griefer
+    - System.Chat.Bunt
+    inheritance:
+    - Gold
+  Supreme:
+    options:
+      prefix: '&dSupreme &8|&d '
+    permissions:
+    - suchtgaming.rang.supreme
+    - System.Premium
+    - plots.plot.7
+    - System.Leuchten
+    - System.Antibot
+    inheritance:
+    - Diamond
+  Deluxe:
+    options:
+      prefix: '&eDeluxe &8|&e '
+    permissions:
+    - suchtgaming.rang.deluxe
+    - System.Rand.*
+    - -suchtgaming.rang.supreme
+    - bedwars.start
+    - bedwars.forcemap
+    - System.Antibot
+    - plots.plot.8
+    inheritance:
+    - Supreme
+  Youtuber:
+    options:
+      prefix: '&5Youtuber &8|&5 '
+    permissions:
+    - -suchtgaming.rang.deluxe
+    - suchtgaming.rang.youtuber
+    - lobby.shop.all
+    - lobby.fly
+    - essentials.fly
+    - essentials.vanish
+    - plots.plot.9
+    - lobby.team
+    inheritance:
+    - Deluxe
+  T-Supporter:
+    options:
+      prefix: '&eTest-Supporter &8|&e '
+    permissions:
+    - suchtgaming.rang.t-sup
+    - essentials.tptoggle
+    - essentials.tpdeny
+    - essentials.tpahere
+    - System.Feuerwerk
+    - essentials.tp
+    - essentials.tpo
+    - essentials.god
+    - lobby.fly
+    - lobby.team
+    - lobby.shop.all
+    - essentials.invsee
+    - System.Antibot
+    - suchtgaming.rang.t-sup
+    - System.ClearChat.See.Bypass
+    - plotme.admin.bypassdeny
+    - essentials.kick
+    - wartung.bypass
+    - plotme.admin.bypassdeny
+    - antilaby.bypass
+    - essentials.feed
+    - essentials.heal
+    - essentials.heal.cooldown.bypass
+    - essentials.fly
+    - suchtgaming.teamserver.join
+    - dkbans.kick
+    - dkbans.teamchat.send
+    - dkbans.team
+    inheritance:
+    - Deluxe
+  Builder:
+    options:
+      prefix: '&aBuilder &8|&a '
+    permissions:
+    - suchtgaming.rang.builder
+    - essentials.tptoggle
+    - essentials.tpdeny
+    - essentials.tpahere
+    - System.Feuerwerk
+    - essentials.god
+    - essentials.invsee
+    - System.Antibot
+    - suchtgaming.rang.builder
+    - essentials.heal
+    - essentials.heal.cooldown.bypass
+    - System.ClearChat.See.Bypass
+    - plotme.admin.bypassdeny
+    - essentials.kick
+    - wartung.bypass
+    - plotme.admin.bypassdeny
+    - essentials.ban.notify
+    - antilaby.bypass
+    - essentials.feed
+    - essentials.fly
+    - essentials.mute.notify
+    - dkbans.kick
+    - essentials.mute
+    - essentials.mute.offline
+    - dkbans.teamchat.send
+    - wartung.bypass
+    - dkbans.team
+    inheritance:
+    - Supporter
+  Supporter:
+    options:
+      prefix: '&eSupporter &8|&e '
+    permissions:
+    - essentials.tptoggle
+    - essentials.tpdeny
+    - lobby.team
+    - essentials.tpahere
+    - System.Feuerwerk
+    - vh.hide
+    - essentials.god
+    - lobby.shop.all
+    - dkbans.bainfo
+    - essentials.tp
+    - essentials.tphere
+    - essentials.tpo
+    - essentials.speed
+    - essentials.speed.walk
+    - essentials.speed.fly
+    - essentials.invsee
+    - essentials.heal
+    - essentials.heal.cooldown.bypass
+    - System.Antibot
+    - lobby.fly
+    - SlotZ.FullJoin
+    - suchtgaming.rang.supporter
+    - System.ClearChat.See.Bypass
+    - plotme.admin.bypassdeny
+    - suchtgaming.teamserver.join
+    - essentials.kick
+    - wartung.bypass
+    - dkbans.jumpto
+    - -suchtgaming.rang.deluxe
+    - plotme.admin.bypassdeny
+    - essentials.ban.notify
+    - antilaby.bypass
+    - essentials.feed
+    - essentials.fly
+    - essentials.mute.notify
+    - dkbans.kick
+    - dkbans.joinme
+    - essentials.mute
+    - essentials.mute.offline
+    - dkbans.teamchat.send
+    - lobby.vanish
+    - wartung.bypass
+    - dkbans.history
+    - dkbans.playerinfo
+    - dkbans.team
+    inheritance:
+    - Deluxe
+  Moderator:
+    options:
+      prefix: '&6Moderator &8|&6 '
+    permissions:
+    - essentials.tptoggle
+    - System.StartKick.Bypass
+    - System.LuckyBlock.Use
+    - System.LuckyBlock.Place
+    - suchtgaming.rang.moderator
+    - dkbans.ban
+    - dkbans.report.receive
+    - dkbans.ban.reason.hacking
+    - dkbans.ban.reason.bugusing
+    - dkbans.ban.reason.drohung
+    - essentials.tp
+    - essentials.tphere
+    - essentials.tpo
+    - dbans.ban.reason.randalismus
+    - dkbans.ban.reason.werbung
+    - essentials.vanish
+    - essentials.invsee.modify
+    - essentials.enderchest.modify
+    - essentials.gamemode
+    - dkbans.ipinfo
+    - dkbans.unban
+    - dkbans.ban.reason.beleidigung
+    - dkbans.ban.reason.verhalten
+    - dkbans.ban.reason.ban-umgehung
+    - dkbans.ban.reason.altaccount
+    inheritance:
+    - Supporter
+  Developer:
+    options:
+      prefix: '&bDeveloper &8|&b '
+    permissions:
+    - suchtgaming.rang.developer
+    inheritance:
+    - Moderator
+  Content:
+    options:
+      prefix: '&bContent &8|&b '
+    permissions:
+    - suchtgaming.rang.content
+    - essentials.tp
+    - essentials.tphere
+    - essentials.tpo
+    - essentials.tpohere
+    inheritance:
+    - Moderator
+  Admin:
+    options:
+      prefix: '&4Admin &8|&4 '
+    permissions:
+    - '-suchtgaming.rang.owner'
+    - '-essentials.mail'
+    - '*'
+  Owner:
+    options:
+      prefix: '&4Owner &8|&4 '
+    permissions:
+    - '-essentials.mail'
+    - '*'
+schema-version: 1

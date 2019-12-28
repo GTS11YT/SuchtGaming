@@ -1,0 +1,7 @@
+npc-data:
+  npc-0:
+    cooldown: 0
+    right-click-commands:
+    - '[player] friend'
+    left-click-commands: []
+    price: 0

@@ -1,0 +1,554 @@
+prefix: '&6•&e● Bedwars &8|&7 '
+builder: SuchtGaming Bauteam
+mode: 2x2
+minPlayers: 2
+bronzeSpawnRate: 0
+ironSpawnRate: 10
+goldSpawnRate: 30
+shopType: VILLAGER
+cloudnet: false
+mysql:
+  host: 127.0.0.1
+  dataBase: Bedwars
+  user: SuchtGaming
+  password: ''
+teams:
+- Blau
+- Rot
+Blau:
+  colorCode: '&9'
+  color: BLUE
+Rot:
+  colorCode: '&c'
+  color: RED
+Grün:
+  colorCode: '&a'
+  color: GREEN
+Gelb:
+  colorCode: '&e'
+  color: YELLOW
+tabList:
+- Owner
+- Admin
+- Developer
+- Content
+- Moderator
+- Supporter
+- Builder
+- T-Supporter
+- Youtuber
+- Deluxe
+- Supreme
+- Diamond
+- Gold
+- Emerald
+- Premium
+- Spieler
+Owner:
+  prefix: '&4Owner &8| &4'
+  suffix: '&f'
+  display: '&4Owner &8| &4'
+  tagId: 9994
+  permission: suchtgaming.rang.owner
+Admin:
+  prefix: '&4Admin &8| &4'
+  suffix: '&f'
+  display: '&4Admin &8| &4'
+  tagId: 9985
+  permission: suchtgaming.rang.admin
+Developer:
+  prefix: '&bDev &8| &b'
+  suffix: '&f'
+  display: '&bDev &8| &b'
+  tagId: 9986
+  permission: suchtgaming.rang.developer
+Content:
+  prefix: '&bContent &8| &b'
+  suffix: '&f'
+  display: '&bContent &8| &b'
+  tagId: 9987
+  permission: suchtgaming.rang.content
+Moderator:
+  prefix: '&6Mod &8| &6'
+  suffix: '&f'
+  display: '&6Mod &8| &6'
+  tagId: 9988
+  permission: suchtgaming.rang.moderator
+Supporter:
+  prefix: '&eSup &8| &e'
+  suffix: '&f'
+  display: '&eSup &8| &e'
+  tagId: 9989
+  permission: suchtgaming.rang.supporter
+Builder:
+  prefix: '&2Builder &8| &2'
+  suffix: '&f'
+  display: '&2Builder &8| &2'
+  tagId: 9990
+  permission: suchtgaming.rang.builder
+T-Supporter:
+  prefix: '&eT-Sup &8| &e'
+  suffix: '&f'
+  display: '&eT-Sup &8| &e'
+  tagId: 9991
+  permission: suchtgaming.rang.t-sup
+Youtuber:
+  prefix: '&5YT &8| &5'
+  suffix: '&f'
+  display: '&5YT &8| &5'
+  tagId: 9992
+  permission: suchtgaming.rang.youtuber
+Deluxe:
+  prefix: '&eDeluxe &8| &e'
+  suffix: '&f'
+  display: '&eDeluxe &8| &e'
+  tagId: 9993
+  permission: suchtgaming.rang.deluxe
+Supreme:
+  prefix: '&dSupreme &8| &d'
+  suffix: '&f'
+  display: '&dSupreme &8| &d'
+  tagId: 9994
+  permission: suchtgaming.rang.supreme
+Diamond:
+  prefix: '&3Diamond &8| &3'
+  suffix: '&f'
+  display: '&3Diamond &8| &3'
+  tagId: 9995
+  permission: suchtgaming.rang.diamond
+Gold:
+  prefix: '&6Gold &8| &6'
+  suffix: '&f'
+  display: '&6Gold &8| &6'
+  tagId: 9996
+  permission: suchtgaming.rang.gold
+Emerald:
+  prefix: '&2Emerald &8| &2'
+  suffix: '&f'
+  display: '&2Emerald &8| &2'
+  tagId: 9997
+  permission: suchtgaming.rang.emerald
+Premium:
+  prefix: '&6Premium &8| &6'
+  suffix: '&f'
+  display: '&6Premium &8| &6'
+  tagId: 9998
+  permission: suchtgaming.rang.premium
+Spieler:
+  prefix: '&7Spieler &8| &7'
+  suffix: '&f'
+  display: '&7Spieler &8| &7'
+  tagId: 9999
+  permission: suchtgaming.rang.spieler
+commands:
+  setup:
+    permission: bedwars.setup
+  forceMap:
+    permission: bedwars.forcemap
+  start:
+    permission: bedwars.start
+    seconds: 5
+sound:
+  click: WOOD_CLICK
+  interact: PISTON_EXTEND
+  kill: LEVEL_UP
+  countdown: CLICK
+  error: NOTE_PLING
+  destroyBed: WITHER_DEATH
+  endingCountdown: LAVA_POP
+message:
+  changeMap: '%prefix% &7Du hast die Map zu &e&l%map% &7geändert'
+  mapNotExists: '%prefix% &cDiese Map gibt es nicht'
+  gameStarting: '%prefix% &aDas Spiel wird gestartet...'
+  gameStartingIn: '%prefix% &7Das &a&lSpiel &7startet in &a&l%seconds% &7Sekunden'
+  gameStartingInOneSecond: '%prefix% &7Das &a&lSpiel &7startet in &a&leiner &7Sekunde'
+  builder: '%prefix% &7Erbaut von &8» &e&l%builder%'
+  goldStatus: '%prefix% &7Gold Status &8» &e&l%state%'
+  yourInTeam: '%prefix% &7Du bist nun im Team %team%'
+  waiting: '%prefix% &7Warte auf &c&l%players% &7Spieler...'
+  teamWin: ' %prefix% &7Das Team %team% &7hat gewonnen!'
+  boarderIn: '%prefix% &7Alle &cBetten &7werden in &c&l%minutes% &7Minuten &c&lzerstört&7!'
+  boarderInOneMinute: '%prefix% &7Alle &CBetten &7werden in &c&leiner &7Minute &c&lzerstört!'
+  boarder: '%prefix% &7Die &cBorder &7verkleinert sich nun!'
+  roundStarting: '%prefix% &7Die Runde wurde gestartet'
+  destroyAllBeds: '%prefix% &cEs wurden &4&lAlle &cBetten entfernt'
+  smallBoarder: '%prefix% &cDie Border ist nun ganz klein!'
+  roundEnds: '%prefix% &cDie Runde ist zuende'
+  serverStopIn: '%prefix% &cDer Server stoppt in &a&l%seconds% &cSekunden'
+  serverStopInOneSecond: '%prefix% &cDer Server stoppt in &a&leiner &cSekunde'
+  serverStop: '%prefix% &cDer Server stoppt jetzt!'
+  startRound: '%prefix% &aDu hast die Runde gestartet'
+  countDownUnderSeconds: '%prefix% &cDer Countdown ist bereits unter &e&l%seconds%
+    &cSekunden!'
+  notEnoughPlayers: '%prefix% &cEs sind nicht genug Spieler online!'
+  roundAlreadyStarting: '%prefix% &cDie Runde startet bereits...'
+  noPerms: '%prefix% &cDazu hast du keine Rechte...'
+  destroyOwnBed: '%prefix% &cDu kannst dein eigenes Bett nicht abbauen!'
+  destroyBed: '%prefix% &7Das Bett vom Team %team% &7wurde von %player% &7abgebaut!'
+  teamFull: '%prefix% &cDieses Team ist bereits voll!'
+  otherTeamsEmpty: '%prefix% &cNehme ein anderes Team da diese leer sind'
+  choseTeam: '%prefix% &7Du wirst nun im Team %team% &7sein'
+  teleportToPlayer: '%prefix% &7Du bist nun bei %player%'
+  killMessage: '%prefix% %player% &7wurde von %killer% &7getötet'
+  killerLife: '%prefix% &7Leben von %killer% &8» &e&l%live%'
+  death: '%prefix% %player% &7ist gestorben'
+  teamDeath: '%prefix% &7Das Team %team% &7ist ausgeschieden'
+  teamReamingPlayers: '%prefix% &7Das Team %team% &7hat noch &e&l%players% Spieler'
+  joinGame: '%prefix% %player% &7hat das Spiel betreten &8» &e&l%players%&8/&e&l%maxPlayers%'
+  spectator: '%prefix% &7Du bist ist ein Spectator'
+  leaveGame: '%prefix% %player% &7hat das Spiel verlassen'
+  stats: '%prefix% &7Stats von %player%'
+item:
+  team:
+    material: BED
+    name: '&6Teams &8» &7Rechtsklick'
+    slot: 0
+  leave:
+    material: BARRIER
+    name: '&cZur Lobby &8» &7Rechtsklick'
+    slot: 8
+  compass:
+    material: COMPASS
+    name: '&aSpieler &8» &7Rechtsklick'
+    slot: 4
+  vote:
+    material: GOLD_INGOT
+    name: '&aVoting &8» &7Rechtsklick'
+    slot: 3
+  start:
+    material: REDSTONE_TORCH_ON
+    name: '&bSpiel starten &8» &7Rechtsklick'
+    slot: 5
+  voting:
+    mapVote: '&8» &bMapvoting'
+    goldVote: '&8» &6GoldVoting'
+inventory:
+  shop:
+    title: '&8» &6Haupt'
+    bricks:
+      name: '&8» &6Steine'
+      item: STAINED_CLAY
+    armor:
+      name: '&8» &6Rüstung'
+      item: CHAINMAIL_CHESTPLATE
+    tools:
+      name: '&8» &6Spitzhacken'
+      item: STONE_PICKAXE
+    swords:
+      name: '&8» &6Schwerter'
+      item: WOOD_SWORD
+    bows:
+      name: '&8» &6Bögen'
+      item: BOW
+    food:
+      name: '&8» &6Essen'
+      item: COOKED_BEEF
+    chests:
+      name: '&8» &6Kisten'
+      item: CHEST
+    potions:
+      name: '&8» &6Tränke'
+      item: GLASS_BOTTLE
+    specials:
+      name: '&8» &6Extras'
+      item: EMERALD
+    item:
+      bricks:
+        name: '&8» &aBlöcke'
+        amount: 2
+        price:
+          material: CLAY_BRICK
+          price: 1
+      endStone:
+        name: '&8» &aEndsteine'
+        amount: 1
+        price:
+          material: CLAY_BRICK
+          price: 8
+      ironBlock:
+        name: '&8» &aEisenblock'
+        amount: 1
+        price:
+          material: IRON_INGOT
+          price: 3
+      glass:
+        name: '&8» &aGlass'
+        amount: 1
+        price:
+          material: CLAY_BRICK
+          price: 4
+      glowStone:
+        name: '&8» &aLicht'
+        amount: 1
+        price:
+          material: CLAY_BRICK
+          price: 4
+      helmet:
+        name: '&8» &aHelm'
+        amount: 1
+        price:
+          material: CLAY_BRICK
+          price: 1
+      leggings:
+        name: '&8» &aHose'
+        amount: 1
+        price:
+          material: CLAY_BRICK
+          price: 1
+      boots:
+        name: '&8» &aSchuhe'
+        amount: 1
+        price:
+          material: CLAY_BRICK
+          price: 1
+      chestPlate1:
+        name: '&8» &aBrustpanzer I'
+        amount: 1
+        price:
+          material: IRON_INGOT
+          price: 1
+      chestPlate2:
+        name: '&8» &aBrustpanzer II'
+        amount: 1
+        price:
+          material: IRON_INGOT
+          price: 3
+      chestPlate3:
+        name: '&8» &aBrustpanzer III'
+        amount: 1
+        price:
+          material: IRON_INGOT
+          price: 5
+      chestPlate4:
+        name: '&8» &aBrustpanzer IV'
+        amount: 1
+        price:
+          material: IRON_INGOT
+          price: 7
+      woodPickAxe:
+        name: '&8» &aHolzspitzhacke'
+        amount: 1
+        price:
+          material: CLAY_BRICK
+          price: 4
+      stonePickAxe:
+        name: '&8» &aSteinspitzhacke'
+        amount: 1
+        price:
+          material: IRON_INGOT
+          price: 2
+      ironPickAxe:
+        name: '&8» &aEisenspitzhacke'
+        amount: 1
+        price:
+          material: GOLD_INGOT
+          price: 1
+      stick:
+        name: '&8» &aStock'
+        amount: 1
+        price:
+          material: CLAY_BRICK
+          price: 8
+      sword1:
+        name: '&8» &aHolzschwert I'
+        amount: 1
+        price:
+          material: IRON_INGOT
+          price: 1
+      sword2:
+        name: '&8» &aHolzschwert II'
+        amount: 1
+        price:
+          material: IRON_INGOT
+          price: 3
+      sword3:
+        name: '&8» &aHolzschwert III'
+        amount: 1
+        price:
+          material: IRON_INGOT
+          price: 5
+      sword4:
+        name: '&8» &aEisenschwert'
+        amount: 1
+        price:
+          material: GOLD_INGOT
+          price: 5
+      bow1:
+        name: '&8» &aBogen I'
+        amount: 1
+        price:
+          material: GOLD_INGOT
+          price: 3
+      bow2:
+        name: '&8» &aBogen II'
+        amount: 1
+        price:
+          material: GOLD_INGOT
+          price: 6
+      bow3:
+        name: '&8» &aBogen III'
+        amount: 1
+        price:
+          material: GOLD_INGOT
+          price: 9
+      arrow:
+        name: '&8» &aPfeil'
+        amount: 8
+        price:
+          material: IRON_INGOT
+          price: 4
+      apple:
+        name: '&8» &aApfel'
+        amount: 1
+        price:
+          material: CLAY_BRICK
+          price: 1
+      beef:
+        name: '&8» &aFleisch'
+        amount: 1
+        price:
+          material: CLAY_BRICK
+          price: 2
+      cake:
+        name: '&8» &aKuchen'
+        amount: 1
+        price:
+          material: IRON_INGOT
+          price: 1
+      goldenApple:
+        name: '&8» &aGold Apfel'
+        amount: 1
+        price:
+          material: GOLD_INGOT
+          price: 2
+      chest:
+        name: '&8» &aKiste'
+        amount: 1
+        price:
+          material: IRON_INGOT
+          price: 1
+      endChest:
+        name: '&8» &aEnderkiste'
+        amount: 1
+        price:
+          material: GOLD_INGOT
+          price: 1
+      healing1:
+        name: '&8» &aHeltrank I'
+        amount: 1
+        price:
+          material: IRON_INGOT
+          price: 3
+      healing2:
+        name: '&8» &aHeiltrank II'
+        amount: 1
+        price:
+          material: IRON_INGOT
+          price: 6
+      strength:
+        name: '&8» &aStärketrank'
+        amount: 1
+        price:
+          material: GOLD_INGOT
+          price: 3
+      regeneration:
+        name: '&8» &aRegenerationstrank'
+        amount: 1
+        price:
+          material: GOLD_INGOT
+          price: 3
+      speed:
+        name: '&8» &aSchnelligkeitstrank'
+        amount: 1
+        price:
+          material: IRON_INGOT
+          price: 4
+      ladder:
+        name: '&8» &aLeiter'
+        amount: 1
+        price:
+          material: CLAY_BRICK
+          price: 4
+      web:
+        name: '&8» &aSpinnennetz'
+        amount: 1
+        price:
+          material: CLAY_BRICK
+          price: 16
+      warp:
+        name: '&8» &aTeleporter'
+        amount: 1
+        price:
+          material: IRON_INGOT
+          price: 5
+      shop:
+        name: '&8» &aMobiler Shop'
+        amount: 1
+        price:
+          material: IRON_INGOT
+          price: 7
+      tnt:
+        name: '&8» &aTNT'
+        amount: 1
+        price:
+          material: GOLD_INGOT
+          price: 3
+      egg:
+        name: '&8» &aFallschirm'
+        amount: 1
+        price:
+          material: GOLD_INGOT
+          price: 3
+      rescue:
+        name: '&8» &aRettungsplatform'
+        amount: 1
+        price:
+          material: GOLD_INGOT
+          price: 4
+      pearl:
+        name: '&8» &aEnderperle'
+        amount: 1
+        price:
+          material: GOLD_INGOT
+          price: 13
+motd:
+  lobby: §a§lLOBBY
+  ingame: §6§lINGAME
+  ending: §c§lENDING
+chat:
+  format:
+    spectators: '&8[&4✖&8] %player% &8» &7%message%'
+    normal: '%player% &8» &7%message%'
+    team: '%player% &8» &7%message%'
+    all: '&8[&f&lGlobal&8] %player% &8»&7%message%'
+scoreboard:
+  title: '%prefix% &f%time%'
+  line1:
+    title: '&f&lSpieler:'
+    input: ' &8» &e&l%players%'
+  line2:
+    title: '&f&lModus:'
+    input: ' &8» &e&l%mode%'
+  line3:
+    title: '&f&lKarte:'
+    input: ' &8» &e&l%map%'
+  line4:
+    title: '&f&lTeam:'
+    input: ' &8» %team%'
+  line5:
+    title: '&f&lTeams:'
+  line:
+    teamHasBed:
+      one: ' &8» &2✔ %team%'
+      two: ' &8┃ &f%players%'
+    teamHasNoBed:
+      one: ' &8» &4✖ %team%'
+      two: ' &8┃ &f%players%'
+    teamDeath:
+      one: ' &r&8» &4✖ %team%'
+      two: '&m%team%&r'
+  teams:
+    prefix: '&8» %team%'
+  spectator:
+    prefix: '&8» &7'
+    display: '&7'

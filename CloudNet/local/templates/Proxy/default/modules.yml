@@ -1,0 +1,5 @@
+modules:
+- jenkins://cmd_list
+- jenkins://cmd_send
+- jenkins://cmd_server
+version: 2

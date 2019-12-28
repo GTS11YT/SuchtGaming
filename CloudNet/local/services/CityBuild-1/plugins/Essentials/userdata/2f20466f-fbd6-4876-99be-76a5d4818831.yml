@@ -1,0 +1,29 @@
+money: '1900.0'
+lastAccountName: Nolas154
+timestamps:
+  login: 1577115246022
+  lastteleport: 1577118654624
+  logout: 1577119881105
+ipAddress: 91.57.183.23
+homes:
+  home:
+    world: PlotWorld
+    x: -96.48891409953217
+    y: 65.0
+    z: -34.331247557745336
+    yaw: -1.3003044
+    pitch: 79.71589
+lastlocation:
+  world: world_nether
+  x: -124.81890586568373
+  y: 59.0
+  z: -70.65377782283166
+  yaw: 20.182123
+  pitch: 20.6791
+logoutlocation:
+  world: PlotWorld
+  x: 0.21271061892194304
+  y: 72.0
+  z: 4.365461208067889
+  yaw: -178.0301
+  pitch: 46.1645

@@ -1,0 +1,33 @@
+money: '279070.66'
+lastAccountName: Chaoscrafter_
+timestamps:
+  login: 1577199287249
+  lastteleport: 1575566363586
+  logout: 1577199497870
+  mute: 0
+  lastheal: 1575638749400
+ipAddress: 95.90.232.166
+lastlocation:
+  world: PlotWorld
+  x: 101.68093945100856
+  y: 66.0
+  z: 62.17499705944975
+  yaw: -27.899984
+  pitch: 40.35004
+homes:
+  home:
+    world: world
+    x: -587.5870444084403
+    y: 81.0
+    z: -995.1249717850183
+    yaw: 109.199554
+    pitch: 9.47253
+logoutlocation:
+  world: PlotWorld
+  x: 15.02647130659471
+  y: 81.98780807117316
+  z: 3.3059635064000243
+  yaw: -120.58629
+  pitch: -15.562892
+muted: false
+teleportenabled: true

@@ -1,0 +1,24 @@
+money: '170000.0'
+lastAccountName: Nentonde_HD
+timestamps:
+  login: 1577376570459
+  logout: 1577376810682
+  lastteleport: 1577376511399
+ipAddress: 178.1.184.253
+logoutlocation:
+  world: PlotWorld
+  x: -196.8401666962459
+  y: 70.0
+  z: -122.96555203235481
+  yaw: -260.69977
+  pitch: 35.40006
+lastlocation:
+  world: PlotWorld
+  x: -193.81630500777177
+  y: 70.0
+  z: -122.23502548332482
+  yaw: 268.0459
+  pitch: 29.850054
+godmode: false
+afk: false
+nickname: Nentonde_HDNWR

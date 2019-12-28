@@ -1,0 +1,33 @@
+money: '800000.0'
+lastAccountName: leonluca12
+timestamps:
+  login: 1577380681244
+  logout: 1577380854981
+  lastheal: 1577126383258
+  lastteleport: 1577367348452
+ipAddress: 37.4.254.201
+logoutlocation:
+  world: PlotWorld
+  x: 50.12991316545413
+  y: 72.0
+  z: -15.665468200140683
+  yaw: 280.21356
+  pitch: 15.337113
+lastlocation:
+  world: world
+  x: 38.96403561035044
+  y: 64.0
+  z: -876.8875247460429
+  yaw: -24.422981
+  pitch: 19.882734
+nickname: leonNWR
+godmode: false
+afk: false
+homes:
+  home:
+    world: world_nether
+    x: 413.30000001192093
+    y: 59.28660791122663
+    z: -403.69999998807907
+    yaw: 73.19875
+    pitch: 24.450073

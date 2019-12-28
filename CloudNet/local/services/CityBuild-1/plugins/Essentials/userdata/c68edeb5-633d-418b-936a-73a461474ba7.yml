@@ -1,0 +1,29 @@
+money: '32000.0'
+lastAccountName: Schreckenstein9
+timestamps:
+  login: 1572588662198
+  lastteleport: 1569133388993
+  logout: 1572588751714
+ipAddress: 95.90.232.166
+lastlocation:
+  world: PlotWorld
+  x: 0.36971385894089354
+  y: 72.0
+  z: 6.315788153927995
+  yaw: 8.413742
+  pitch: 47.58711
+logoutlocation:
+  world: PlotWorld
+  x: 49.40302788772157
+  y: 65.5
+  z: 197.7644249489631
+  yaw: 94.350006
+  pitch: 19.49998
+homes:
+  home:
+    world: world
+    x: 69.6351274627036
+    y: 65.0
+    z: -356.31934152805655
+    yaw: 150.14938
+    pitch: 35.572495

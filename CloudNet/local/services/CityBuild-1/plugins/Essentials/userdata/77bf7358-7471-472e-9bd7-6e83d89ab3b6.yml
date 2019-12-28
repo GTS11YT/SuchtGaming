@@ -1,0 +1,31 @@
+money: '25632.3125'
+lastAccountName: gammlerlps
+timestamps:
+  login: 1577197733394
+  lastteleport: 1577198614479
+  logout: 1577200431386
+ipAddress: 185.22.142.100
+homes:
+  home:
+    world: world
+    x: 3825.4615369777307
+    y: 82.24027179969474
+    z: 2147.375271096989
+    yaw: 78.2788
+    pitch: 22.649984
+lastlocation:
+  world: PlotWorld
+  x: 150.0017916654087
+  y: 65.04337377208432
+  z: 0.39987709316582887
+  yaw: -329.84946
+  pitch: 35.39999
+logoutlocation:
+  world: PlotWorld
+  x: 95.03182877150321
+  y: 61.0
+  z: 3.888999715667751
+  yaw: -253.09244
+  pitch: 16.486862
+afk: false
+nickname: gamerlp_xD

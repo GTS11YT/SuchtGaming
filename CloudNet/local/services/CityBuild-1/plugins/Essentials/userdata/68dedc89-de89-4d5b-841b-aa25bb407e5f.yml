@@ -1,0 +1,21 @@
+money: '2000.0'
+lastAccountName: CryptonicDev
+timestamps:
+  login: 1577104787574
+  lastteleport: 1573401546897
+  logout: 1577105091437
+ipAddress: 79.226.106.28
+lastlocation:
+  world: PlotWorld
+  x: 1.4522563009352383
+  y: 65.0
+  z: 40.93400681213548
+  yaw: -169.78627
+  pitch: 31.987118
+logoutlocation:
+  world: PlotWorld
+  x: -124.2887404375687
+  y: 65.0
+  z: 32.259865407251326
+  yaw: -26.83842
+  pitch: 8.822619

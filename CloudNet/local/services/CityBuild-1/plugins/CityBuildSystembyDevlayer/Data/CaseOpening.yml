@@ -1,0 +1,44 @@
+Truhe:
+  Episch:
+    Preise:
+      '1':
+        ==: org.bukkit.inventory.ItemStack
+        type: STONE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4Test Item
+          lore:
+          - §aNormal
+      '2':
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND
+        amount: 5
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4lol
+          lore:
+          - §6Selten
+  Supreme:
+    Preise:
+      '1':
+        ==: org.bukkit.inventory.ItemStack
+        type: STICK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §5ibims
+          lore:
+          - §bUltra
+      '2':
+        ==: org.bukkit.inventory.ItemStack
+        type: BEACON
+        amount: 5
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: §6abc
+          lore:
+          - §5Episch
+          blockMaterial: BEACON

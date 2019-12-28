@@ -1,0 +1,21 @@
+money: '2000.0'
+lastAccountName: Leislolle
+timestamps:
+  login: 1577370561537
+  logout: 1577372445178
+  lastteleport: 1577372305957
+ipAddress: 178.194.221.228
+logoutlocation:
+  world: world
+  x: 258.5253760823288
+  y: 71.0
+  z: -842.6006266211186
+  yaw: 188.81474
+  pitch: 26.534504
+lastlocation:
+  world: PlotWorld
+  x: -95.01382172323684
+  y: 65.0
+  z: -61.318438219523856
+  yaw: -7.2687483
+  pitch: 88.35868

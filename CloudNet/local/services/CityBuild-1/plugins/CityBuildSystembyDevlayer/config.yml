@@ -1,0 +1,40 @@
+Prefix: '&7[&b&lSuchtGaming&7] &r'
+NoPerms: '&cDazu hast du keine Rechte!'
+Servername: SuchtGaming.de
+UnbanAntragIp: forum.suchtgaming.de
+StartKickPrefix: '&7[&4&lStart&e&lKick&7] &r'
+NoPermsStartKick: '&cDazu hast du keine Rechte!'
+Shop: '&6Shop &7-> &2shop.suchtgaming.de'
+WerbungBeimJoinen: 'false'
+UpdaterBeimJoinen: 'false'
+ClearChatWaitTimeInMinutes: '60'
+KopfWaitTimeInMinutes: '20160'
+MutepWaitTimeInMinutes: '60'
+MutepTime: '10'
+SlowChatWaitTimeInMinutes: '10'
+StartKickWaitTimeInMinutes: '1440'
+PremiumWaitTimeInMinutes: '10080'
+/p: 'true'
+/Rand: 'true'
+/Menu: 'true'
+/Premium: 'true'
+PremiumRangName: Premium
+PremiumLaengeInTage: '7'
+PlotPreise: 10000
+NoFallPerk: 500000
+NoHungerPerk: 250000
+MutepPerk: 1000000
+ClearChatPerk: 250000
+SlowChatPerk: 250000
+StartKickPerk: 750000
+ChatSystem[Deaktivieren, wenn es Bugs mit dem Chat gibt]: 'false'
+GruenerChatFuerOp: 'false'
+ChatPfeile(AK): 'false'
+/Playerholo: 'true'
+WieVieleHolosProSpieler: '3'
+ChatLog: 'false'
+CommandLog: 'false'
+BlockLog: 'false'
+PortalSettings false/Server/Map: 'false'
+Servername[Bungee-Config] vom PortalServer: 'false'
+BankSettings false/File/MySQL: MySQL

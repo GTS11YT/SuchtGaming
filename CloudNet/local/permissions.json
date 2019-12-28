@@ -1,0 +1,52 @@
+{
+  "groups": [
+    {
+      "groups": [],
+      "prefix": "&4Admin &8| &7",
+      "suffix": "&f",
+      "display": "&4",
+      "sortId": 10,
+      "defaultGroup": false,
+      "name": "Admin",
+      "potency": 100,
+      "createdTime": 1572223139438,
+      "permissions": [
+        {
+          "name": "*",
+          "potency": 0,
+          "timeOutMillis": 0
+        }
+      ],
+      "groupPermissions": {
+        "Proxy": [
+          {
+            "name": "*",
+            "potency": 0,
+            "timeOutMillis": 0
+          }
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "groups": [],
+      "prefix": "&7",
+      "suffix": "&f",
+      "display": "&7",
+      "sortId": 10,
+      "defaultGroup": true,
+      "name": "default",
+      "potency": 100,
+      "createdTime": 1572223139452,
+      "permissions": [
+        {
+          "name": "bukkit.broadcast.user",
+          "potency": 1,
+          "timeOutMillis": 0
+        }
+      ],
+      "groupPermissions": {},
+      "properties": {}
+    }
+  ]
+}

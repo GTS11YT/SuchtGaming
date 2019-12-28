@@ -1,0 +1,21 @@
+money: '1000.0'
+lastAccountName: Zottmontes
+timestamps:
+  login: 1574590888786
+  lastteleport: 1571561872154
+  logout: 1574591072030
+ipAddress: 178.19.82.248
+lastlocation:
+  world: PlotWorld
+  x: 57.35348025814199
+  y: 65.0
+  z: 50.84841491066192
+  yaw: 61.169464
+  pitch: 9.344739
+logoutlocation:
+  world: PlotWorld
+  x: 51.21860265593796
+  y: 65.0
+  z: 47.26129565672737
+  yaw: 269.47156
+  pitch: 11.689119

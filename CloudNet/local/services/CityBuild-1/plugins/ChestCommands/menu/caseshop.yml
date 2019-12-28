@@ -1,0 +1,71 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&bSuchtGaming.de &8- &7Warps'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 1
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'caseshop'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: 'sound: note pling;'
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+Spawn:
+normalcase:
+  COMMAND: 'tell: &7Du hast für &e9800 Coins &7eine Normale &aKiste &egekauft&7!;CONSOLE: chest addchest {player} normal 1'
+  NAME: '&7Normale &aKiste &eKaufen'
+  LORE:
+    - '&7Preis: &e9800 Coins'
+  ID: chest
+  PRICE: 9800
+  POSITION-X: 2
+  POSITION-Y: 1
+epiccase:
+  COMMAND: 'tell: &7Du hast für &e50000 Coins &7eine &5Epische &aKiste &egekauft&7!;CONSOLE: chest addchest {player} epic 1'
+  NAME: '&5Epische &aKiste &eKaufen'
+  LORE:
+    - '&7Preis: &e50000 Coins'
+  ID: enderchest
+  PRICE: 50000
+  POSITION-X: 5
+  POSITION-Y: 1
+legendarycase:
+  COMMAND: 'tell: &7Diese &aKiste &7ist in &cWartungsarbeiten &7und kann &cnicht &egekauft &7werden!'
+  NAME: '&6Legendäre &aKiste &eKaufen'
+  LORE:
+    - '&7Preis: &e120000 Coins'
+  ID: 120
+  PRICE: 0
+  POSITION-X: 8
+  POSITION-Y: 1
+
+#  COMMAND: 'tell: &7Du hast für &e120000 Coins &7eine &6Legendäre &aKiste &egekauft&7!;CONSOLE: chest addchest {player} legendary 1'

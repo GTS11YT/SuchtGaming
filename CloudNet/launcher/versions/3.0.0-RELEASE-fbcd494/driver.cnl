@@ -1,0 +1,18 @@
+# CloudNet Tsunami 3.0.0-RELEASE
+
+# repositories
+
+repo maven http://central.maven.org/maven2
+# dependencies
+
+include maven io.netty netty-codec-http 4.1.36.Final
+include maven io.netty netty-handler 4.1.36.Final
+include maven io.netty netty-transport-native-epoll 4.1.36.Final linux-x86_64
+include maven io.netty netty-transport-native-kqueue 4.1.36.Final osx-x86_64
+include maven com.google.code.gson gson 2.8.2
+include maven io.netty netty-codec 4.1.36.Final
+include maven io.netty netty-transport-native-unix-common 4.1.36.Final
+include maven io.netty netty-transport 4.1.36.Final
+include maven io.netty netty-buffer 4.1.36.Final
+include maven io.netty netty-resolver 4.1.36.Final
+include maven io.netty netty-common 4.1.36.Final

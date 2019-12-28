@@ -1,0 +1,40 @@
+mysql:
+  host: 127.0.0.1
+  user: SuchtGaming
+  datenbase: ClanSystem
+  passwort: ''
+messages:
+  prefix: '&b•&3● Clan &8|&7'
+  noclan: '&7Du bist derzeit in keinem Clan'
+  inclan: '&7Du bist bereits in einem Clan'
+  playernoinclan: '&7Dieser Spieler ist nicht in deinem Clan'
+  isinclan: '&7Dieser Spieler ist bereits in einem Clan'
+  notonline: '&7Dieser Spieler ist derzeit nicht online'
+  notleader: '&7Du musst Leader sein um diesen Command ausführen zu können'
+  create: '&fDu hast einen neuen Clan erstellt unter der ID &3[CLANID] &fund unter
+    dem Clanname &b[CLANNAME] &fund unter dem Clantag &b[CLANTAG]'
+  leave: '&fDu hast den Clan &b[CLANNAME] &fverlassen'
+  delete: '&fDu hast deinen Clan gelöscht'
+  leaderleave: '&7Da du Leader des Clans bist musst du &b/Clan delete &7nutzen'
+  playerinvite: '&fDu hast diesem Spieler eine &bClananfrage &fgesendet'
+  targetinvite: '&fDu hast eine Clananfrage vom Clan &b[CLANNAME] &ferhalten. &fAnnehmen
+    &b/Clan accept <Clanname> &foder Ablehnen &b/Clan deny <Clanname>'
+  playerinvitet: '&fDu hast diesem Spieler bereits eine &bClananfrage &fgesendet'
+  claninvitet: '&fDu bist dem Clan erfolgreich beigetreten'
+  request: '&7Du hast keine Anfrage von diesem Clan bekommen'
+  kick: '&fDu hast den Spieler §b[PLAYER] &faus dem Clan gekickt'
+  reject: '&7Du hast die Clananfrage abgelehnt'
+  clantagexists: §7Dieser Clantag wird derzeit verwendet! Bitte nutze einen anderen!
+  clannameexists: '&7Dieser Clanname wird derzeit verwendet! Bitte nutze einen anderen!'
+  clantaglenght: '&7Der Clantag muss mindestens 3 und maximal 5 Zeichen lang sein'
+  clannamelenght: '&7Der Clanname muss mindestens 3 und maximal 12 Zeichen lang sein'
+  noperms: '&cDu hast keine Permissions für diesen Command'
+  isrank: '&7Dieser Spieler hat bereits diesen Rang'
+  updaterank: '&fDu hast dem Spieler &b[PLAYER] &fden Rang &b[RANK] &fgegeben'
+  rankexists: '&7Dieser Rang exestiert nicht'
+  listtitle: '&3---------- &bClanmitglieder &3----------'
+  listfooter: '&3---------- &bClanmitglieder &3----------'
+  leader: '&3Clanleader&7:'
+  moderator: '&3Clanmoderatoren&7:'
+  user: '&3Clanmitglieder&7:'
+  listplayers: '&f>> &b'

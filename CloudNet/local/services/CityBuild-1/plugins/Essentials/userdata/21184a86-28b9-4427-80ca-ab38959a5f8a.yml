@@ -1,0 +1,21 @@
+money: '1000.0'
+lastAccountName: checkerblitz
+timestamps:
+  login: 1568210694622
+  lastteleport: 1568210703624
+  logout: 1568210782310
+ipAddress: 80.130.210.38
+lastlocation:
+  world: PlotWorld
+  x: 1.150281274345897
+  y: 72.0
+  z: 5.233158035798044
+  yaw: -35.912754
+  pitch: 4.824578
+logoutlocation:
+  world: world
+  x: 13.300000011920936
+  y: 66.0
+  z: -791.6109074991822
+  yaw: -6.123886
+  pitch: 8.253346

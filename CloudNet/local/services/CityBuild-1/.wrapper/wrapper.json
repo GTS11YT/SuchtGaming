@@ -1,0 +1,103 @@
+{
+  "connectionKey": "YMAMIB9X3U7V0BNV1HYRUOUV0DPAAJEG9NS8CJQKKWONS6PB532UTJE7YKM3PYWZ8S1M6PI33UX319LXL2A3QAH3JXLVK3NUDV23J3VJ4RRXYCB53F0RC71WGS2FW1F4YHYLN8677TCVZ0SATNYWWEOOL5H10NVDPEOBNXMSRQEFDR8HPL2BP1VBZJQVLY0A826LUSWIYF8NFGZP8SZXVE14GWACH81Q804V5FG8E7ALY4SJUNM4N4FK5MWRV436",
+  "listener": {
+    "host": "45.88.108.170",
+    "port": 1410
+  },
+  "serviceConfiguration": {
+    "serviceId": {
+      "uniqueId": "4f51dc4e-c95b-4a16-98d6-a3ab7dd300cb",
+      "nodeUniqueId": "Node-57bc5385",
+      "taskName": "CityBuild",
+      "taskServiceId": 1,
+      "environment": "MINECRAFT_SERVER"
+    },
+    "runtime": "jvm",
+    "autoDeleteOnStop": false,
+    "staticService": true,
+    "groups": [
+      "CityBuild"
+    ],
+    "includes": [],
+    "templates": [
+      {
+        "prefix": "CityBuild",
+        "name": "default",
+        "storage": "local"
+      }
+    ],
+    "deployments": [],
+    "processConfig": {
+      "environment": "MINECRAFT_SERVER",
+      "maxHeapMemorySize": 500,
+      "jvmOptions": []
+    },
+    "port": 44956,
+    "properties": {}
+  },
+  "serviceInfoSnapshot": {
+    "creationTime": 1577381766197,
+    "serviceId": {
+      "uniqueId": "4f51dc4e-c95b-4a16-98d6-a3ab7dd300cb",
+      "nodeUniqueId": "Node-57bc5385",
+      "taskName": "CityBuild",
+      "taskServiceId": 1,
+      "environment": "MINECRAFT_SERVER"
+    },
+    "address": {
+      "host": "45.88.108.170",
+      "port": 44956
+    },
+    "connected": false,
+    "lifeCycle": "PREPARED",
+    "processSnapshot": {
+      "heapUsageMemory": -1,
+      "noHeapUsageMemory": -1,
+      "maxHeapMemory": -1,
+      "currentLoadedClassCount": -1,
+      "totalLoadedClassCount": -1,
+      "unloadedClassCount": -1,
+      "threads": [],
+      "cpuUsage": -1.0
+    },
+    "configuration": {
+      "serviceId": {
+        "uniqueId": "4f51dc4e-c95b-4a16-98d6-a3ab7dd300cb",
+        "nodeUniqueId": "Node-57bc5385",
+        "taskName": "CityBuild",
+        "taskServiceId": 1,
+        "environment": "MINECRAFT_SERVER"
+      },
+      "runtime": "jvm",
+      "autoDeleteOnStop": false,
+      "staticService": true,
+      "groups": [
+        "CityBuild"
+      ],
+      "includes": [],
+      "templates": [
+        {
+          "prefix": "CityBuild",
+          "name": "default",
+          "storage": "local"
+        }
+      ],
+      "deployments": [],
+      "processConfig": {
+        "environment": "MINECRAFT_SERVER",
+        "maxHeapMemorySize": 500,
+        "jvmOptions": []
+      },
+      "port": 44956,
+      "properties": {}
+    },
+    "properties": {}
+  },
+  "sslConfig": {
+    "enabled": false,
+    "clientAuth": false,
+    "trustCertificatePath": null,
+    "certificatePath": "local/certificate.pem",
+    "privateKeyPath": "local/privateKey.key"
+  }
+}

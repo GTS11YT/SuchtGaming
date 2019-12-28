@@ -1,0 +1,8 @@
+# If you want to use MySQL, you have to fill this out with your informations
+MySQL:
+  Enable: true
+  Host: 127.0.0.1
+  Database: FreundeSystem
+  Port: '3306'
+  Username: SuchtGaming
+  Password: ''

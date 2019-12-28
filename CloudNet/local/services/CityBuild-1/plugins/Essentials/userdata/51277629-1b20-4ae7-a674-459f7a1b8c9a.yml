@@ -1,0 +1,21 @@
+money: '830.0'
+lastAccountName: zScodex
+timestamps:
+  login: 1572541894668
+  logout: 1572542047843
+  lastteleport: 1572124557508
+ipAddress: 5.146.250.173
+logoutlocation:
+  world: PlotWorld
+  x: 0.4211719111177802
+  y: 72.0
+  z: 1.3515744520296078
+  yaw: 6.763743
+  pitch: 18.337112
+lastlocation:
+  world: PlotWorld
+  x: -124.05999667979188
+  y: 65.0
+  z: 82.98014684912664
+  yaw: 184.18762
+  pitch: 6.735621

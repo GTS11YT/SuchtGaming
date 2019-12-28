@@ -1,0 +1,59 @@
+{
+  "config": {
+    "loginConfigurations": [
+      {
+        "targetGroup": "Proxy",
+        "maintenance": false,
+        "maxPlayers": 36,
+        "whitelist": [
+          "GTS11_YT",
+          "gammlerlps",
+          "xXBenKreuzXx",
+          "Nentonde_HD"
+        ],
+        "motds": [
+          {
+            "firstLine": "&e•&6● SuchtGaming &8┃ &7Server Netzwerk &8● &e1.8 &7- &e1.14.4",
+            "secondLine": "&8➜ &aRelease&7! &6SuchtGaming &bVersion 2 &7ist nun &cda&7!",
+            "autoSlot": false,
+            "autoSlotMaxPlayersDistance": 1,
+            "playerInfo": [
+              "",
+              ""
+            ],
+            "protocolText": null
+          }
+        ],
+        "maintenanceMotds": [
+          {
+            "firstLine": "&e•&6● SuchtGaming &8┃ &7Server Netzwerk &8● &e1.8 &7- &e1.14.4",
+            "secondLine": "&8➜ &7Offizieller &aRelease &7am &c22&7.&c12&7.&c19 &7um &618 Uhr&7!",
+            "autoSlot": false,
+            "autoSlotMaxPlayersDistance": 1,
+            "playerInfo": [
+              "",
+              ""
+            ],
+            "protocolText": "&8➜ &bMaintenance &8&l【&c✘&8&l】"
+          }
+        ]
+      }
+    ],
+    "tabListConfigurations": [
+      {
+        "targetGroup": "Proxy",
+        "entries": [
+          {
+            "header": " \n&e•&6● SuchtGaming &8┃ &7Der Server ihres Vertrauens&7! &8➜ &e%online_players%&8/&e%max_players%&f\n &8► &7Du bist zurzeit auf &8● &b%server% &8◄ \n ",
+            "footer": " \n &7Sponsored by &8» &7wafnet.de &8▎ &7Discord &8» &7https://suchtgaming.de \n &7Powered by &8» &eLivingBots.net \n "
+          }
+        ],
+        "animationsPerSecond": 1
+      }
+    ],
+    "messages": {
+      "player-login-not-whitelisted": "&e•&6● SuchtGaming &6●&e•\n&8&m---------------------------\n\n&7Das &cNetzwerk &7ist zurzeit\n&7in &bWartungsarbeiten&7!\n\n&8&m---------------------------",
+      "player-login-full-server": "&e•&6● SuchtGaming &6●&e•\n&8&m---------------------------\n\n&7Das &cNetzwerk &7ist zurzeit &cVoll&7.\n&7Kaufe dir einen Rang um immer Joinen zu können.\n&rhttps://suchtgaming.de/shop&7\n\n&8&m---------------------------"
+    }
+  }
+}

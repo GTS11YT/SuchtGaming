@@ -1,0 +1,21 @@
+money: '900.0'
+lastAccountName: ZockeHD
+timestamps:
+  login: 1569248623431
+  lastteleport: 1569077142198
+  logout: 1569248798571
+ipAddress: 95.90.164.56
+lastlocation:
+  world: PlotWorld
+  x: 11.65926153384432
+  y: 65.0
+  z: -89.23513740975875
+  yaw: 165.41656
+  pitch: 89.11201
+logoutlocation:
+  world: PlotWorld
+  x: 0.7733841061557962
+  y: 72.0
+  z: 4.636047528820118
+  yaw: 356.02014
+  pitch: 6.950479

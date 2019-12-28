@@ -1,0 +1,29 @@
+money: '7340.0'
+lastAccountName: Therobcraft
+timestamps:
+  login: 1571760648248
+  logout: 1571760913831
+  lastteleport: 1571760814584
+ipAddress: 77.3.44.6
+lastlocation:
+  world: PlotWorld
+  x: -105.30000001192093
+  y: 65.0
+  z: 7.488830318994588
+  yaw: 328.05005
+  pitch: 39.299988
+logoutlocation:
+  world: world
+  x: 238.03523511933815
+  y: 70.0
+  z: -969.9186660379372
+  yaw: 279.2823
+  pitch: 22.997389
+homes:
+  home:
+    world: world_nether
+    x: -150.48664241384733
+    y: 54.0
+    z: -59.083090791064095
+    yaw: -44.4673
+    pitch: 6.3126183

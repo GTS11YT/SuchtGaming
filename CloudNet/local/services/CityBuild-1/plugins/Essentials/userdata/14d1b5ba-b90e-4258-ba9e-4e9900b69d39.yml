@@ -1,0 +1,21 @@
+money: '1000.0'
+lastAccountName: benjouille31
+timestamps:
+  login: 1577123858589
+  lastteleport: 1577121455028
+  logout: 1577123894864
+ipAddress: 46.59.152.77
+lastlocation:
+  world: PlotWorld
+  x: 96.91474302589465
+  y: 65.0
+  z: -151.17447709646555
+  yaw: 115.35209
+  pitch: 52.882183
+logoutlocation:
+  world: PlotWorld
+  x: 2.014667997010317
+  y: 72.25
+  z: -7.163042802683151
+  yaw: 85.2608
+  pitch: 18.707853

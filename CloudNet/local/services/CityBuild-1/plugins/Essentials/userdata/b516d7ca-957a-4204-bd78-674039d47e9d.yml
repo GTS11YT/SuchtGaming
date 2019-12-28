@@ -1,0 +1,21 @@
+money: '900.0'
+lastAccountName: Kinga__
+timestamps:
+  login: 1577308817363
+  lastteleport: 1577288259559
+  logout: 1577308839785
+ipAddress: 92.116.165.210
+lastlocation:
+  world: PlotWorld
+  x: -160.28363682060723
+  y: 65.0
+  z: -161.43205779651106
+  yaw: -274.75146
+  pitch: -21.600016
+logoutlocation:
+  world: PlotWorld
+  x: -10.60832225578395
+  y: 70.0625
+  z: 0.37780298231560744
+  yaw: -93.13672
+  pitch: 3.7871118

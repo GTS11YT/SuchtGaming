@@ -1,0 +1,81 @@
+mysql:
+  host: 127.0.0.1
+  user: SuchtGaming
+  database: TeamSpeak-Verify
+  password: ''
+query:
+  host: 127.0.0.1
+  user: serveradmin
+  password: um2dVc7G
+  port: 10011
+teamSpeak:
+  port: 9987
+  botName: SuchtGaming-System
+module:
+  verify:
+    enable: true
+    heads:
+      enable: true
+    rank: 33
+    ranks:
+    - suchtgaming.rang.owner, 6
+    - suchtgaming.rang.admin, 11
+    - suchtgaming.rang.developer, 12
+    - suchtgaming.rang.content, 13
+    - suchtgaming.rang.moderator, 15
+    - suchtgaming.rang.supporter, 16
+    - suchtgaming.rang.builder, 17
+    - suchtgaming.rang.t-sup, 18
+    - suchtgaming.rang.deluxe, 22
+    - suchtgaming.rang.supreme, 23
+    - suchtgaming.rang.youtuber, 21
+    - suchtgaming.rang.diamond, 24
+    - suchtgaming.rang.gold, 25
+    - suchtgaming.rang.emerald, 26
+    - suchtgaming.rang.premium, 27
+    - suchtgaming.rang.freund, 28
+    - suchtgaming.rang.spieler, 29
+  support:
+    enable: true
+    channels:
+    - '85'
+    lobby: 100
+    perms: suchtgaming.rang.supporter
+    message: Poke
+    ranks:
+    - '16'
+  vpn:
+    enable: false
+    enableRanks:
+    - '0'
+    email: server@suchtgaming.de
+message:
+  teamSpeak:
+    alreadyVerify: Du oder der Spieler ist bereits verifiziert
+    clientDescription: '| Minecraftname: %name% |'
+    syntax: Benutze !verify <Minecraftname>
+    notOnline: Dieser Spieler ist nicht online auf SuchtGaming.de
+    load: Du bist nun verifiziert
+    supportNotify: '%client% wartet im %channel%'
+    supportJoin: Es sind gerade %amount% Teammitglieder online
+    kickReason: Du wurdest aufgrund einer VPN vom Server gekickt
+    info: Du bist nicht verifiziert! Zum verifizieren schreibe mich mit !verify <Name> an
+    request: Es wurde Ingame eine Anfrage an %client% versendet
+    moveToLobby: Es ist kein Teammitglied online!
+  inGame:
+    prefix: '&8[&bTeamSpeak&8]'
+    kickReason: '&cDu wurdest aufgrund einer VPN vom Server gekickt'
+    supportNotify: '%prefix% &6&l%client% &7wartet im &e&l%channel%'
+    hoverAccept: '&a&lAnnehmen'
+    notVerify: '%prefix% §cDu bist nicht verifiziert'
+    synchronize: '§8[§bTeamSpeak§8] §7Daten werden §6§lSynchronisiert...'
+    load: '%prefix% &7Deine Daten wurden &a&lgeladen'
+    notOnline: '%prefix% &cDu bist nicht online...'
+    message: '%prefix% &7Um dich zu verifizieren musst du mich im &6&lTeamSpeak &7anschreiben'
+    noRequest: '%prefix% &cDu hast keine Anfrage erhalten'
+    hoverDeny: '&c&lAblehnen'
+    deny: '%prefix% &cDu hast die Anfrage abgelehnt'
+    request: '%prefix% &6&l%client% &7möchte sich mit dir verbinden'
+    delete: '%prefix% &7Du hast deine Daten &c&lgelöscht'
+    requestTest: '%prefix% &7Bestätigen mit: '
+    syntax: '%prefix% &7Nutze&8: /&bverify update&8/&baccept&8/&bdeny&8/&bdelete'

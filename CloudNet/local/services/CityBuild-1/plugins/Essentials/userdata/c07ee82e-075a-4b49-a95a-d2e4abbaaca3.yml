@@ -1,0 +1,31 @@
+money: '6315.0'
+lastAccountName: Dampfpirat
+timestamps:
+  login: 1577380913915
+  logout: 1577380945723
+  lastteleport: 1577129033859
+ipAddress: 95.90.227.27
+logoutlocation:
+  world: PlotWorld
+  x: -194.5
+  y: 66.0
+  z: -120.5
+  yaw: -181.80002
+  pitch: 4.650007
+lastlocation:
+  world: PlotWorld
+  x: -202.72772555266712
+  y: 65.0
+  z: -121.72037845401563
+  yaw: 17.495218
+  pitch: 10.151366
+nickname: Dampfpirat
+homes:
+  home:
+    world: world
+    x: 3843.485806925246
+    y: 114.0
+    z: 2411.778587951496
+    yaw: -19.231306
+    pitch: 54.01589
+godmode: false

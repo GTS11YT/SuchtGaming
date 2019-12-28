@@ -1,0 +1,21 @@
+Sand:
+  X: 1.5
+  Y: 123.0
+  Z: 0.5
+  Yaw: -180.20372
+  Pitch: -0.342399
+  WeltName: Sand
+  SafeZone: 123
+  KillZone: 85
+Maps:
+- Sand
+- Stone
+Stone:
+  X: -81.5
+  Y: 59.0
+  Z: 742.5
+  Yaw: -180.92465
+  Pitch: -6.3332853
+  WeltName: Stone
+  SafeZone: 59
+  KillZone: 31

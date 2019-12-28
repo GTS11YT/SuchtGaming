@@ -1,0 +1,208 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&bSuchtGaming.de &8- &4AdminShop'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 6
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'adminshop'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: 'sound: note pling;'
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+ 
+cobblestonesword:
+  COMMAND: 'CONSOLE: give {player} stonesword 1 sharpness:1'
+  NAME: '&fSteinschwert'
+  LORE:
+    - '&7Schärfe I'
+    - '&6Preis: &7100 Coins'
+  ID: stonesword
+  PRICE: 100
+  ENCHANTMENT: sharpness, 1
+  POSITION-X: 1
+  POSITION-Y: 1
+
+cobblestonpickaxe:
+  COMMAND: 'CONSOLE: give {player} stonepickaxe 1 efficiency:1'
+  NAME: '&fSteinspitzhacke'
+  LORE:
+    - '&7Effizenz I'
+    - '&6Preis: &7100 Coins'
+  ID: stonepickaxe
+  PRICE: 100
+  ENCHANTMENT: efficiency, 1
+  POSITION-X: 2
+  POSITION-Y: 1
+
+cobblestonaxe:
+  COMMAND: 'CONSOLE: give {player} stoneaxe 1 efficiency:1'
+  NAME: '&fSteinaxt'
+  LORE:
+    - '&7Effizenz I'
+    - '&6Preis: &7100 Coins'
+  ID: stoneaxe
+  PRICE: 100
+  ENCHANTMENT: efficiency, 1
+  POSITION-X: 3
+  POSITION-Y: 1
+
+cobblestonshovel:
+  COMMAND: 'CONSOLE: give {player} 273 1 efficiency:1'
+  NAME: '&fSteinschaufel'
+  LORE:
+    - '&7Effizenz I'
+    - '&6Preis: &7100 Coins'
+  ID: 273
+  PRICE: 100
+  ENCHANTMENT: efficiency, 1
+  POSITION-X: 4
+  POSITION-Y: 1
+
+cobblestonhoe:
+  COMMAND: 'CONSOLE: give {player} stonehoe 1'
+  NAME: '&fSteinhacke'
+  LORE:
+    - '&7Haltbarkeit II'
+    - '&6Preis: &7100 Coins'
+  ID: stonehoe
+  PRICE: 100
+  ENCHANTMENT: unbreaking, 2
+  POSITION-X: 5
+  POSITION-Y: 1
+
+cooked_beef:
+  COMMAND: 'CONSOLE: give {player} cooked_beef 32'
+  NAME: '&aLecker-Fleisch'
+  LORE:
+    - '&6Preis: &7100 Coins'
+  ID: cooked_beef
+  AMOUNT: 32
+  PRICE: 100
+  POSITION-X: 1
+  POSITION-Y: 2
+
+cooked_chicken:
+  COMMAND: 'CONSOLE: give {player} cooked_chicken 32'
+  NAME: '&aLecker-Huhn'
+  LORE:
+    - '&6Preis: &7100 Coins'
+  ID: cooked_chicken
+  AMOUNT: 32
+  PRICE: 100
+  POSITION-X: 2
+  POSITION-Y: 2
+
+cooked_rabbit:
+  COMMAND: 'CONSOLE: give {player} cooked_rabbit 32'
+  NAME: '&aLecker-Hase'
+  LORE:
+    - '&6Preis: &7100 Coins'
+  ID: cooked_rabbit
+  AMOUNT: 32
+  PRICE: 100
+  POSITION-X: 3
+  POSITION-Y: 2
+
+kucken:
+  COMMAND: 'CONSOLE: give {player} cake 1'
+  NAME: '&aLecker-Kuchen'
+  LORE:
+    - '&6Preis: &7100 Coins'
+  ID: cake
+  AMOUNT: 1
+  PRICE: 500
+  POSITION-X: 4
+  POSITION-Y: 2
+
+golden_apple:
+  COMMAND: 'CONSOLE: give {player} golden_apple 1'
+  NAME: '&cGOLD_Apfel'
+  LORE:
+    - '&6Preis: &71000 Coins'
+  ID: golden_apple
+  AMOUNT: 1
+  PRICE: 1000
+  POSITION-X: 5
+  POSITION-Y: 2
+
+beacon:
+  COMMAND: 'CONSOLE: give {player} beacon 1'
+  NAME: '&bBeacon'
+  LORE:
+    - '&6Preis: &720000 Coins'
+  ID: beacon
+  AMOUNT: 1
+  PRICE: 20000
+  POSITION-X: 1
+  POSITION-Y: 6
+
+dragon_egg:
+  COMMAND: 'CONSOLE: give {player} dragon_egg 1'
+  NAME: '&6Drachenei'
+  LORE:
+    - '&6Preis: &7500000 Coins'
+  ID: dragon_egg
+  AMOUNT: 1
+  PRICE: 500000
+  POSITION-X: 2
+  POSITION-Y: 6
+
+spawner:
+  COMMAND: 'CONSOLE: give {player} spawner 1'
+  NAME: '&cMonster-Spawner'
+  LORE:
+    - '&6Preis: &71000000 Coins'
+  ID: mob_spawner
+  AMOUNT: 1
+  PRICE: 10000000
+  POSITION-X: 3
+  POSITION-Y: 6
+
+ploterweiterung:
+  COMMAND: 'tell: &7Schonmal &e/menu &7ausprobiert...'
+  NAME: '&aPlot-Erweiterung'
+  LORE:
+    - 'Klicken um das Menü zu öffnen'
+  ID: grass
+  AMOUNT: 1
+  POSITION-X: 8
+  POSITION-Y: 6
+
+leer:
+  NAME: '&7Gibt es hier einen &cFehler&7? &7Dann &emelde &7diesen Fehler sofort!'
+  LORE:
+    - '&aForum&7: https://suchtgaming.de/forum'
+    - '&7Vieleicht krigst du auch eine kleine belohnung?'
+  ID: book
+  AMOUNT: 1
+  POSITION-X: 9
+  POSITION-Y: 6

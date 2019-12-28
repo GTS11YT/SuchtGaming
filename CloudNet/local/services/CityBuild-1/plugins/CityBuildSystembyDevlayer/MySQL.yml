@@ -1,0 +1,7 @@
+Info: Die MySQL wird derzeit fuer BlockLog und der Bank benoetigt, solltest du dies nicht brauchen kannst du das einfach in der Config ausstellen.
+MySQL:
+  Host: 127.0.0.1
+  Port: '3306'
+  Database: Bank
+  User: SuchtGaming
+  Password: aktex24

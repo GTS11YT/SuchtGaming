@@ -1,0 +1,21 @@
+money: '1000.0'
+lastAccountName: Filipowe_111
+timestamps:
+  login: 1568124569452
+  logout: 1568124576171
+  lastteleport: 1568123515395
+ipAddress: 46.59.218.167
+logoutlocation:
+  world: PlotWorld
+  x: 0.17956808664753782
+  y: 72.0
+  z: 4.237500011920929
+  yaw: 173.13959
+  pitch: 26.990597
+lastlocation:
+  world: PlotWorld
+  x: -68.12286444822618
+  y: 65.0
+  z: -55.020517740464186
+  yaw: -235.95868
+  pitch: 25.511215

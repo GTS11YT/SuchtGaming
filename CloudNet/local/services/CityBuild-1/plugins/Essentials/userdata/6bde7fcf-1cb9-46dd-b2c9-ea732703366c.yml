@@ -1,0 +1,33 @@
+money: '627948.09375'
+lastAccountName: Caosflo2
+timestamps:
+  login: 1577377272075
+  logout: 1577380136492
+  lastteleport: 1577378935181
+  lastheal: 1571673662816
+ipAddress: 87.172.55.7
+logoutlocation:
+  world: world
+  x: 276.516666358027
+  y: 44.0
+  z: 751.3000000119209
+  yaw: -295.95288
+  pitch: 52.649986
+lastlocation:
+  world: PlotWorld
+  x: 946.5203747416576
+  y: 65.0
+  z: -30.563446506931935
+  yaw: -79.063805
+  pitch: 27.149988
+homes:
+  home:
+    world: world
+    x: 280.9443851911832
+    y: 42.83634414925561
+    z: 760.4727991893421
+    yaw: -95.70215
+    pitch: 22.949938
+afk: false
+teleportenabled: true
+godmode: false

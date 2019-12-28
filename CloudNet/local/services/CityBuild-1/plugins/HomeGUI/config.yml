@@ -1,0 +1,75 @@
+############################################################
+# +------------------------------------------------------+ #
+# |                 HomeGui By GB6                       | #
+# +------------------------------------------------------+ #
+############################################################
+
+#Edit the name of the Home GUI.
+GUI Name: '&cHome GUI'
+
+#Edit the name of the Icon GUI.
+Icon GUI Name: '&cIcon GUI'
+
+#Edit the lores that the home icons will have
+Item Lores:
+   - '&fLocation: %x%, %y%, %z%'
+   - '&fWelt: %world%'
+   - 
+   - '&fLinksclick zum Teleporten'
+   - '&fRechtsclicke zum Icon editieren'
+   
+Icons:
+   - 'DIRT'
+   - 'STONE'
+   - 'COBBLESTONE'
+   - 'LOG'
+   - 'WEB'
+   - 'WORKBENCH'
+   - 'PISTON_BASE'
+   - 'NOTE_BLOCK'
+   - 'MOB_SPAWNER'
+   - 'BOOKSHELF'
+   - 'TNT'
+   - 'STEP'
+   - 'ANVIL'
+   - 'IRON_BLOCK'
+   - 'GOLD_BLOCK'
+   - 'DIAMOND_BLOCK'
+   - 'NETHER_BRICK_ITEM'
+   - 'NETHERRACK'
+   - 'ENDER_STONE'
+   - 'CHEST'
+   - 'ENDER_CHEST'
+   - 'BRICK'
+   - 'SNOW_BLOCK'
+   - 'SOUL_SAND'
+   - 'QUARTZ_BLOCK'
+   - 'DIAMOND_SWORD'
+   - 'DIAMOND_AXE'
+   - 'DIAMOND_PICKAXE'
+   - 'DIAMOND_SPADE'
+   - 'DIAMOND_HOE'
+   - 'ICE'
+   - 'PACKED_ICE'
+   - 'DISPENSER'
+   - 'FURNACE'
+   - 'HOPPER'
+   - 'GLASS'
+   - 'SAND'
+   - 'SPONGE'
+   - 'OBSIDIAN'
+   - 'BEDROCK'
+   - 'ENCHANTMENT_TABLE'
+   - 'CACTUS'
+   - 'GLOWSTONE'
+   - 'DIAMOND'
+   - 'EMERALD'
+   - 'GOLD_INGOT'
+   - 'IRON_INGOT'
+   - 'REDSTONE'
+   - 'BUCKET'
+   - 'LAVA_BUCKET'
+   - 'WATER_BUCKET'
+   - 'GOLDEN_APPLE'
+   - 'EXP_BOTTLE'
+   - 'BED'

@@ -1,0 +1,19 @@
+# JoinMessagePlus - Simple Join-Message Plugin
+#              
+# BungeeSupport:
+#   Ignore: true/false - Deactivate this option if you only like to have Bungee Join/Quit-Messages. To use this feature you have to enable BungeeCord in the spigot.yml. 
+# JoinMessage:
+#   Enabled: true/false - Should the Join-Message be enabled.
+#   Message: '' - Your custom Join-Message.
+# QuitMessage:
+#   Enabled: true - Should the Quit-Message be enabled.
+#   Message: '' - Your custom Quit-Message. 
+#              
+BungeeSupport:
+  Enabled: false
+JoinMessage:
+  Enabled: true
+  Message: ''
+QuitMessage:
+  Enabled: true
+  Message: ''

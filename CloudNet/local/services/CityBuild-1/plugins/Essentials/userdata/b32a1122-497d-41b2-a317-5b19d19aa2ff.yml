@@ -1,0 +1,21 @@
+money: '412.5'
+lastAccountName: Mind_Nico
+timestamps:
+  login: 1577301196986
+  logout: 1577301672293
+  lastteleport: 1577124338336
+ipAddress: 95.90.18.123
+logoutlocation:
+  world: PlotWorld
+  x: -6.5424680653082445
+  y: 66.52536965376393
+  z: 40.584808481132335
+  yaw: -270.4397
+  pitch: 28.087154
+lastlocation:
+  world: PlotWorld
+  x: 0.5
+  y: 72.0
+  z: 0.5
+  yaw: 19.513744
+  pitch: 90.0

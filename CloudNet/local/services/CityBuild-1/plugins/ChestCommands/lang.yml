@@ -1,0 +1,10 @@
+no-points: '&7[&b&lSuchtGaming&7] &7Ein &4Fehler &7ist aufgetreten du brauchst &e{points} &7für das!'
+no-open-permission: '&7[&b&lSuchtGaming&7] &7Ein &4Fehler &7ist aufgetreten dir fehlt das recht &e{permission} &7zum benutzen des Commands'
+default-no-icon-permission: '&7[&b&lSuchtGaming&7] &7Ein &4Fehler &7ist aufgetreten dir fehlt das recht &e{permission} &7zum benutzen des Commands'
+open-menu: 'messages.menu.open.player.succes ???{menu}???'
+no-exp: '&7[&b&lSuchtGaming&7] &7Ein &4Fehler &7ist aufgetreten dir fehlen &e{levels} &7Levels'
+menu-not-found: '&cFehler: &eSystem &8: Ein Fehler ist aufgetreten!'
+no-money: '&7[&b&lSuchtGaming&7] &7Ein &4Fehler &7ist aufgetreten dir fehlen &e{money} &7für das!'
+no-required-item: '&cFehler: &eSystem &8: Ein Fehler ist aufgetreten!'
+open-menu-others: 'messages.menu.open.otherplayer.succes'
+any: any

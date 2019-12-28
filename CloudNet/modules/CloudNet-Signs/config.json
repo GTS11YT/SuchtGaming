@@ -1,0 +1,171 @@
+{
+  "config": {
+    "configurations": [
+      {
+        "targetGroup": "Lobby",
+        "switchToSearchingWhenServiceIsFull": true,
+        "taskLayouts": [
+          {
+            "task": "Template_Group_Layout",
+            "onlineLayout": {
+              "lines": [
+                "%name%",
+                "&8[&aOnline&8]",
+                "&a%online_players% &8/ &c%max_players%",
+                ""
+              ],
+              "blockType": "WOOL",
+              "subId": 5
+            },
+            "emptyLayout": {
+              "lines": [
+                "%name%",
+                "&8[&aOnline&8]",
+                "&a%online_players% &8/ &c%max_players%",
+                ""
+              ],
+              "blockType": "WOOL",
+              "subId": 5
+            },
+            "fullLayout": {
+              "lines": [
+                "%name%",
+                "&8[&aOnline&8]",
+                "&a%online_players% &8/ &c%max_players%",
+                ""
+              ],
+              "blockType": "WOOL",
+              "subId": 5
+            }
+          }
+        ],
+        "defaultOnlineLayout": {
+          "lines": [
+            "%name%",
+            "&8[&aOnline&8]",
+            "&a%online_players% &8/ &4%max_players%",
+            ""
+          ],
+          "blockType": "WOOL",
+          "subId": 5
+        },
+        "defaultEmptyLayout": {
+          "lines": [
+            "%name%",
+            "&8[&aOnline&8]",
+            "&a%online_players% &8/ &4%max_players%",
+            ""
+          ],
+          "blockType": "WOOL",
+          "subId": 5
+        },
+        "defaultFullLayout": {
+          "lines": [
+            "%name%",
+            "&8[&aOnline&8]",
+            "&a%online_players% &8/ &4%max_players%",
+            ""
+          ],
+          "blockType": "WOOL",
+          "subId": 5
+        },
+        "startingLayouts": {
+          "signLayouts": [
+            {
+              "lines": [
+                "&m---------------",
+                "Server",
+                "Startet",
+                "&m---------------"
+              ],
+              "blockType": "WOOL",
+              "subId": 4
+            },
+            {
+              "lines": [
+                "&m---------------",
+                "Server",
+                "Startet .",
+                "&m---------------"
+              ],
+              "blockType": "WOOL",
+              "subId": 4
+            },
+            {
+              "lines": [
+                "&m---------------",
+                "Server",
+                "Startet ..",
+                "&m---------------"
+              ],
+              "blockType": "WOOL",
+              "subId": 4
+            },
+            {
+              "lines": [
+                "&m---------------",
+                "Server",
+                "Startet ...",
+                "&m---------------"
+              ],
+              "blockType": "WOOL",
+              "subId": 4
+            }
+          ],
+          "animationsPerSecond": 2
+        },
+        "searchLayouts": {
+          "signLayouts": [
+            {
+              "lines": [
+                "&m---------------",
+                "Lade",
+                "Server",
+                "&m---------------"
+              ],
+              "blockType": "WOOL",
+              "subId": 14
+            },
+            {
+              "lines": [
+                "&m---------------",
+                "Lade",
+                "Server .",
+                "&m---------------"
+              ],
+              "blockType": "WOOL",
+              "subId": 14
+            },
+            {
+              "lines": [
+                "&m---------------",
+                "Lade",
+                "Server ..",
+                "&m---------------"
+              ],
+              "blockType": "WOOL",
+              "subId": 14
+            },
+            {
+              "lines": [
+                "&m---------------",
+                "Lade",
+                "Server ...",
+                "&m---------------"
+              ],
+              "blockType": "WOOL",
+              "subId": 14
+            }
+          ],
+          "animationsPerSecond": 2
+        }
+      }
+    ],
+    "messages": {
+      "server-connecting-message": "&e•&6● SuchtGaming &8|&7 &7Du wirst verbunden zu &6%server%&7...",
+      "command-cloudsign-remove-success": "&e•&6● SuchtGaming &8|&7 &7Das Schild wird geloscht! Bitte warten...",
+      "command-cloudsign-create-success": "&e•&6● SuchtGaming &8|&7 &7Das Schild mit der Gruppe &6%group% &7wurde erfolgreich erstellt.",
+      "command-cloudsign-sign-already-exist": "&e•&6● SuchtGaming &8|&7 &7Das Schild ist bereits gesetzt. Wenn Sie das entfernen mochten., benutzen sie /cloudsign remove"
+    }
+  }
+}

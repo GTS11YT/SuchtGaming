@@ -1,0 +1,333 @@
+Starting Application-Thread based of MINECRAFT_SERVER:MINECRAFT_SERVER_SPIGOT
+Loading libraries, please wait...[02:59:06 INFO]: Starting minecraft server version 1.8.8
+[02:59:06 WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+[02:59:06 INFO]: Loading properties
+[02:59:06 WARN]: You have used the Spigot command line EULA agreement flag.
+[02:59:06 WARN]: By using this setting you are indicating your agreement to Mojang's EULA (https://account.mojang.com/documents/minecraft_eula).
+[02:59:06 WARN]: If you do not agree to the above EULA please stop your server and remove this flag immediately.
+[02:59:06 INFO]: Default game type: ADVENTURE
+[02:59:06 INFO]: This server is running CraftBukkit version git-Spigot-db6de12-18fbb24 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[02:59:06 INFO]: Unable to find file banned-players.json, creating it.
+[02:59:06 INFO]: Unable to find file banned-ips.json, creating it.
+[02:59:06 INFO]: Unable to find file ops.json, creating it.
+[02:59:06 INFO]: Unable to find file whitelist.json, creating it.
+[02:59:06 INFO]: Server Ping Player Sample Count: 12
+[02:59:06 INFO]: Using 6 threads for Netty based IO
+[02:59:06 INFO]: Debug logging is disabled
+[02:59:06 INFO]: Generating keypair
+[02:59:06 INFO]: Starting Minecraft server on 45.88.108.170:44965
+[02:59:06 INFO]: Using epoll channel type
+[02:59:06 INFO]: Set PluginClassLoader as parallel capable
+[02:59:06 INFO]: [INFO][NoCheatPlus] Mon Nov 25 02:59:06 UTC 2019
+[02:59:06 INFO]: Player instances are stored for efficiency.
+[02:59:06 ERROR]: Could not load 'plugins/GunGame.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: StatsAPI
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:219) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:292) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:198) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:525) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]
+[02:59:07 INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[02:59:07 WARN]: [PermissionsEx] This server is in offline mode. Unless this server is configured to integrate with a supported proxy (see http://dft.ba/-8ous), UUIDs *may not be stable*!
+[02:59:07 INFO]: [NoCheatPlus] Loading NoCheatPlus v3.13.7-RC-sMD5NET-b925
+[02:59:07 INFO]: onLoad: Early set up of static API, configuration, logging.
+[02:59:07 INFO]: [NoCheatPlus] Logging system initialized.
+[02:59:07 INFO]: [NoCheatPlus] Detected Minecraft version: 1.8.8
+[02:59:07 INFO]: [PlugMan] Loading PlugMan v2.1.6
+[02:59:07 INFO]: [CloudNet-Bridge] Loading CloudNet-Bridge v1.0
+[02:59:07 INFO]: [PrefixSystembyDevlayer] Loading PrefixSystembyDevlayer v4.4.0
+[02:59:07 INFO]: [Friends3_0] Loading Friends3_0 v3.0.2.5
+[02:59:07 INFO]: [ViaVersion] Loading ViaVersion v2.1.3
+[02:59:07 INFO]: [ViaVersion] ViaVersion 2.1.3 is now loaded, injecting!
+[02:59:07 INFO]: [ViaVersion] Loading 1.12.2 -> 1.13 block mapping...
+[02:59:07 INFO]: [ViaVersion] Loading 1.12.2 -> 1.13 item mapping...
+[02:59:07 INFO]: [ViaVersion] Loading new 1.13 tags...
+[02:59:07 INFO]: [ViaVersion] Loading 1.12.2 -> 1.13 enchantment mapping...
+[02:59:07 INFO]: [ViaVersion] Loading 1.12.2 -> 1.13 sound mapping...
+[02:59:07 INFO]: [ViaVersion] Loading translation mappping
+[02:59:08 INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 blockstate mapping...
+[02:59:08 INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 block mapping...
+[02:59:08 INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 item mapping...
+[02:59:08 INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 sound mapping...
+[02:59:08 INFO]: [ViaVersion] Loading 1.14 blockstates...
+[02:59:08 INFO]: [ViaVersion] Loading 1.14 heightmap data...
+[02:59:08 INFO]: [Vault] Loading Vault v1.7.2-b107
+[02:59:08 INFO]: [Essentials] Loading Essentials v2.17.1.0
+[02:59:08 INFO]: [EssentialsChat] Loading EssentialsChat vPre2.14.1.3
+[02:59:08 INFO]: [Multiverse-Core] Loading Multiverse-Core v2.4-b527
+[02:59:08 INFO]: [Vault] Enabling Vault v1.7.2-b107
+[02:59:08 INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[02:59:08 INFO]: [Vault] [Permission] PermissionsEx found: Waiting
+[02:59:08 INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[02:59:08 INFO]: [Vault] [Chat] PermissionsEx found: Waiting
+[02:59:08 INFO]: [Vault] Enabled Version 1.7.2-b107
+[02:59:08 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[02:59:08 WARN]: The server will make no attempt to authenticate usernames. Beware.
+[02:59:08 WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[02:59:08 WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[02:59:08 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[02:59:08 INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[02:59:08 INFO]: Preparing level "world"
+[02:59:09 INFO]: Preparing start region for level 0 (Seed: -7574235344191531657)
+[02:59:10 INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
+[02:59:10 INFO]: [PermissionsEx] Initializing sql backend
+[02:59:10 INFO]: [PermissionsEx] Successfully connected to SQL database
+[02:59:10 INFO]: [Vault][Permission] PermissionsEx hooked.
+[02:59:10 INFO]: [Vault] [Vault][Chat] PermissionsEx_Chat hooked.
+[02:59:10 INFO]: [NoCheatPlus] Enabling NoCheatPlus v3.13.7-RC-sMD5NET-b925
+[02:59:10 INFO]: [NoCheatPlus] McAccess set to: 1.8.4-1.8.8 / Spigot-CB-1.8_R3
+[02:59:10 INFO]: [NoCheatPlus] Added block-info for Minecraft 1.5 blocks.
+[02:59:10 INFO]: [NoCheatPlus] Added block-info for Minecraft 1.6.1 blocks.
+[02:59:10 INFO]: [NoCheatPlus] Added block-info for Minecraft 1.7.2 blocks.
+[02:59:10 INFO]: [NoCheatPlus] Added block-info for Minecraft 1.8 blocks.
+[02:59:10 INFO]: [NoCheatPlus] Inventory checks: FastConsume is available, disabled InstantEat.
+[02:59:10 INFO]: [NoCheatPlus] Packet level access: ProtocolLib is not available.
+[02:59:10 INFO]: [NoCheatPlus] Version 3.13.7-RC-sMD5NET-b925 is enabled.
+[02:59:11 INFO]: [PlugMan] Enabling PlugMan v2.1.6
+[02:59:11 INFO]: [CloudNet-Bridge] Enabling CloudNet-Bridge v1.0
+[02:59:11 INFO]: [PrefixSystembyDevlayer] Enabling PrefixSystembyDevlayer v4.4.0
+[02:59:11 INFO]: [PrefixSystembyDevlayer] Found PermissionsEx! Hooking in.
+[02:59:11 INFO]: [Friends3_0] Enabling Friends3_0 v3.0.2.5
+[02:59:11 INFO]: Freunde | The plugin was successfully loaded! < BungeeMode >
+[02:59:11 INFO]: [ViaVersion] Enabling ViaVersion v2.1.3
+[02:59:11 INFO]: [Essentials] Enabling Essentials v2.17.1.0
+[02:59:11 WARN]: [Essentials] §4Version mismatch! Please update EssentialsChat to the same version.
+[02:59:11 INFO]: [Essentials] Using legacy item data provider as mob spawner provider.
+[02:59:11 INFO]: [Essentials] Using legacy item data provider as spawn egg provider.
+[02:59:11 INFO]: [Essentials] Using legacy potion meta provider as potion meta provider.
+[02:59:11 INFO]: Loaded 852 items from items.csv.
+[02:59:11 INFO]: Using locale de
+[02:59:11 INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[02:59:11 INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[02:59:11 INFO]: [Vault] [Vault][Economy] Essentials Economy hooked.
+[02:59:11 INFO]: [Essentials] Using Vault based permissions (PermissionsEx)
+[02:59:11 INFO]: [EssentialsChat] Enabling EssentialsChat vPre2.14.1.3
+[02:59:11 WARN]: §4Versionen sind nicht gleich! Bitte aktualisiere alle Essentials jar-Dateien auf die gleiche Version.
+[02:59:11 INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.4-b527
+[02:59:11 INFO]: [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+[02:59:11 INFO]: [AllPay] - Version 10.0 - hooked into Essentials Economy for Multiverse-Core v2.4-b527
+[02:59:12 INFO]: [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: -7574235344191531657
+[02:59:12 INFO]: [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: -7574235344191531657
+[02:59:12 INFO]: [Multiverse-Core] 1 - World(s) loaded.
+[02:59:12 INFO]: Done (3.429s)! For help, type "help" or "?"
+[02:59:12 INFO]: [NoCheatPlus] Post-enable running...
+[02:59:12 INFO]: [NoCheatPlus] Post-enable finished.
+[02:59:12 INFO]: [ViaVersion] ViaVersion detected server version: 1.8.x(47)
+[02:59:12 WARN]: [Essentials] Could not hide vanished players while handling org.bukkit.event.server.ServerListPingEvent
+java.lang.UnsupportedOperationException
+	at org.bukkit.event.server.ServerListPingEvent.iterator(ServerListPingEvent.java:144) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
+	at com.earth2me.essentials.EssentialsServerListener.onServerListPing(EssentialsServerListener.java:74) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_232]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_232]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_232]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_232]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
+	at de.dytanic.cloudnet.ext.bridge.bukkit.BukkitCloudNetBridgePlugin.runFireServerListPingEvent(BukkitCloudNetBridgePlugin.java:61) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:71) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:350) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:723) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]
+[02:59:12 INFO]: [NoCheatPlus] Added hook: AllViolations(NCP) [1.0].
+[02:59:12 INFO]: [Vault] Checking for Updates ... 
+[02:59:12 INFO]: [Vault] No new version available
+[02:59:34 INFO]: UUID of player GTS11_YT is dd9a2ac3-074d-4d6c-a00e-dabb6723787a
+[02:59:34 INFO]: GTS11_YT[/80.135.209.40:42413] logged in with entity id 0 at ([world]1450.5, 4.0, 8.5)
+[02:59:34 INFO]: Erstelle eine leere Konfiguration: /home/Cloud/temp/services/GunGame-1#e8067592-61cc-4cac-adf9-db0a162411d7/plugins/Essentials/userdata/dd9a2ac3-074d-4d6c-a00e-dabb6723787a.yml
+[02:59:36 INFO]: GTS11_YT issued server command: /gmc
+[02:59:38 INFO]: GTS11_YT issued server command: /mv
+[02:59:43 INFO]: GTS11_YT issued server command: /mv modify set monsters false
+[02:59:45 INFO]: GTS11_YT issued server command: /mv modify set animals false
+[02:59:49 INFO]: GTS11_YT issued server command: /mv list
+[02:59:55 INFO]: GTS11_YT issued server command: /mv import GunGame
+[02:59:58 INFO]: GTS11_YT issued server command: /mv import GunGame normal
+[02:59:58 INFO]: GTS11_YT: Starting import of world 'GunGame'...
+[02:59:58 INFO]: [Multiverse-Core] Loading World & Settings - 'GunGame' - Env: NORMAL - Type: null
+[02:59:58 INFO]: Preparing start region for level 1 (Seed: 3357321156719152437)
+[02:59:59 INFO]: GTS11_YT: Complete!
+[03:00:04 INFO]: GTS11_YT issued server command: /mvtp GunGame
+[03:00:12 INFO]: GTS11_YT issued server command: /mv modify set monsters false
+[03:00:15 INFO]: GTS11_YT issued server command: /mv modify set aniamls false
+[03:00:20 INFO]: GTS11_YT issued server command: /mv modify set animals false
+[03:00:44 INFO]: GTS11_YT issued server command: /worldboarder center ~ ~
+[03:00:49 INFO]: GTS11_YT issued server command: /worldboarder center ~ ~
+[03:00:54 INFO]: GTS11_YT issued server command: /worldborder center ~ ~
+[03:00:54 INFO]: [GTS11_YT: Set world border center to -2.5,-105.5]
+[03:00:57 INFO]: GTS11_YT issued server command: /worldborder set 100 1
+[03:00:57 INFO]: [GTS11_YT: Shrinking world border to 100.0 blocks wide (down from 60000000.0 blocks) over 1 seconds]
+[03:01:04 INFO]: GTS11_YT issued server command: /worldborder set 120 1
+[03:01:04 INFO]: [GTS11_YT: Growing world border to 120.0 blocks wide (up from 100.0 blocks) over 1 seconds]
+[03:01:42 INFO]: GTS11_YT issued server command: /save-all
+[03:01:42 INFO]: [GTS11_YT: Saved the world]
+[03:01:44 INFO]: GTS11_YT issued server command: /gungame
+[03:01:46 INFO]: GTS11_YT issued server command: /pl
+Starting Application-Thread based of MINECRAFT_SERVER:MINECRAFT_SERVER_SPIGOT
+Loading libraries, please wait...[03:06:38 INFO]: Starting minecraft server version 1.8.8
+[03:06:38 WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+[03:06:38 INFO]: Loading properties
+[03:06:38 WARN]: You have used the Spigot command line EULA agreement flag.
+[03:06:38 WARN]: By using this setting you are indicating your agreement to Mojang's EULA (https://account.mojang.com/documents/minecraft_eula).
+[03:06:38 WARN]: If you do not agree to the above EULA please stop your server and remove this flag immediately.
+[03:06:38 INFO]: Default game type: ADVENTURE
+[03:06:39 INFO]: This server is running CraftBukkit version git-Spigot-db6de12-18fbb24 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[03:06:39 INFO]: Server Ping Player Sample Count: 12
+[03:06:39 INFO]: Using 6 threads for Netty based IO
+[03:06:39 INFO]: Debug logging is disabled
+[03:06:39 INFO]: Generating keypair
+[03:06:39 INFO]: Starting Minecraft server on 45.88.108.170:44965
+[03:06:39 INFO]: Using epoll channel type
+[03:06:39 INFO]: Set PluginClassLoader as parallel capable
+[03:06:39 INFO]: [INFO][NoCheatPlus] Mon Nov 25 03:06:39 UTC 2019
+[03:06:39 INFO]: Player instances are stored for efficiency.
+[03:06:39 INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[03:06:39 WARN]: [PermissionsEx] This server is in offline mode. Unless this server is configured to integrate with a supported proxy (see http://dft.ba/-8ous), UUIDs *may not be stable*!
+[03:06:39 INFO]: [NoCheatPlus] Loading NoCheatPlus v3.13.7-RC-sMD5NET-b925
+[03:06:39 INFO]: onLoad: Early set up of static API, configuration, logging.
+[03:06:40 INFO]: [NoCheatPlus] Logging system initialized.
+[03:06:40 INFO]: [NoCheatPlus] Detected Minecraft version: 1.8.8
+[03:06:40 INFO]: [PlugMan] Loading PlugMan v2.1.6
+[03:06:40 INFO]: [CloudNet-Bridge] Loading CloudNet-Bridge v1.0
+[03:06:40 INFO]: [PrefixSystembyDevlayer] Loading PrefixSystembyDevlayer v4.4.0
+[03:06:40 INFO]: [Friends3_0] Loading Friends3_0 v3.0.2.5
+[03:06:40 INFO]: [ViaVersion] Loading ViaVersion v2.1.3
+[03:06:40 INFO]: [ViaVersion] ViaVersion 2.1.3 is now loaded, injecting!
+[03:06:40 INFO]: [ViaVersion] Loading 1.12.2 -> 1.13 block mapping...
+[03:06:40 INFO]: [ViaVersion] Loading 1.12.2 -> 1.13 item mapping...
+[03:06:40 INFO]: [ViaVersion] Loading new 1.13 tags...
+[03:06:40 INFO]: [ViaVersion] Loading 1.12.2 -> 1.13 enchantment mapping...
+[03:06:40 INFO]: [ViaVersion] Loading 1.12.2 -> 1.13 sound mapping...
+[03:06:40 INFO]: [ViaVersion] Loading translation mappping
+[03:06:40 INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 blockstate mapping...
+[03:06:41 INFO]: UUID of player GTS11_YT is dd9a2ac3-074d-4d6c-a00e-dabb6723787a
+[03:06:41 INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 block mapping...
+[03:06:41 INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 item mapping...
+[03:06:41 INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 sound mapping...
+[03:06:41 INFO]: [ViaVersion] Loading 1.14 blockstates...
+[03:06:41 INFO]: [ViaVersion] Loading 1.14 heightmap data...
+[03:06:41 INFO]: [Vault] Loading Vault v1.7.2-b107
+[03:06:41 INFO]: [Essentials] Loading Essentials v2.17.1.0
+[03:06:41 INFO]: [Gungame] Loading Gungame v2.2.1
+[03:06:41 INFO]: [EssentialsChat] Loading EssentialsChat vPre2.14.1.3
+[03:06:41 INFO]: [Multiverse-Core] Loading Multiverse-Core v2.4-b527
+[03:06:41 INFO]: [Vault] Enabling Vault v1.7.2-b107
+[03:06:41 INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[03:06:41 INFO]: [Vault] [Permission] PermissionsEx found: Waiting
+[03:06:41 INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[03:06:41 INFO]: [Vault] [Chat] PermissionsEx found: Waiting
+[03:06:41 INFO]: [Vault] Enabled Version 1.7.2-b107
+[03:06:41 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[03:06:41 WARN]: The server will make no attempt to authenticate usernames. Beware.
+[03:06:41 WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[03:06:41 WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[03:06:41 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[03:06:41 INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[03:06:41 INFO]: Preparing level "world"
+[03:06:41 INFO]: Preparing start region for level 0 (Seed: -7574235344191531657)
+[03:06:42 INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
+[03:06:42 INFO]: [PermissionsEx] Initializing sql backend
+[03:06:42 INFO]: [PermissionsEx] Successfully connected to SQL database
+[03:06:42 INFO]: [Vault][Permission] PermissionsEx hooked.
+[03:06:42 INFO]: [Vault] [Vault][Chat] PermissionsEx_Chat hooked.
+[03:06:42 INFO]: [NoCheatPlus] Enabling NoCheatPlus v3.13.7-RC-sMD5NET-b925
+[03:06:42 INFO]: [NoCheatPlus] McAccess set to: 1.8.4-1.8.8 / Spigot-CB-1.8_R3
+[03:06:42 INFO]: [NoCheatPlus] Added block-info for Minecraft 1.5 blocks.
+[03:06:42 INFO]: [NoCheatPlus] Added block-info for Minecraft 1.6.1 blocks.
+[03:06:42 INFO]: [NoCheatPlus] Added block-info for Minecraft 1.7.2 blocks.
+[03:06:42 INFO]: [NoCheatPlus] Added block-info for Minecraft 1.8 blocks.
+[03:06:42 INFO]: [NoCheatPlus] Inventory checks: FastConsume is available, disabled InstantEat.
+[03:06:42 INFO]: [NoCheatPlus] Packet level access: ProtocolLib is not available.
+[03:06:42 INFO]: [NoCheatPlus] Version 3.13.7-RC-sMD5NET-b925 is enabled.
+[03:06:43 INFO]: [PlugMan] Enabling PlugMan v2.1.6
+[03:06:43 INFO]: [CloudNet-Bridge] Enabling CloudNet-Bridge v1.0
+[03:06:43 INFO]: [PrefixSystembyDevlayer] Enabling PrefixSystembyDevlayer v4.4.0
+[03:06:43 INFO]: [PrefixSystembyDevlayer] Found PermissionsEx! Hooking in.
+[03:06:43 INFO]: [Friends3_0] Enabling Friends3_0 v3.0.2.5
+[03:06:43 INFO]: Freunde | The plugin was successfully loaded! < BungeeMode >
+[03:06:43 INFO]: [ViaVersion] Enabling ViaVersion v2.1.3
+[03:06:43 INFO]: [Essentials] Enabling Essentials v2.17.1.0
+[03:06:43 WARN]: [Essentials] §4Version mismatch! Please update EssentialsChat to the same version.
+[03:06:43 INFO]: [Essentials] Using legacy item data provider as mob spawner provider.
+[03:06:43 INFO]: [Essentials] Using legacy item data provider as spawn egg provider.
+[03:06:43 INFO]: [Essentials] Using legacy potion meta provider as potion meta provider.
+[03:06:43 INFO]: Loaded 852 items from items.csv.
+[03:06:43 INFO]: Using locale de
+[03:06:43 INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[03:06:43 INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[03:06:43 INFO]: [Vault] [Vault][Economy] Essentials Economy hooked.
+[03:06:43 INFO]: [Essentials] Using Vault based permissions (PermissionsEx)
+[03:06:43 INFO]: [Gungame] Enabling Gungame v2.2.1
+[03:06:43 INFO]: [GunGame] MySQL ist set to DISABLED in the config file. Disabling Plugin...
+[03:06:43 INFO]: [Gungame] Disabling Gungame v2.2.1
+[03:06:43 WARN]: [GunGame] MySQL login credentials not set. Please check config file.
+[03:06:43 INFO]: [GunGame] Disabling GunGame...
+[03:06:43 ERROR]: Error occurred while enabling Gungame v2.2.1 (Is it up to date?)
+org.bukkit.plugin.IllegalPluginAccessException: Plugin attempted to register task while disabled
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftScheduler.validate(CraftScheduler.java:400) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftScheduler.runTaskTimerAsynchronously(CraftScheduler.java:141) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.scheduler.BukkitRunnable.runTaskTimerAsynchronously(BukkitRunnable.java:122) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.gimife.gungame.main.Main.onEnable(Main.java:72) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:340) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:405) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:357) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:317) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.s(MinecraftServer.java:414) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.k(MinecraftServer.java:378) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.a(MinecraftServer.java:333) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:263) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:525) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]
+[03:06:43 INFO]: [EssentialsChat] Enabling EssentialsChat vPre2.14.1.3
+[03:06:43 WARN]: §4Versionen sind nicht gleich! Bitte aktualisiere alle Essentials jar-Dateien auf die gleiche Version.
+[03:06:44 INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.4-b527
+[03:06:44 INFO]: [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+[03:06:44 INFO]: [AllPay] - Version 10.0 - hooked into Essentials Economy for Multiverse-Core v2.4-b527
+[03:06:44 INFO]: [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: -7574235344191531657
+[03:06:44 INFO]: [Multiverse-Core] Loading World & Settings - 'GunGame' - Env: NORMAL - Type: FLAT & seed: 3357321156719152437
+[03:06:44 INFO]: Preparing start region for level 1 (Seed: 3357321156719152437)
+[03:06:44 INFO]: [Multiverse-Core] 2 - World(s) loaded.
+[03:06:44 INFO]: Server permissions file permissions.yml is empty, ignoring it
+[03:06:44 INFO]: Done (3.068s)! For help, type "help" or "?"
+[03:06:44 INFO]: [NoCheatPlus] Post-enable running...
+[03:06:44 INFO]: [NoCheatPlus] Post-enable finished.
+[03:06:44 INFO]: [ViaVersion] ViaVersion detected server version: 1.8.x(47)
+[03:06:45 WARN]: [Essentials] Could not hide vanished players while handling org.bukkit.event.server.ServerListPingEvent
+java.lang.UnsupportedOperationException
+	at org.bukkit.event.server.ServerListPingEvent.iterator(ServerListPingEvent.java:144) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
+	at com.earth2me.essentials.EssentialsServerListener.onServerListPing(EssentialsServerListener.java:74) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_232]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_232]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_232]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_232]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487) ~[spigot.jar:git-Spigot-db6de12-18fbb24]
+	at de.dytanic.cloudnet.ext.bridge.bukkit.BukkitCloudNetBridgePlugin.runFireServerListPingEvent(BukkitCloudNetBridgePlugin.java:61) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:71) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:350) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:723) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557) [spigot.jar:git-Spigot-db6de12-18fbb24]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]
+[03:06:45 INFO]: [NoCheatPlus] Added hook: AllViolations(NCP) [1.0].
+[03:06:45 INFO]: [Vault] Checking for Updates ... 
+[03:06:45 INFO]: Disconnecting com.mojang.authlib.GameProfile@14ff22ca[id=dd9a2ac3-074d-4d6c-a00e-dabb6723787a,name=GTS11_YT,properties={textures=[com.mojang.authlib.properties.Property@72d9b585]},legacy=false] (/80.135.209.40:45131): §e•§6● §eSuchtGaming §8┃ §cSie müssen eine Verbindung von einem ursprünglichen Proxyserver herstellen!
+[03:06:45 INFO]: Disconnecting com.mojang.authlib.GameProfile@14ff22ca[id=dd9a2ac3-074d-4d6c-a00e-dabb6723787a,name=GTS11_YT,properties={textures=[com.mojang.authlib.properties.Property@72d9b585]},legacy=false] (/80.135.209.40:45131): §e•§6● §eSuchtGaming §8┃ §cSie müssen eine Verbindung von einem ursprünglichen Proxyserver herstellen!
+[03:06:45 INFO]: com.mojang.authlib.GameProfile@14ff22ca[id=dd9a2ac3-074d-4d6c-a00e-dabb6723787a,name=GTS11_YT,properties={textures=[com.mojang.authlib.properties.Property@72d9b585]},legacy=false] (/80.135.209.40:45131) lost connection: §e•§6● §eSuchtGaming §8┃ §cSie müssen eine Verbindung von einem ursprünglichen Proxyserver herstellen!
+[03:06:45 INFO]: [Vault] No new version available
+[03:06:53 INFO]: UUID of player GTS11_YT is dd9a2ac3-074d-4d6c-a00e-dabb6723787a
+[03:06:53 INFO]: GTS11_YT[/80.135.209.40:53675] logged in with entity id 2 at ([GunGame]-3.899808031780087, 21.0625, -104.40669892582612)
+[03:06:58 INFO]: GTS11_YT issued server command: /gg
+[03:07:02 INFO]: GTS11_YT issued server command: /pl
+[03:07:40 INFO]: GTS11_YT issued server command: /tppos ~ ~
+[03:07:42 INFO]: GTS11_YT issued server command: /tppos ~ ~ ~
+[03:07:45 INFO]: GTS11_YT issued server command: /mv setspawn
+[03:07:51 INFO]: GTS11_YT issued server command: /save-all
+[03:07:51 INFO]: [GTS11_YT: Saved the world]

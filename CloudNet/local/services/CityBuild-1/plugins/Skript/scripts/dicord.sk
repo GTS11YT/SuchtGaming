@@ -1,0 +1,3 @@
+command /discord:
+	trigger:
+		message "&e•&6● SuchtGaming &8|&7 http://suchtgaming.de/discord"

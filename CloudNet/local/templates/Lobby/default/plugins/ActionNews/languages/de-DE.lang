@@ -1,0 +1,12 @@
+#### Actionbar Messages ####
+actionbar.error.notfoundpersonaltext=&e%displayname%, wir konnten keine Nachrichten für dich finden!
+#actionbar.message.2=&a&l&5Hey %displayname%&r &cund Willkommen auf unserem Server!
+actionbar.message.1=&7Es sind &e%onlineplayers% &7Spieler &aonline&7!
+
+#### Broadcast Messages ####
+#broadcast.message.1.line.1=&e========================================
+#broadcast.message.1.line.2=&aSchau jetzt bei uns im &6Shop &avorbei!
+#broadcast.message.1.line.3=&bhttps://suchtgaming.buycraft.net
+#broadcast.message.1.line.4=&e========================================
+#broadcast.message.2.line.1=&e%displayname%&7, &akennst du schon unseren neuen Befehl?
+#broadcast.message.2.line.2=&7-> &b/undkown <Spieler>

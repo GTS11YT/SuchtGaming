@@ -1,0 +1,19 @@
+{
+  "smartTasks": [
+    {
+      "task": "Lobby",
+      "priority": 10,
+      "directTemplatesAndInclusionsSetup": true,
+      "preparedServices": 0,
+      "minServiceOnlineCount": 0,
+      "dynamicMemoryAllocation": true,
+      "dynamicMemoryAllocationRange": 128,
+      "percentOfPlayersToCheckShouldAutoStopTheServiceInFuture": 0,
+      "autoStopTimeByUnusedServiceInSeconds": 180,
+      "switchToPreparedServiceAfterAutoStopTimeByUnusedService": false,
+      "percentOfPlayersForANewServiceByInstance": 100,
+      "forAnewInstanceDelayTimeInSeconds": 300,
+      "templateInstaller": "INSTALL_ALL"
+    }
+  ]
+}

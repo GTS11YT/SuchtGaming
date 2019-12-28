@@ -1,0 +1,8 @@
+Messages:
+  System:
+    RewardERROR: '&cDu hast deine heutige Gratis Kiste schon abgeholt!'
+    becomeReward: '&aDu hast deine tägliche Kiste abgeholt!'
+    broadcast: '&a&l%player% &7hat seine &atägliche Kiste &7abgeholt! /freechest'
+    pleaseUse: '&7Mache &a/freechest'
+  Inventar:
+    lore: '&7Hole deine Tägliche Kiste ab!'

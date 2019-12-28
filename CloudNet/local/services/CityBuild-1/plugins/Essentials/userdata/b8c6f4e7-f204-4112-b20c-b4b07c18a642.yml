@@ -1,0 +1,31 @@
+money: '900.0'
+lastAccountName: Forte_Tiere
+timestamps:
+  login: 1577293804506
+  logout: 1577293893060
+  lastteleport: 1577183948485
+  lastheal: 1577293866303
+ipAddress: 91.63.96.25
+logoutlocation:
+  world: PlotWorld
+  x: 103.24183036451132
+  y: 65.0
+  z: -79.39235407474975
+  yaw: 123.00006
+  pitch: 17.550009
+lastlocation:
+  world: PlotWorld
+  x: 0.6378401372195004
+  y: 65.0
+  z: 55.78846899464571
+  yaw: 52.813747
+  pitch: 37.537113
+homes:
+  home:
+    world: world
+    x: 1097.0632363441089
+    y: 70.64093193509996
+    z: -519.9182140140423
+    yaw: -158.00494
+    pitch: 63.44948
+afk: false

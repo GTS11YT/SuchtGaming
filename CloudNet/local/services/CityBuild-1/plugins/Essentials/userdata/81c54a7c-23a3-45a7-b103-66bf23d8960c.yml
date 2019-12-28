@@ -1,0 +1,21 @@
+money: '315.0'
+lastAccountName: JasperForbes
+timestamps:
+  login: 1573669685136
+  lastteleport: 1573662320585
+  logout: 1573669842170
+ipAddress: 91.67.228.246
+lastlocation:
+  world: PlotWorld
+  x: 25.536277301268324
+  y: 65.0
+  z: 57.07231693965146
+  yaw: -104.62886
+  pitch: 15.4477825
+logoutlocation:
+  world: PlotWorld
+  x: -126.02630335735437
+  y: 65.0
+  z: 60.33495808106256
+  yaw: 227.54938
+  pitch: 26.100004

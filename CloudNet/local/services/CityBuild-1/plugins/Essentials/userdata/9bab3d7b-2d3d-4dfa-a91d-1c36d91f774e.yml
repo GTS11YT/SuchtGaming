@@ -1,0 +1,21 @@
+money: '1.41000'
+lastAccountName: WeihnachtsmannYT
+timestamps:
+  login: 1577380027066
+  logout: 1577380833106
+  lastteleport: 1577379162068
+ipAddress: 88.153.232.180
+logoutlocation:
+  world: PlotWorld
+  x: 1.1241836560511527
+  y: 72.0
+  z: 2.7624999880790706
+  yaw: 127.63599
+  pitch: -7.015821
+lastlocation:
+  world: world
+  x: 152.83338374929562
+  y: 40.0
+  z: -643.701912381155
+  yaw: 192.55505
+  pitch: 16.731367

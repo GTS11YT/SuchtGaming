@@ -1,0 +1,3 @@
+command /shop:
+	trigger:
+		message "&e•&6● SuchtGaming &8|&7 §7https://suchtgaming.buycraft.net"

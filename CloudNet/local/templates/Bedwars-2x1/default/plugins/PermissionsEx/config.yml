@@ -1,0 +1,7 @@
+permissions:
+    backend: sql
+    backends:
+        sql:
+            uri: mysql://localhost/PermissionsSystem
+            user: SuchtGaming
+            password: ''

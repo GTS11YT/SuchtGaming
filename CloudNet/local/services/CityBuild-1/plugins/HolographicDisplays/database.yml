@@ -1,0 +1,78 @@
+warp:
+  Owner: GTS11_YT
+  location: PlotWorld, 5.554, 75.000, -4.469
+  lines:
+  - '&aWarp&7-&8Befehle'
+  - '&a/warp &6Farmwelt'
+  - '&a/warp &4Nether'
+  - '&6N tzliche &8Befehle'
+  - '&a/tpa <Spieler>&7-> &6Teleportations&a-Anfrage'
+  - '&a/tpaccept <Spieler>&7-> &aAkzeptiere eine &6Teleportations&a-Anfrage'
+  - '&a/sethome&7-> &aSetze ein &bHome'
+  - '&a/home&7-> &aGehe zu deinem &bHome'
+plot:
+  Owner: GTS11_YT
+  location: PlotWorld, 5.406, 75.000, 5.464
+  lines:
+  - '&9Plot&7-&8Befehle'
+  - '&a/p auto&7-> Zuf lliges &9Plot.'
+  - '&a/p h&7-> Teleportiere dich zu deinem &9Plot.'
+  - '&a/p i&7-> Informationen  ber ein &9Plot.'
+  - '&a/p trust <Spieler>&7-> Spieler hinzuf gen.'
+  - '&a/p remove <Spieler>&7-> Spieler entfernen.'
+  - '&a/p kick <Spieler>&7-> Spieler vom Plot werfen.'
+  - '&a/p deny <Spieler>&7-> Spieler vom Plot bannen.'
+willkommen:
+  Owner: GTS11_YT
+  location: PlotWorld, -4.387, 75.000, 5.260
+  lines:
+  - '&aWillkommen auf &b&lSuchtGaming.de'
+  - '&7-'
+  - '&6Cool&7, dass &adu &7da bist!'
+  - '&7-'
+  - '&6Unsere Webseite&7-> &b&lSuchtGaming.de'
+  - '&bUnser TeamSpeak³&7-> &b&lts.suchtGaming.de'
+Tim:
+  Owner: gamerlp_xD
+  location: PlotWorld, 21.51143733202071, 72.49314823739232, -84.48761295598715
+  lines:
+  - Hallo und Herzlich Wilkommen im Shop! Wenn du fragen hast melde dich.
+mobfarm:
+  location: PlotWorld, 6778961.381, 66.263, 786874.661
+  lines:
+  - '&4Willkommen &6bei der &eComiunity-Mob-Farm'
+tiere:
+  location: PlotWorld, 6778961.282, 66.263, 786882.014
+  lines:
+  - '&e&l&4 Hier gehts zu den normalen Tieren'
+Hallo:
+  location: PlotWorld, 19.529, 67.200, -150.470
+  lines:
+  - '&e&l&o Herzlich Willkommen auf dem Plot von &4Admin : Colin_1704'
+Geschlossen:
+  location: PlotWorld, 6778961.254, 66.263, 786871.404
+  lines:
+  - '&e&l&o WURDE WEGEN : WIRTSCHAFT GESCHLOSSEN ~ COLIN_1704'
+Status:
+  location: PlotWorld, 34.700, 68.200, -143.437
+  lines:
+  - '&4Geschlossen'
+Nether:
+  location: PlotWorld, 14.553, 60.200, -143.523
+  lines:
+  - '&e&l&o Hier gibt es Netherzeugs'
+Erze:
+  location: PlotWorld, 26.515, 60.200, -142.901
+  lines:
+  - '&e&l&o Hier gibt es Erze'
+Verkaufen:
+  location: PlotWorld, 8.209, 60.200, -132.536
+  lines:
+  - '&e&l&o Hier kann man Sachen verkaufen'
+weitere-commands-spawn:
+  location: PlotWorld, -4.466, 75.000, -4.479
+  lines:
+  - '&aWeitere&7-&8Commands&7:'
+  - '&a/freechest&7-> Kannst du dir alle 24 Stunden eine Gratis Truhe abholen!'
+  - '&a/adminshop&7-> Öffnet den AdminShop, '
+  - '&cACHTUNG &7alles was du da kaufst kann auch billiger bei Spielern gekauft werden!'

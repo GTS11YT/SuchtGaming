@@ -1,0 +1,21 @@
+money: '1000.0'
+lastAccountName: Volnex
+timestamps:
+  login: 1575042535066
+  logout: 1575046291253
+  lastteleport: 1575046279631
+ipAddress: 91.67.116.142
+logoutlocation:
+  world: world
+  x: 68.50942116596602
+  y: 63.0
+  z: -854.4828978184494
+  yaw: 179.8833
+  pitch: 0.37589023
+lastlocation:
+  world: world
+  x: 67.30283701970261
+  y: 63.0
+  z: -854.0400885136012
+  yaw: 79.707726
+  pitch: 46.96503

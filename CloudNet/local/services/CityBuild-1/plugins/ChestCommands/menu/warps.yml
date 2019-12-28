@@ -1,0 +1,65 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&bSuchtGaming.de &8- &7Warps'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 1
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'warps'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: 'sound: note pling;'
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+Spawn:
+  COMMAND: 'warp Spawn'
+  NAME: '&eSpawn'
+  LORE:
+    - '&7Telepotiert dich zum &6Spawn'
+  ID: 399
+  POSITION-X: 2
+  POSITION-Y: 1
+Farmwelt:
+  COMMAND: 'warp Farmwelt'
+  NAME: '&aFarmwelt'
+  LORE:
+    - '&7Telepotiert dich zur &aFarmwelt'
+  ID: 2
+  POSITION-X: 5
+  POSITION-Y: 1
+Nether:
+  COMMAND: 'warp Nether'
+  NAME: '&5Nether'
+  LORE:
+    - '&7Telepotiert dich zum &5Nether'
+  ID: 87
+  POSITION-X: 8
+  POSITION-Y: 1

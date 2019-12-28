@@ -1,0 +1,22 @@
+money: '1000.0'
+lastAccountName: Tim200806
+timestamps:
+  login: 1574410116025
+  lastteleport: 1573745771647
+  logout: 1574410186442
+ipAddress: 91.67.240.79
+lastlocation:
+  world: PlotWorld
+  x: 59.48877320322208
+  y: 65.0
+  z: -112.29563815589916
+  yaw: 1.3136221
+  pitch: -1.313622
+logoutlocation:
+  world: PlotWorld
+  x: -93.63607448202754
+  y: 65.0
+  z: -18.108596427670566
+  yaw: -2.4228344
+  pitch: 7.696076
+afk: false

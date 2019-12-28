@@ -1,0 +1,13 @@
+money: '1000.0'
+lastAccountName: akaTim
+timestamps:
+  login: 1577129134549
+  logout: 1577129195668
+ipAddress: 87.179.79.254
+logoutlocation:
+  world: PlotWorld
+  x: 26.4375415260077
+  y: 65.0
+  z: -95.9660853573246
+  yaw: -35.181904
+  pitch: 8.8199625

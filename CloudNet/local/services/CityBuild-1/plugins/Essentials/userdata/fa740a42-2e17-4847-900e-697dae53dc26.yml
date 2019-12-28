@@ -1,0 +1,21 @@
+money: '1000.0'
+lastAccountName: LegendererKiller
+timestamps:
+  login: 1566758145117
+  logout: 1566758303311
+  lastteleport: 1566758169028
+ipAddress: 176.198.201.4
+logoutlocation:
+  world: PlotWorld
+  x: -90.13951446413411
+  y: 65.0
+  z: 46.46222614075451
+  yaw: -95.24985
+  pitch: 21.449883
+lastlocation:
+  world: PlotWorld
+  x: 11.98390603793432
+  y: 70.0625
+  z: 0.010617766486418462
+  yaw: 99.1638
+  pitch: 27.337122

@@ -1,0 +1,29 @@
+money: '995.0'
+lastAccountName: ratolp
+timestamps:
+  login: 1573243850127
+  logout: 1573244118645
+  lastteleport: 1573243770958
+ipAddress: 178.191.0.82
+logoutlocation:
+  world: PlotWorld
+  x: -34.85712771902731
+  y: 65.5
+  z: 99.55423654383144
+  yaw: -261.28452
+  pitch: 18.637094
+lastlocation:
+  world: PlotWorld
+  x: 0.5
+  y: 72.0
+  z: 0.5
+  yaw: -36.436256
+  pitch: 3.9371176
+homes:
+  home:
+    world: PlotWorld
+    x: -45.507607434121525
+    y: 65.0
+    z: 86.56284742516797
+    yaw: 265.65967
+    pitch: 35.587105
